@@ -26,6 +26,7 @@ e94601a71,Nikita Shulga,2022-08-29,Fix typos in flask_rest_api_tutorial,1,3,3,in
 e1ea05e56,Nikita Shulga,2022-08-27,Pin ray version to 1.13.0 (#2019),1,1,1,requirements.txt  
 4cc9db485,Max Balandat,2022-08-23,Fix aspect ratio of Ax logo (#2016),1,0,0,_static/img/ax_logo.png  
 88b5e241a,Nikita Shulga,2022-08-22,Update doctools.js to one from sphinx-5.1.1 (#2017),1,198,247,_static/doctools.js  
+d4eab8acb,"Jo,Yunjin",2022-08-22,Add a caution comment for installing OpenCV in Raspberry Pi (#2011),1,1,1,intermediate_source/realtime_rpi.rst  
 f16efbc94,Max Balandat,2022-08-21,Fixes to Ax MOO NAS tutorial (#2013),3,6,6,_static/img/ax_logo.png index.rst intermediate_source/ax_multiobjective_nas_tutorial.py  
 ebce10340,Max Balandat,2022-08-19,Add new tutorial: Multi-Objective NAS with Ax (#2006),7,709,2,.jenkins/metadata.json _static/img/ax_scheduler_illustration.png conf.py index.rst intermediate_source/ax_multiobjective_nas_tutorial.py intermediate_source/mnist_train_nas.py requirements.txt  
 8b8e5d901,Nikita Shulga,2022-08-19,get_files_to_run shoudl handle extra files,1,23,9,.jenkins/get_files_to_run.py  
@@ -160,7 +161,7 @@ f2579c6f4,Sai Kandregula,2022-01-19,fix case of torch.nn.Module (#1791),1,1,1,be
 86abcf48b,Holly Sweeney,2022-01-14,Update introyt1_tutorial.py (#1789),1,1,1,beginner_source/introyt/introyt1_tutorial.py  
 eee75643b,cccclai,2022-01-12,Fix the title format for tracing-based selective build (#1790),1,4,1,prototype_source/tracing_based_selective_build.rst  
 92ca05f9d,cosmosincognito,2022-01-11,Update README.txt (#1788),1,1,1,intermediate_source/README.txt  
-1a83ceb95,Tian,Feng,2022-01-11,Add Intel Neural Compressor for PyTorch quantization recipes (#1765),2,382,recipes_source/intel_neural_compressor_for_pytorch.rst recipes_source/recipes_index.rst  
+1a83ceb95,"Tian,Feng",2022-01-11,Add Intel Neural Compressor for PyTorch quantization recipes (#1765),2,382,,recipes_source/intel_neural_compressor_for_pytorch.rst recipes_source/recipes_index.rst  
 250f74190,Holly Sweeney,2022-01-10,Update autograd_tutorial.py (#1787),1,5,5,beginner_source/blitz/autograd_tutorial.py  
 cc9d6ad65,Sai Kandregula,2022-01-10,Fix typo (#1786),1,1,1,beginner_source/basics/optimization_tutorial.py  
 cf97ee481,Andrei Alexandru,2022-01-07,"Fix small typo: propogate"" -> ""propagate"" (#1784)""",1,1,1,beginner_source/nlp/sequence_models_tutorial.py  
@@ -521,7 +522,7 @@ f36e7a598,suraj813,2020-12-17,RL tutorial for playing Mario (#1281),6,799,2,.cir
 669717ebb,Brian Johnson,2020-12-10,Update test for 1.7.1 (#1276),,,,
 9e6f2c4f8,jecarr,2020-12-09,Added comments to LSTM Sequence Models tutorial (#1266),1,10,5,beginner_source/nlp/sequence_models_tutorial.py  
 5b42d6cec,Stas Bekman,2020-12-05,typo (#1268),1,1,1,intermediate_source/dist_tuto.rst  
-ce58d5904,Gao Xiang,2020-12-03,Replace Learning PyTorch with Examples with fitting sine function with a third order polynomial (#1265),13,416,465,beginner_source/examples_autograd/polynomial_autograd.py beginner_source/examples_autograd/polynomial_custom_function.py beginner_source/examples_autograd/tf_two_layer_net.py beginner_source/examples_autograd/two_layer_net_autograd.py beginner_source/examples_autograd/two_layer_net_custom_function.py beginner_source/examples_nn/dynamic_net.py beginner_source/examples_nn/polynomial_module.py beginner_source/examples_nn/polynomial_nn.py beginner_source/examples_nn/polynomial_optim.py beginner_source/examples_tensor/polynomial_numpy.py beginner_source/examples_tensor/polynomial_tensor.py beginner_source/examples_tensor/two_layer_net_numpy.py beginner_source/pytorch_with_examples.rst  
+ce58d5904,"Gao,Xiang",2020-12-03,"Replace Learning PyTorch with Examples"" with fitting sine function with a third order polynomial (#1265)""",13,416,465,beginner_source/examples_autograd/polynomial_autograd.py beginner_source/examples_autograd/polynomial_custom_function.py beginner_source/examples_autograd/tf_two_layer_net.py beginner_source/examples_autograd/two_layer_net_autograd.py beginner_source/examples_autograd/two_layer_net_custom_function.py beginner_source/examples_nn/dynamic_net.py beginner_source/examples_nn/polynomial_module.py beginner_source/examples_nn/polynomial_nn.py beginner_source/examples_nn/polynomial_optim.py beginner_source/examples_tensor/polynomial_numpy.py beginner_source/examples_tensor/polynomial_tensor.py beginner_source/examples_tensor/two_layer_net_numpy.py beginner_source/pytorch_with_examples.rst  
 133e5b6a8,Guanheng George Zhang,2020-12-03,Remove legacy torchtext code from translation tutorial (#1250),1,91,93,beginner_source/torchtext_translation_tutorial.py  
 3128e1310,Guanheng George Zhang,2020-12-03,Remove legacy torchtext code from Transformer tutorial (#1251),1,26,15,beginner_source/transformer_tutorial.py  
 8777ee2f6,Heitor Schueroff,2020-12-02,[WIP] Benchmark Recipe (#1176),3,901,1,recipes_source/recipes/benchmark.py recipes_source/recipes/profiler.py recipes_source/recipes_index.rst  
@@ -530,7 +531,7 @@ ce58d5904,Gao Xiang,2020-12-03,Replace Learning PyTorch with Examples with fitti
 d49ce5ce4,Brian Johnson,2020-12-01,Update requirements.txt (#1260),1,1,1,requirements.txt  
 45e4f2a1c,Jeff Tang,2020-11-20,fixed repo links (#1248),2,4,4,beginner_source/deeplabv3_on_android.rst beginner_source/deeplabv3_on_ios.rst  
 73b6cd9a9,Brian Johnson,2020-11-17,Update README.md (#1245),1,7,,README.md  
-9ecc44a60,Gao Xiang,2020-11-16,Fix TF32 convergence issue with TF32 (#1244),2,18,2,beginner_source/examples_autograd/two_layer_net_autograd.py beginner_source/examples_autograd/two_layer_net_custom_function.py  
+9ecc44a60,"Gao,Xiang",2020-11-16,Fix TF32 convergence issue with TF32 (#1244),2,18,2,beginner_source/examples_autograd/two_layer_net_autograd.py beginner_source/examples_autograd/two_layer_net_custom_function.py  
 e6167a9e5,Brian Johnson,2020-11-13,Update speech_command_recognition_with_torchaudio.py (#1239),1,1,1,intermediate_source/speech_command_recognition_with_torchaudio.py  
 0f6b204f1,Kaszanas,2020-11-13,Fixed link to docs in audio_preprocessing_tutorial (#1234),1,1,1,beginner_source/audio_preprocessing_tutorial.py  
 7bd031519,Brian Johnson,2020-11-12,Update index.rst (#1232),1,1,,index.rst  
@@ -1337,7 +1338,8 @@ e7b036a57,Kai Li,2019-05-27,Update reinforcement_q_learning.py (#429),1,1,1,inte
 e37d8dd1f,polplop,2019-05-27,Changed placing of for wherex is... to comment (#434),2,10,10,beginner_source/PyTorch Cheat.md beginner_source/ptcheat.rst  
 d6aa1f08c,Shishir Patil,2019-05-27,moving input data to device (#487),1,2,2,beginner_source/blitz/cifar10_tutorial.py  
 b4cd127f4,Atsushi SAKAI,2019-05-27,Fix url for mobile_exporter.py (#512),1,1,1,advanced_source/super_resolution_with_caffe2.py  
-3a220b773,sakaia,,,,,,advanced_source/ONNXLive.rst  
+3a220b773,"sakaia
+jp.fujitsu.com",2019-05-27,Fix filename for download_saved_models,1,1,1,advanced_source/ONNXLive.rst  
 9fb9bddf0,Jinhyun Kim,2019-05-27,Fixed a bug in data_loading_tutorial; Border lines of the grids are not considered; Should be shifted accordingly (#509),1,3,2,beginner_source/data_loading_tutorial.py  
 3f730137c,Brian Johnson,2019-05-24,Merge pull request #506 from brianjo/master,,,,
 242a3ea94,Brian Johnson,2019-05-24,Rebased and added new link in TV tutorial.,,,,
