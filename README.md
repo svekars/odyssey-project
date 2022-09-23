@@ -1,6 +1,8 @@
 # odyssey-project
 
-To create a table, complete these steps:
+# Create a CSV
+
+To create a CSV table, complete these steps:
 
 1. Run `git-history.py`. This script creates two files log.csv and log2.csv.
 1. Run `generate-table.py`. This script creates a combined table from the two
@@ -14,3 +16,12 @@ To create a table, complete these steps:
    * `added_lines`
    * `deleted lines`
    * `filenames`
+
+# Upload the CSV to SQL database
+
+* `create-sql-table.py` - creates a table if it doesn't exist
+* `add-csv-to-table.py` - adds the CSV to the created SQL table
+
+# Visualize
+
+A sample histogram can be generated with `visualize.py`.
