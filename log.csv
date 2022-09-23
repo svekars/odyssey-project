@@ -1,4 +1,4 @@
-commit id,author,date,title,changed files,lines added,lines deleted
+commit_id,author,date,title,changed_files,lines_added,lines_deleted
 340a4ca4e,"Svetlana Karslioglu",2022-09-19,"Update",1,1,1
 d7524ffab,"Svetlana Karslioglu",2022-09-19,"Update",1,32,22
 9ce02f83c,"Svetlana Karslioglu",2022-08-19,"Update",1,115,24
