@@ -19,7 +19,7 @@ To create a CSV table, complete these steps:
 
 # Upload the CSV to SQL database
 
-* `create-sql-table.py` - creates a table if it doesn't exist
+* `create-sql-table.sh` - creates a table if it doesn't exist
 * `add-csv-to-table.py` - adds the CSV to the created SQL table
 
 # Visualize
