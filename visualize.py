@@ -1,7 +1,9 @@
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 
-df = pd.read_csv('https://raw.githubusercontent.com/svekars/odyssey-project/main/log.csv?token=GHSAT0AAAAAABVZYAVGI752FURWOPPNQIM4YZLQPLA')
 
-fig = px.line(df, x = 'changed files', y = 'date', title='Tutorial Updates')
+df = pd.read_csv('merged.csv')
+
+fig = px.histogram(df, x = 'filename')
 fig.show()
