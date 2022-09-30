@@ -10,7 +10,7 @@ def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
 
 def get_history(cwd: Optional[str] = None) -> List[str]:
     rc = run_command('git log --date=short --pretty=format:''%h,"%an",%ad,"%s",'' --shortstat', cwd=cwd).split("\n")
-    # TODO: Remove "files change", ... using `__str__.replace` method
+    rc = [i.replace(' files changed', '').replace(' file changed', '').replace(' insertions(+)', '').replace(' insertion(+)', '').replace(' deletion(-)', '').replace(' deletions(-)', '') for i in rc]
     return ["".join(rc[3*i:3*i+2]) for i in range(len(rc)//3)]
 
 
@@ -32,16 +32,19 @@ def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
             files.append(line)
     return rc
 
-
 def main() -> None:
-    tutorials_dir = Path.home() / "git" / "pytorch" / "tutorials"
+    tutorials_dir = Path.home() / "repositories" / "tutorials"
     commits_to_files = get_file_names(tutorials_dir)
     with open("commit2files.csv", "w") as f:
         f.write("CommitHash, Files\n")
         for entry in commits_to_files:
             f.write(f'{entry[0]}, "{";".join(entry[1])}"\n')
-
+    history_to_files = get_history(tutorials_dir)
+    print(history_to_files)
+    with open("history.csv", "w") as f:
+        f.write("CommitHash, AuthorName, Date, Topic, FilesChanged, LinesAdded, LinesDeleted\n")
+        my_string = ', '.join(f"'{entry}'\n" for entry in history_to_files)
+        f.write(my_string)
 
 if __name__ == "__main__":
     main()
-
