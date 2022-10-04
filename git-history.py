@@ -10,12 +10,29 @@ def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
 
 
 def get_history(cwd: Optional[str] = None) -> List[str]:
-    rc = run_command('git log --date=short --pretty=format:''%h,"%an",%ad,"%s",'' --shortstat', cwd=cwd).split("\n")
+    rc = run_command('git log --date=short --pretty=format:''%h;"%an";%ad;"%s";'' --shortstat', cwd=cwd).split("\n")
+    # Manual exception: Add 0 0 0 to commits 393d3de67 and 1df63bf1d
+    def insert_stats_for_empty_commit(sha: str) -> None:
+        for i in range(len(rc)):
+            if rc[i].startswith(f"{sha};"):
+                rc.insert(i+1, "")
+                rc.insert(i+1, "0 file changed, 0 insertion(+), 0 deletion(-)")
+                break
+    insert_stats_for_empty_commit("393d3de67")
+    insert_stats_for_empty_commit("1df63bf1d")
+    insert_stats_for_empty_commit("669717ebb")
     def do_replace(x: str) -> str:
        for pattern in ['files changed', 'file changed', 'insertions(+)', 'insertion(+)', 'deletion(-)', 'deletions(-)']:
           x=x.replace(f' {pattern}','')
        return x
-    rc = [do_replace(i) for i in rc]
+    for i in range(0, len(rc)-1, 3):
+        # Add missing deletions info
+        if "deletion" not in rc[i+1]:
+            rc[i+1] += ", 0 deletions(-)"
+        elif "insertion" not in rc[i+1]:
+            # TODO: Fix a bug here
+            rc[i+1] += ", 0 insertion(+)"
+        rc[i+1] = do_replace(rc[i+1]).replace(",",";")
     return ["".join(rc[3*i:3*i+2]) for i in range(len(rc)//3)]
 
 
@@ -85,8 +102,11 @@ def main() -> None:
     connect = connect_db(db)
     create_db_schema(connect)
     for entry in get_history(tutorials_dir):
+        if len(entry.split(";")) != 7:
+            print(f"Weird entry {entry}")
+            continue
         cursor = connect.cursor()
-        cursor.execute("INSERT INTO commits VALUES (?, ?, ?, ?, ?, ?, ?)", entry.split(","))
+        cursor.execute("INSERT INTO commits VALUES (?, ?, ?, ?, ?, ?, ?)", entry.split(";"))
         connect.commit()
 
 if __name__ == "__main__":
