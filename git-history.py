@@ -36,6 +36,25 @@ def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
             files.append(line)
     return rc
 
+def connect_db(dfile):
+    """
+    Connect to the database
+    """
+    db_connect = None
+    try:
+        db_connect = sqlite3.connect(dfile)
+    except Error as error:
+        print(error)
+
+    return db_connect
+
+def execute_statement(db_connect, table_statement):
+    try:
+        cursor = db_connect.cursor()
+        cursor.execute(table_statement)
+    except Error as error:
+        print(error)
+
 def main() -> None:
     tutorials_dir = Path.home() / "git" / "pytorch" / "tutorials"
     commits_to_files = get_file_names(tutorials_dir)
@@ -43,6 +62,23 @@ def main() -> None:
         f.write("CommitHash, Files\n")
         for entry in commits_to_files:
             f.write(f'{entry[0]}, "{";".join(entry[1])}"\n')
+    db = r"test.db"
+    delete_table = '''DROP TABLE commit_history;'''
+    create_table_statement = '''CREATE TABLE IF NOT EXISTS commit_history(
+                commit_id TEXT,
+                author TEXT,
+                date DATE,
+                title TEXT,
+                number_of_changed_files INT,
+                lines_added INT,
+                lines_deleted INT,
+                filename TEXT);
+                '''
+    upload_data = '''INSERT INTO commit_history (commit_id,author,date,title,number_of_changed_files,lines_added,lines_deleted,filename) VALUES(?, ?, ?, ?, ?, ?, ?, ?)'''
+    connect = connect_db(db)
+    execute_statement(connect, delete_table)
+    execute_statement(connect, create_table_statement)
+
 
 if __name__ == "__main__":
     main()
