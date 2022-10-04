@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from typing import List, Optional, Tuple
 from pathlib import Path
+import sqlite3
 
 def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
    from subprocess import check_output
@@ -36,24 +37,42 @@ def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
             files.append(line)
     return rc
 
-def connect_db(dfile):
+def connect_db(dfile: str) -> sqlite3.Connection:
     """
     Connect to the database
     """
     db_connect = None
     try:
         db_connect = sqlite3.connect(dfile)
-    except Error as error:
+    except sqlite3.Error as error:
         print(error)
 
     return db_connect
 
-def execute_statement(db_connect, table_statement):
+def execute_statement(db_connect: sqlite3.Connection, table_statement: str) -> None:
     try:
         cursor = db_connect.cursor()
         cursor.execute(table_statement)
-    except Error as error:
+        db_connect.commit()
+    except sqlite3.Error as error:
         print(error)
+
+
+def create_db_schema(handle: sqlite3.Connection) -> None:
+    delete_table = "DROP TABLE IF EXISTS commits;"
+    create_table_statement = '''CREATE TABLE IF NOT EXISTS commits(
+                commit_id TEXT,
+                author TEXT,
+                date DATE,
+                title TEXT,
+                number_of_changed_files INT,
+                lines_added INT,
+                lines_deleted INT);
+                '''
+    execute_statement(handle, delete_table)
+    execute_statement(handle, create_table_statement)
+
+
 
 def main() -> None:
     tutorials_dir = Path.home() / "git" / "pytorch" / "tutorials"
@@ -62,23 +81,13 @@ def main() -> None:
         f.write("CommitHash, Files\n")
         for entry in commits_to_files:
             f.write(f'{entry[0]}, "{";".join(entry[1])}"\n')
-    db = r"test.db"
-    delete_table = '''DROP TABLE commit_history;'''
-    create_table_statement = '''CREATE TABLE IF NOT EXISTS commit_history(
-                commit_id TEXT,
-                author TEXT,
-                date DATE,
-                title TEXT,
-                number_of_changed_files INT,
-                lines_added INT,
-                lines_deleted INT,
-                filename TEXT);
-                '''
-    upload_data = '''INSERT INTO commit_history (commit_id,author,date,title,number_of_changed_files,lines_added,lines_deleted,filename) VALUES(?, ?, ?, ?, ?, ?, ?, ?)'''
+    db = "test.db"
     connect = connect_db(db)
-    execute_statement(connect, delete_table)
-    execute_statement(connect, create_table_statement)
-
+    create_db_schema(connect)
+    for entry in get_history(tutorials_dir):
+        cursor = connect.cursor()
+        cursor.execute("INSERT INTO commits VALUES (?, ?, ?, ?, ?, ?, ?)", entry.split(","))
+        connect.commit()
 
 if __name__ == "__main__":
     main()
