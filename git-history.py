@@ -10,7 +10,11 @@ def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
 
 def get_history(cwd: Optional[str] = None) -> List[str]:
     rc = run_command('git log --date=short --pretty=format:''%h,"%an",%ad,"%s",'' --shortstat', cwd=cwd).split("\n")
-    # TODO: Remove "files change", ... using `__str__.replace` method
+    def do_replace(x: str) -> str:
+       for pattern in ['files changed', 'file changed', 'insertions(+)', 'insertion(+)', 'deletion(-)', 'deletions(-)']:
+          x=x.replace(f' {pattern}','')
+       return x
+    rc = [do_replace(i) for i in rc]
     return ["".join(rc[3*i:3*i+2]) for i in range(len(rc)//3)]
 
 
