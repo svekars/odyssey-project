@@ -1,0 +1,1873 @@
+CommitHash, AuthoName, Date, Subject, FilesChanged, LinesAdded, LinesDeleted
+6b3af99b4;Muhammet Soytürk;2022-09-28;fix "some elements of the input tensor and the written-to tensor refer to a single memory location" error in ddp_pipeline tutorial (#2002); 1; 1; 1
+5880829e6;Suraj Subramanian;2022-09-27;Add DDP tutorial series (video) (#2049); 8; 725; 9
+df1bcfe14;Svetlana Karslioglu;2022-09-26;Add css for cards (#2056); 2; 78; 6
+04e1ba925;John Detloff;2022-09-21;Update ios_coreml_workflow.rst (#2048); 1; 1; 1
+4d5c982c2;Svetlana Karslioglu;2022-09-20;Add sphinx_design (#2040); 1; 1; 1
+1125546f8;krisselberg;2022-09-19;Fixed small typo in code block ("TorchTec" -> "TorchRec") (#2041); 1; 1; 1
+b20242033;clee2000;2022-09-16;[ci] Run all python files in the *_source folders (#2034); 4; 63; 55
+e87a735d0;moto;2022-09-15;Enable intersphinx_mapping to PyTorch and domain libraries (#2038); 1; 7; 0
+339a6873a;bub3690;2022-09-15;Fix typo in audio_data_augmentation_tutorial.  (#2028); 1; 2; 2
+3f8be2398;Svetlana Karslioglu;2022-09-14;Update runtime.txt (#2039); 1; 1; 1
+ed64264b9;Driss Guessous;2022-09-12;Update nestedtensor to_padded calls (#2036); 1; 6; 6
+ce59112c1;Svetlana Karslioglu;2022-09-12;Update cpp_autograd.rst (#2035); 1; 1; 1
+f1359faad;clee2000;2022-09-09;[ci] script to validate tutorials were built in > 0 sec (#2031); 2; 104; 0
+5524d54c2;clee2000;2022-09-08;quiet wget (#2032); 1; 14; 14
+cc39b0809;andrewor14;2022-09-06;Fix quantization tutorials (imports; syntax; and style) (#1772); 2; 77; 84
+9fb9f475e;SiftingSands;2022-09-06;DQN tutorial fixes (#2026); 1; 5; 5
+08cc9b5b5;Mustafa Çavuşoğlu;2022-09-06;Typo fix 'FDSP' --> 'FSDP' (#2029); 1; 1; 1
+4918fe4bf;Paul Haider;2022-08-31;Add missing backslash in math formula (#2023); 1; 1; 1
+5f10e9972;Aditya Punetha;2022-08-30;Update autograd_tutorial.py (#2021); 1; 4; 3
+8e0cd4126;Nikita Shulga;2022-08-29;Update sphinx-gallery version to 0.11.1 (#2020); 2; 2; 1
+e94601a71;Nikita Shulga;2022-08-29;Fix typos in flask_rest_api_tutorial; 1; 3; 3
+e1ea05e56;Nikita Shulga;2022-08-27;Pin ray version to 1.13.0 (#2019); 1; 1; 1
+4cc9db485;Max Balandat;2022-08-23;Fix aspect ratio of Ax logo (#2016); 1; 0; 0
+88b5e241a;Nikita Shulga;2022-08-22;Update doctools.js to one from sphinx-5.1.1 (#2017); 1; 198; 247
+d4eab8acb;Jo; Yunjin;2022-08-22;Add a caution comment for installing OpenCV in Raspberry Pi (#2011); 1; 1; 1
+f16efbc94;Max Balandat;2022-08-21;Fixes to Ax MOO NAS tutorial (#2013); 3; 6; 6
+ebce10340;Max Balandat;2022-08-19;Add new tutorial: Multi-Objective NAS with Ax (#2006); 7; 709; 2
+8b8e5d901;Nikita Shulga;2022-08-19;get_files_to_run shoudl handle extra files; 1; 23; 9
+57bb87c90;ptrblck;2022-08-18;Add nvFuser tutorial for PyTorch 1.12.0 (#1968); 12; 694; 1
+3441eb136;Svetlana Karslioglu;2022-08-18;Add a link to mnist_sample notebook (#2012); 1; 1; 1
+0c76acc9c;Terri;2022-08-16;fix typos in speech_recognition_pipeline_tutorial.py (#2009); 1; 2; 2
+86aca7dc1;Nikita Shulga;2022-08-12;Add functorch to requirements (#2003); 1; 1; 2
+d57f98cf5;Nikita Shulga;2022-08-12;Add argparse to get_files_to_run (#2004); 1; 15; 6
+285073782;Nikita Shulga;2022-08-11;Cleanup build.sh (#2000); 2; 2; 13
+ff9f10fe3;Shivam Pande;2022-08-11;Grammatically updated the tutorial (#1999); 1; 2; 2
+770665f50;Yoni Chechik;2022-08-10;torchvision tutorial: update deprecated `pretrained=True` to `weights="DEFAULT"` (#1998); 1; 4; 4
+d5f7a40ea;sliorde;2022-08-03;rename confusing variable name in LM tutorial (#1953); 1; 7; 7
+ae227204a;Yifan Shen;2022-08-02;add nested tensor tutorial (#1975); 2; 507; 5
+5ded1fa9b;priyaramani;2022-08-02;Fix data preprocessing for chatbot tutorial (#1992); 3; 39; 51
+47a91e0fa;Vasilis Vryniotis;2022-08-02;Fix torchvision tutorial (#1994); 1; 2; 1
+2be29e477;eqy;2022-08-01;check in (#1947); 1; 6; 6
+a84816deb;moto;2022-08-01;Update forced alignment tutorial (#1988); 1; 272; 242
+4132e11e3;moto;2022-08-01;Fix audio data augmentation tutorial (#1987); 1; 4; 4
+7976ab181;Nikita Shulga;2022-07-29;Update spaCy model download to full name (#1338); 3; 8; 8
+dde066ce3;Svetlana Karslioglu;2022-07-29;Create captumyt.py; 1; 1; 1
+90a4763a3;Svetlana Karslioglu;2022-07-29;Upgrading sphinx and sphinx-gallery (#1984); 3; 9; 7
+01a0ab2ff;AlvaroH1276;2022-07-23;Grammatically updated the tutorial of torchrec (#1972); 1; 2; 2
+951f3a859;Svetlana Karslioglu;2022-07-20;Update edit-ongithub-note (#1985); 13; 17; 11
+a885873ab;Michael Gschwind;2022-07-18;Move better transformer tutorial; update index (#1982); 2; 12; 12
+c39df02eb;Andrew Gu;2022-07-15;Minor math render fix (#1977); 1; 2; 2
+72b0ca7c6;Michael Gschwind;2022-07-15;Update google colab link (#1981); 1; 1; 1
+611a688c2;Andrew Gu;2022-07-15;Minor fixes for distributed tutorials (#1978); 2; 2; 2
+6c3b79d41;Michael Gschwind;2022-07-14;BetterTransformer tutorial (#1976); 3; 258; 0
+8cb5c3a9a;Nikita Shulga;2022-07-13;Re-enable tensorboard_profiler_tutorial.py (#1974); 1; 1; 1
+ab8975c67;Svetlana Karslioglu;2022-07-12;Add a link to the Examples landing page (#1970); 1; 3; 3
+38c0aa597;Svetlana Karslioglu;2022-07-11;Update FSDP advanced training (#1969); 2; 162; 51
+091802395;Hamid Shojanazeri;2022-07-07;Fsdp advanced tutorial (#1959); 1; 602; 0
+8c4f244d3;Nikita Shulga;2022-07-06;[CI] Delete trusty PGP key install (#1966); 2; 0; 6
+8eb9a3f53;Vasiliy Kuznetsov;2022-06-06;Add FX Numeric Suite Core APIs tutorial; 1; 231; 0
+2270a9325;Nikita Shulga;2022-06-28;Remove functorch from requirements; 1; 2; 1
+f48ba3169;moto;2022-06-08;Update audio tutorials for 0.12; 6; 1052; 1043
+61650b037;Svetlana Karslioglu;2022-06-28;Update dynamic_quantization_tutorial.py (#1956); 1; 1; 1
+c2575d1b9;Ma Mingfei;2022-06-28;Update memory_format_tutorial.py (#1925); 1; 7; 1
+bc11e8f24;Nayef Ahmed;2022-06-22;Updated URLs for dataset (#1955); 1; 7; 1
+faf2c476f;moto;2022-06-21;Remove namedtensor tutorial (#1952); 1; 0; 545
+74b196aa4;Sameer Indarapu;2022-06-20;Fix typo in profiler recipe (#1931); 1; 1; 1
+46e472697;Hugo;2022-06-20;Add example on how to run DDP with PyTorch elastic (#1948); 1; 77; 0
+8a33b50e2;tornikeo;2022-06-14;Fix typo in polynomial_nn.py (#1940); 1; 1; 1
+6e124116a;clee2000;2022-06-09;pin gym to 0.24.0 (#1942); 1; 1; 1
+bac07c724;Kevin Moore;2022-06-03;Fix matmul resizing UserWarning (#1932); 1; 1; 1
+599234a9a;sanchitintel;2022-06-01;Add info on oneDNN Graph to the tuning guide (#1929); 1; 37; 0
+f5a6007f8;Svetlana Karslioglu;2022-06-01;Revert "Fixed typo (#1933)" (#1934); 1; 1; 1
+e63af545e;Jeff Nunn;2022-05-31;Fixed typo (#1933); 1; 1; 1
+2ab436af5;Oliver Sabler;2022-05-26;Fix broken link in Reinforcement Learning Tutorial (#1928); 1; 3; 3
+7f81ee9a9;Svetlana Karslioglu;2022-05-24;Add banner prototype tutorials (#1920); 1; 11; 0
+70393d4fa;Danielle Pintz;2022-05-24;Update ddp_tutorial.rst (#1871); 1; 16; 15
+e086db650;Less Wright;2022-05-24;update dist.reduce to proper dist.all_reduce (#1926); 1; 4; 4
+d909b5d2f;Nikita Shulga;2022-05-22;[CI] Rewrite `get_all_files` to use `Path.glob`; 1; 5; 13
+d1f4760df;Nikita Shulga;2022-05-20;[BE] Small cleanup in get_files_to_run (#1923); 2; 31; 9
+458285f5e;clee2000;2022-05-20;spaces instead of newlines (#1924); 1; 1; 1
+72f72b585;Svetlana Karslioglu;2022-05-13;Add the sharding tutorial to index.rst (#1917); 2; 29; 19
+b981afccf;ftorres16;2022-05-12;fix: typo "archtecture" to "architecture" (#1916); 1; 2; 2
+d594a144a;clee2000;2022-05-11;try to query for docker tag (#1915); 3; 19; 2
+ae7458373;Yazhi Gao;2022-05-10;sharding tutorial for torchrec (#1913); 1; 335; 0
+99dd93d84;davidgeorgewilliams;2022-05-10;Update introyt1_tutorial.py (#1914); 1; 1; 1
+e26e96be2;Osman Asif Malik;2022-05-06;Fix broken link (#1912); 1; 1; 1
+9b751a7bc;clee2000;2022-05-06;[ci] convert sharding from bash to python (#1910); 6; 183; 127
+e2e5cb46b;clee2000;2022-05-04;generate .circleci/config.yml from template (#1909); 3; 435; 143
+75759904d;Nikita Shulga;2022-05-03;[CircleCI] Make PR build manager dependent on few worker jobs(#1908); 1; 4; 0
+f383df729;Chenxing Luo;2022-05-03;Update neural_networks_tutorial.py (#1900); 1; 1; 1
+6be331bbb;Dinesh Ladi;2022-04-30;updated loading data recipe to use latest api of torchaudio.datasets.YESNO (#1903); 1; 2; 6
+b6e9f3ad6;Nikita Shulga;2022-04-21;Fix one more typo; 1; 1; 1
+d7ea223dd;Nikita Shulga;2022-04-21;Fix typo (#1897); 1; 1; 1
+b9fd81c2c;Nikita Shulga;2022-04-21;Create pytorch-probot.yml; 1; 1; 0
+8df0186fb;Jack Chih-Hsu Lin;2022-04-18;Changed the typo of image format "NCHW" (#1892); 1; 1; 1
+5b90ecdf7;Holly Sweeney;2022-04-17;Added new torchserve tutorial to the what's new section (#1891); 1; 1; 0
+271b83a59;min-jean-cho;2022-04-15;TorchServe IPEX blog  (#1880); 34; 403; 1
+ca3f0b2c1;Nikita Shulga;2022-04-14;Update runners to recommended ubuntu-2004 (#1854); 1; 8; 2
+8b0894ede;Holly Sweeney;2022-04-12;Add github links to distributed tutorials (#1884); 11; 29; 2
+ce8670339;jems-lee;2022-04-12;Fix typos (#1887); 1; 2; 2
+1d9dc2537;Nikita Shulga;2022-04-12;Update Copyright notice to 2022 (#1886); 2; 2; 2
+7b2d5dd48;Nikita Shulga;2022-04-12;Use CircleCI docker+nvidia capable images (#1885); 1; 6; 37
+aab1daeb6;Holly Sweeney;2022-04-12;Add a basic what's new list to the tutorials homepage (#1883); 1; 9; 0
+e6cad978f;Nikita Shulga;2022-04-06;Escape backslash in examples_autograd inline math (#1881); 1; 2; 2
+c577cffc5;Holly Sweeney;2022-04-04;Update pillow version in build.sh (#1873); 1; 1; 1
+70a05c034;Holly Sweeney;2022-03-29;Pin jinja2 version (#1874); 1; 1; 0
+6e21cf2e8;Holly Sweeney;2022-03-24;Add new FSDP tutorial to the left nav (#1870); 1; 1; 0
+cda858807;Oren Amsalem;2022-03-24;switch format to f-string (#1866); 1; 5; 7
+4c27d25cc;Hamid Shojanazeri;2022-03-23;Fsdp code fixes (#1867); 1; 28; 15
+62ff2fd68;Holly Sweeney;2022-03-22;Add youtube video to torchrec tutorial (#1864); 1; 20; 14
+1e29d95a5;Hamid Shojanazeri;2022-03-22;fix the blog link (#1865); 1; 1; 1
+021ee9615;Danielle Pintz;2022-03-22;Update dist_tuto.rst (#1862); 1; 13; 13
+dfec36ea3;Hamid Shojanazeri;2022-03-21;fix the author name link issue (#1863); 1; 1; 1
+fe5674f74;Hamid Shojanazeri;2022-03-17;FSDP tutorial (#1861); 7; 430; 0
+07483e0b1;Richard Zou;2022-03-15;Update forward-ad tutorial to mention the functional API (#1776); 2; 72; 0
+77a0912fd;dependabot[bot];2022-03-14;Bump pillow from 9.0.0 to 9.0.1 in /.devcontainer (#1856); 1; 1; 1
+18a964434;parmeet;2022-03-13;add explicit instructions to install torchdata (#1859); 5; 19; 9
+9b045958d;Nikita Shulga;2022-03-12;Update default python to 3.7 (#1855); 3; 13; 7
+42093e4c9;Nikita Shulga;2022-03-11;Update audio_feature_extractions_tutorial.py (#1858); 1; 2; 2
+a724d5897;Nikita Shulga;2022-03-11;Revert "Update README.md"; 1; 1; 1
+f3f9aae6a;Nikita Shulga;2022-03-11;Revert "Update build.sh (#1853)"; 1; 0; 4
+fc8c2cd98;Brian Johnson;2022-03-11;Update build.sh (#1853); 1; 4; 0
+92f01e1cc;Brian Johnson;2022-03-10;Update README.md; 1; 1; 1
+9321af450;moto;2022-03-10;Update Wav2Vec2 ASR tutorial (#1848); 1; 83; 92
+755e2a5ef;Steven Walton;2022-03-09;Fixing timing scheme in cpp_extension tutorial (#1851); 1; 2; 2
+c8f730cb7;Nayef Ahmed;2022-03-08;Updated text classification tutorial to work with torchtext 0.12.0 release (#1847); 1; 20; 21
+724ce1ca8;Woongjun Choi;2022-03-08;modify spelling (#1845); 1; 2; 2
+0fd10e6c5;Alexis Gatignol;2022-03-02;normalize pathnames to fix issue 1830 (#1831); 1; 1; 1
+2a8e6b5c0;Wesley A. Cheng;2022-02-28;Upgrade to f-strings (#1807); 1; 5; 5
+2f68be065;Wesley A. Cheng;2022-02-28;Upgrade to f-strings (#1806); 1; 3; 3
+6cd0e06fe;Brian Johnson;2022-02-25;Brianjo torchrec update (#1838); 3; 33; 16
+9fa30812d;Nikita Shulga;2022-02-25;Make codesamples from TorchRec tutorial correct; 1; 4; 4
+7580ca154;Nikita Shulga;2022-02-24;Revert "Update build.sh (#1832)" (#1837); 1; 1; 4
+e0eb76a42;Nikita Shulga;2022-02-24;Fix links in TorchRec tutorial (#1835); 1; 27; 26
+1f0b6d904;Yang Yang(Tony);2022-02-24;Update dist_tuto.rst (#1820); 1; 1; 1
+cef13d2b3;Nikita Shulga;2022-02-24;Revert "Enables intermediate_source/model_parallel_tutorial.py for testing (#1833)" (#1834); 1; 2; 2
+ba618b330;Nikita Shulga;2022-02-24;Sync PR and master builder resource classes; 1; 3; 0
+776c42e29;Brian Johnson;2022-02-24;Enables intermediate_source/model_parallel_tutorial.py for testing (#1833); 1; 2; 2
+a9c4fefe3;Colin Taylor;2022-02-24;[torchrec] [tutorial] add introduction to torchrec tutorial to pytorch/tutorials (#1829); 1; 237; 0
+960e66eb5;Brian Johnson;2022-02-24;Update build.sh (#1832); 1; 4; 1
+bb3523fe0;Andrey Talman;2022-02-18;Documenting cuda 11.5 windows issue (#1826); 1; 21; 0
+ebef6349c;Nikita Shulga;2022-02-11;[CircleCI] Change runner type (#1822); 1; 4; 1
+feab8fd68;Tristan Rice;2022-02-08;intermediate/realtime_rpi: updated with benchmarks + feedback (#1823); 1; 94; 8
+5bc5b94fb;Tristan Rice;2022-02-08;intermediate/realtime_rpi: a tutorial on realtime CV inference on a raspberry pi (#1821); 3; 267; 0
+0a6eb8237;Yonghye Kwon;2022-02-05;set cudnn.benchmark to True for speed up training process (#1811); 1; 2; 0
+237311d4e;dependabot[bot];2022-02-03;Bump pillow from 8.3.2 to 9.0.0 (#1793); 1; 1; 1
+494b0028d;dependabot[bot];2022-02-03;Bump pillow from 8.3.2 to 9.0.0 in /.devcontainer (#1794); 1; 1; 1
+f7b5f1fda;Less Wright;2022-02-03;update 'TODO link' with working link for Conv-BN FX Fusion tutorial (#1815); 1; 1; 1
+030a8e8fa;Wesley A. Cheng;2022-02-02;Remove unused argument (#1805); 1; 1; 1
+a6680ba48;Wesley A. Cheng;2022-02-02;Migrate to f-strings (#1803); 1; 5; 5
+8dddccc4c;Wesley A. Cheng;2022-02-02;Remove Unused Libraries and Convert to f-strings (#1802); 1; 3; 4
+1db1c1ce9;mrshenli;2022-02-01;Add tutorial for ProcessGroup extensions (#1798); 3; 299; 3
+f769bed03;Nikita Shulga;2022-02-01;Disable Windows tutorial builders (#1813); 1; 44; 45
+444fbd16f;Jake Tae;2022-01-20;docs: fix typo operatos -> operators (#1795); 1; 2; 2
+f2579c6f4;Sai Kandregula;2022-01-19;fix case of torch.nn.Module (#1791); 1; 1; 1
+6fa035e7c;Holly Sweeney;2022-01-14;Update modelsyt_tutorial.py (#1796); 1; 1; 1
+86abcf48b;Holly Sweeney;2022-01-14;Update introyt1_tutorial.py (#1789); 1; 1; 1
+eee75643b;cccclai;2022-01-12;Fix the title format for tracing-based selective build (#1790); 1; 4; 1
+92ca05f9d;cosmosincognito;2022-01-11;Update README.txt (#1788); 1; 1; 1
+1a83ceb95;Tian; Feng;2022-01-11;Add Intel Neural Compressor for PyTorch quantization recipes (#1765); 2; 382; 0
+250f74190;Holly Sweeney;2022-01-10;Update autograd_tutorial.py (#1787); 1; 5; 5
+cc9d6ad65;Sai Kandregula;2022-01-10;Fix typo (#1786); 1; 1; 1
+cf97ee481;Andrei Alexandru;2022-01-07;Fix small typo: "propogate" -> "propagate" (#1784); 1; 1; 1
+48d1b22f6;Aman Atman;2022-01-06;Update dcgan_faces_tutorial.py (#1783); 1; 1; 1
+563162ab6;Wesley A. Cheng;2022-01-03;upgrade to f-strings (#1753); 1; 11; 14
+b9f9e5a1c;Ilya Persky;2021-12-28;Fix the number in example (#1777); 1; 1; 1
+9020fe35a;Viacheslav Kovalevskyi;2021-12-28;Misc updates to the autograd tutorial (#1697); 1; 7; 2
+b1d8993ad;Holly Sweeney;2021-12-21;Update nn_tutorial.py (#1774); 1; 3; 4
+0e39ee6c1;Léopold Maillard;2021-12-21;export to torchscript section in saving/loading models tutorial (#1682); 1; 36; 0
+0ccfbf004;Holly Sweeney;2021-12-20;Update data_loading_tutorial.py (#1773); 1; 7; 2
+6d0f524c8;Omar Younis;2021-12-20;fix typo in advanced_tutorial.py (#1770); 1; 1; 1
+b7879054f;Yi Zhang;2021-12-16;keep \n in echo (#1769); 1; 1; 1
+177c03fbd;Holly Sweeney;2021-12-15;Fix cheat sheet typo that causes ImportError (#1768); 1; 1; 1
+aecb73d1d;Holly Sweeney;2021-12-14;Update torch_script_custom_ops.rst (#1767); 1; 2; 2
+657f1382f;Aashwin Sharma;2021-12-15;Fix typo (#1759); 1; 1; 1
+4be0618e4;Holly Sweeney;2021-12-14;Correct name of registered operator (#1766); 1; 1; 1
+f442f270f;Holly Sweeney;2021-12-14;Fix rendering of images in tutorials matrix (#1764); 1; 7; 7
+1fdf1cd03;soulitzer;2021-12-07;Fix forward AD tutorial directory and add to index (#1758); 2; 16; 2
+796013c10;soulitzer;2021-12-02;Add forward AD tutorial (#1746); 1; 170; 0
+c2115df80;Holly Sweeney;2021-11-30;Add beginner youtube tutorials (#1743); 12; 3906; 0
+db9657202;Jan-Hendrik Ewers;2021-11-29;Changed == to = as in the code (#1751); 1; 1; 1
+2571e95df;Holly Sweeney;2021-11-23;Add 1.10 mobile prototype tutorials to the matrix (#1749); 1; 16; 0
+7fc978249;Anderson Santos;2021-11-16;Missing sample when loading csv file (#1708); 1; 1; 1
+281f3702d;Thomas Viehmann;2021-11-16;Update dispatcher.rst (#1690); 1; 1; 1
+c25aa7ae6;Polydynamical;2021-11-15;replace "format" with f string (#1725); 1; 1; 1
+3df4ce004;Polydynamical;2021-11-15;use f string instead of "format" (#1724); 1; 1; 1
+640d55ce6;Jim Thompson;2021-11-15;doc: remove extraneous character (#1744); 1; 1; 1
+f43f856e2;Luc Hayward;2021-11-15;Update Captum_Recipe.py: Fix formatting (#1745); 1; 4; 3
+c08519b87;Weston Barger;2021-11-09;Convert docstring to literal and fix math rendering typo (#1739); 2; 3; 3
+a04723ddb;moto;2021-11-09;Update speech recognition tutorial (#1741); 1; 47; 53
+5c4405627;Jing Xu;2021-11-09;fine tuned intel_extension_for_pytorch. 1. moved intel_extension_for_pytorch.py to intel_extension_for_pytorch.rst to make it compatible to cpp source codes. 2. fixed bug of Float32 level missing in intel_extension_for_pytorch (#1704); 3; 340; 353
+96f224706;moto;2021-11-05;Update forced alignment tutorial (#1740); 1; 142; 92
+254d927bd;moto;2021-11-04;Fix the link to speech recognition (#1738); 1; 1; 1
+cbf2238df;Victor Quach;2021-11-03;Add saved tensors hooks tutorial (#1655); 1; 512; 0
+d437daee2;moto;2021-11-02;Fix thumbnail aspect ratio (#1734); 1; 0; 0
+2ad37aef5;Brian Johnson;2021-11-02;Update requirements.txt (#1737); 3; 3; 3
+bbcf868d4;Gary Miguel;2021-11-02;Distributed Overview: clean up (#1733); 1; 71; 78
+18905c930;moto;2021-11-01;Rename speech command recognition to speech command classification (#1732); 2; 5; 5
+5d5f450d3;moto;2021-11-01;Add forced alignment tutorial (#1731); 3; 456; 0
+1be495d6f;hwangjeff;2021-10-27;Split audio preprocessing tutorial (#1726); 9; 2057; 1604
+de46862f8;Akshit Khurana;2021-10-26;NNAPI: Update torchvision and save methods (#1728); 1; 3; 3
+b6c1ae9ce;Brian Johnson;2021-10-26;Update build.sh (#1730); 1; 1; 1
+aefe1f2de;Brian Johnson;2021-10-26;Update torchvision_tutorial.rst (#1729); 1; 1; 1
+526cbe598;Brian Johnson;2021-10-22;Update saveloadrun_tutorial.py (#1719); 1; 4; 23
+44bd518d5;gaoteng-git;2021-10-22;Update profiler tutorial with tensor cores and forward-backward correlation (#1687); 8; 12; 3
+1ef0d1113;Mike Guo;2021-10-22;Add non-context manager tutorial for PyTorch Tensorboard plugin (#1723); 1; 14; 0
+2c599be09;moto;2021-10-21;Add speech recognition tutorial (#1714); 3; 325; 0
+f725a0ed6;Akshit Khurana;2021-10-21;Update nnapi tutorial (#1716); 1; 38; 5
+88e5e4ab4;Brian Johnson;2021-10-21;Update build.sh (#1718); 1; 4; 2
+7007cf0b7;moto;2021-10-21;Add text-to-speech tutorial (#1710); 3; 318; 0
+9de0c6475;Brian Johnson;2021-10-21;1.10.0-RC-Test (#1695); 7; 47; 16
+d7b5f5e94;Jacob Szwejbka;2021-10-20;Add bundled inputs recipe (#1524); 1; 198; 0
+2283a3e49;Tao Xu;2021-10-20;[iOS] Add the Core ML tutorial (#1707); 1; 128; 0
+e35ec7626;guyang3532;2021-10-21;Update profiler tutorial for adding GLOO support (#1679); 1; 1; 1
+cb6e5c9f2;cccclai;2021-10-20;Tracing-based Selective Build Mobile Interpreter in Android and iOS (#1709); 1; 198; 0
+ff1e50dd1;Rohan Varma;2021-10-20;Update zero_redundancy_optimizer.rst (#1711); 1; 0; 3
+f6d75f83c;Jing Xu;2021-10-08;introduction of intel extension for pytorch (#1702); 2; 362; 0
+d5161086e;Viacheslav Kovalevskyi;2021-10-04;Misc updates in tensor_tutorial (#1696); 1; 4; 3
+521b1235e;Kiran Scaria;2021-10-04;Fixed a typo (#1701); 1; 2; 2
+8dab2c5eb;Nikita Shulga;2021-10-01;Fix `loading_data_recipe` links (#1698); 1; 3; 3
+c2c64c7df;Nikita Shulga;2021-10-01;Fix cert failure during `apt-get update` (#1700); 1; 2; 0
+533531f40;Edward Leardi;2021-09-28;Update ptcheat.rst (#1083); 1; 1; 1
+fc1de5f3b;Hanz Tantiangco;2021-09-28;docs: Fix typo (#1639); 1; 1; 1
+e75bf2547;유용환;2021-09-28;fix typo (#1686); 1; 2; 2
+63d7bf429;유용환;2021-09-28;fix typo (#1691); 1; 1; 1
+d228c104e;유용환;2021-09-28;add "it" to make sentence more clear (#1689); 1; 1; 1
+c8d38106e;유용환;2021-09-28;improve grammar (#1693); 1; 1; 1
+dafab370c;soulitzer;2021-09-20;Update dispatcher tutorial for autograd not implemented kernel (#1685); 1; 33; 26
+21eb3f9bf;Brian Johnson;2021-09-20;Update runtime.txt (#1688); 1; 1; 1
+162b52d9b;유용환;2021-09-15;fix typo (#1680); 1; 1; 1
+ca88f16db;Holly Sweeney;2021-09-14;fix typo in weight initialization comment (#1678); 1; 1; 1
+e924720de;Steven Jin;2021-09-14;Improvements to word embeddings tutorial. (#1667); 1; 20; 12
+e5a7d53bb;유용환;2021-09-15;Update comment in code block (#1674); 1; 1; 1
+9f397dc03;soulitzer;2021-09-14;Add autograd not implmented to dispatcher tutorial (#1677); 1; 44; 0
+834c63b86;Bilal Alsallakh;2021-09-10;Update Captum_Recipe.py (#1673); 1; 2; 2
+f32d185cc;dependabot[bot];2021-09-09;Bump pillow from 8.2.0 to 8.3.2 (#1668); 1; 1; 1
+e3a7def4a;dependabot[bot];2021-09-09;Bump pillow from 8.2.0 to 8.3.2 in /.devcontainer (#1669); 1; 1; 1
+067927177;albanD;2021-09-01;Cleanup of the neural style transfer to reduce memory usage (#1665); 1; 11; 5
+011ae8a6d;Shoufa Chen;2021-09-01;fix typo (#1652); 1; 3; 1
+a8db85b13;Hanton Yang;2021-08-30;Add nightly usage to iOS GPU Workflow (#1663); 1; 20; 6
+4e93403ad;Caroline Chen;2021-08-30;fix typo (#1649); 1; 1; 1
+572dc1357;suraj813;2021-08-30;Remove final ReLU layer (#1654); 1; 1; 2
+11df15775;Hanton Yang;2021-08-27;Update ios_gpu_workflow.rst (#1658); 1; 23; 12
+5443837e2;soulitzer;2021-08-24;Update (#1650); 1; 41; 9
+c0029a164;Jerry Zhang;2021-08-20;Rename prototype_source/fx_graph_mode_quant_guide.py to prototype_source/fx_graph_mode_quant_guide.rst (#1651); 2; 324; 339
+a572f79c6;Amir Mohammadi;2021-08-20;[basics/quickstart_tutorial.py] call model.trian() before training (#1602); 1; 1; 0
+73747abe7;schnell3526;2021-08-20;fix model(Remove unwanted relu layer.) (#1644); 2; 0; 2
+3af71c993;soulitzer;2021-08-16;Update fused conv bn tutorial (#1647); 1; 5; 2
+7e30229b5;soulitzer;2021-08-16;Fix missing entry for double backward tutorial (#1648); 1; 1; 1
+a9bb29b01;soulitzer;2021-08-13;Add double backward custom function tutorial (#1603); 3; 313; 1
+2855a42a3;Samuel Holt;2021-08-12;fix: Autogradsqs_tutorial typo (#1646); 1; 1; 1
+2dddbd9b5;Frank Zalkow;2021-08-11;Minor fixes in tutorial on basics (file names; spaces; links) (#1638); 10; 140; 151
+c2c30b47f;Danielle Pintz;2021-08-10;fix typo in defining_a_neural_network.py (#1645); 1; 1; 1
+f3543da1d;Arinbjörn;2021-08-09;Fix spelling error to improve legibility (#1643); 1; 6; 6
+350726616;bowangbj;2021-08-06;Real: redo rank --> trainer_rank doc fix (#1640); 1; 1; 1
+5273ea4cb;Ghassen Hamrouni;2021-08-06;Update index.rst to add missing STN tutorial (#1288); 1; 8; 0
+9f170cc1e;Yuchen Huang;2021-08-04;Fixed _save_for_lite_interpreter Python API call (#1634); 1; 2; 2
+fb6a49d83;andwgu;2021-08-04;Add Tutorial for Generic Join Context Manager (#1610); 3; 450; 0
+9b5bd31c5;Aditya Tewary;2021-08-04;Update flask_rest_api_tutorial.py (#1622); 1; 1; 1
+4e4730c4b;Behrooz;2021-08-03;Fix text and image mismatch (#1630); 1; 41; 34
+e90a8a26f;Yuchen Huang;2021-08-03;Update iOS GPU tutorial based on the lite interpreter support (#1628); 1; 10; 7
+ac39d0311;Nikita Shulga;2021-08-02;Update pyTorchDockerImageTag (#1626); 1; 1; 1
+22ab21bf5;Christopher Yeh;2021-07-29;Transformer Tutorial: improve code understandability and documentation (#1608); 1; 162; 126
+a1ad9ed50;bowangbj;2021-07-28;Update ddp_tutorial.rst (#1618); 1; 7; 8
+efb676fa9;Junghwan Park;2021-07-28;update text_sentiment_ngrams_tutorial tutorial description (#1605) (#1606); 1; 1; 1
+9b7e43069;Daniel Jang;2021-07-28;Fix capitalization for the word "DataLoader" (#1599); 1; 2; 2
+eccfa1470;Tristan Laurens;2021-07-27;Fix typo and formatting issue (#1598); 1; 3; 2
+4fb967e37;Sameer Indarapu;2021-07-27;Fix typo in quantized transfer learning tutorial (#1611); 1; 1; 1
+508f9768f;David Reiss;2021-07-26;Fix contiguous usage in tutorials (#1613); 2; 3; 3
+ca3fd13c3;soulitzer;2021-07-22;Add custom function tutorial for fusing conv and bn (#1594); 2; 366; 0
+618c89784;Jinze (Richard) Xue;2021-07-22;Tiny fix of torch_script_custom_classes custom_op namespace and fix of the missing end `}` (#1615); 3; 10; 4
+a04bde43b;Jeff Tang;2021-07-16;added link to the vt tutorial in index (#1601); 2; 20; 9
+af614fa23;Max van Dijck;2021-07-09;updated load_state_dict link (#1591); 1; 1; 1
+eabfdaf61;Jeff Tang;2021-06-30;style issue fix for colab (#1597); 1; 45; 49
+b25c905f9;Benson Muite;2021-06-30;use lower case x (#1593); 1; 1; 1
+6cafb9936;Brian Johnson;2021-06-29;Update vt_tutorial.py (#1592); 1; 9; 10
+24ad87fdb;trigaten;2021-06-24;Respectively ordering (#1590); 1; 1; 1
+323ff0b30;gaoteng-git;2021-06-24;update profiler tutorial with new features introduced (#1568); 12; 129; 19
+1056a2f69;Felix Divo;2021-06-24;Remove note on very old version (#1589); 1; 0; 3
+d3871ec9d;Guo;2021-06-24;Update dist_tuto.rst (#1581); 1; 2; 2
+cd2ade31e;Felix Divo;2021-06-23;Remove unused import (#1576); 1; 0; 1
+846a7276b;Felix Divo;2021-06-22;Close file descriptor after use (#1575); 1; 2; 2
+066b4d9a5;FaranIdo;2021-06-22;Fix testloss calculation in Quickstart and Optimization tutorials (#1536); 2; 4; 2
+e8b6687c3;Valeri Voev;2021-06-22;Add loss_fn as an input to the test function (#1529); 1; 2; 2
+2c914aa71;Holly Sweeney;2021-06-21;added missing "import torch" to LTB Transforms (#1584); 1; 1; 0
+f07cbc510;Brian Johnson;2021-06-18;Update prototype_index.rst (#1588); 1; 9; 0
+03db2af6e;Holly Sweeney;2021-06-17;Updated dataset in torchvision tutorial (#1585); 1; 1; 1
+243acd783;Joel Schlosser;2021-06-17;Recipe for skipping parameter init (#1559); 1; 127; 0
+817e3aeb8;Brian Johnson;2021-06-16;Update build_for_windows.sh (#1582); 1; 1; 1
+5d997b2ac;cccclai;2021-06-16;More update to use mobile interpreter (#1580); 3; 15; 232
+a981886fd;Brian Johnson;2021-06-15;1.9 RC Test Branch (#1527); 9; 823; 368
+973193b4e;parmeet;2021-06-14;updated translation tutorial (#1564); 1; 271; 288
+07890e045;parmeet;2021-06-14;updated ddp_pipeline (#1561); 1; 50; 54
+9259e7b12;Nikita Shulga;2021-06-14;Get rid of UTF-8 characters in pipeline_tutorial.py; 1; 1; 1
+f99029184;dependabot[bot];2021-06-14;Bump pillow from 8.1.1 to 8.2.0 (#1560); 1; 1; 1
+34e69c78b;dependabot[bot];2021-06-11;Bump pillow from 8.1.1 to 8.2.0 in /.devcontainer (#1567); 1; 1; 1
+ed8f3ff7d;Stanley Bileschi;2021-06-10;Update supported TensorBoard.dev dashboards. (#1573); 1; 1; 1
+7248f4feb;Brian Johnson;2021-06-09;Revert "Added cache for incremental build. (#1184)" (#1572); 1; 0; 26
+3d73e9fd4;Brian Johnson;2021-06-09;Brianjo mobile int (#1571); 2; 8; 8
+2478d7ff3;cccclai;2021-06-09;Update mobile interpreter from prototype to beta; target to master (#1570); 2; 201; 3
+3945dd812;universuen;2021-06-07;Update dcgan_faces_tutorial.py (#1550); 1; 1; 1
+7f331aebd;Davide Fiocco;2021-06-07;Typo fix in text sentiment tutorial (#1543); 1; 1; 1
+4e1e4882e;Andrew C. Freeman;2021-06-02;Typo fix (#1538); 1; 1; 1
+07fc67428;Jing Xu;2021-06-03;added CPU optimization guide part into tuning_guide (#1512); 1; 63; 0
+a16270286;dhayeah;2021-06-02;Update seq2seq_translation_tutorial.py (#1532); 1; 1; 1
+4526e06c7;define_liuyi;2021-06-01;reduce (#1546); 1; 1; 1
+39d641b66;andwgu;2021-05-27;Fix comment from "point-to-point" -> "collective" for describing all-reduce (#1544); 1; 1; 1
+c38ba8632;Erjia Guan;2021-05-27;Fix dataloader tutorial (#1542); 1; 3; 5
+fd97ed450;Rodion Kryuchkov;2021-05-26;Update chatbot_tutorial.py (#1535); 1; 1; 1
+ee3777072;Cassie;2021-05-25;Add Microsoft Learn link to navigation on LTB pages (#1541); 3; 120; 1
+aff18d84b;Brian Johnson;2021-05-17;Update index.rst (#1525); 1; 0; 5
+4e1d8d295;Arash Rowshan;2021-05-14;Update broken link for FashionMNIST. (#1522); 1; 1; 1
+7a432d8d0;Holly Sweeney;2021-05-11;Revert "Update rpc_ddp_tutorial.rst (#1516)" (#1518); 2; 4; 5
+93a8fdfd0;Holly Sweeney;2021-05-10;Updating Tensorboard --> TensorBoard in index.rst (#1517); 1; 3; 3
+7e19410c4;Brian Johnson;2021-05-10;Update rpc_ddp_tutorial.rst (#1516); 2; 5; 4
+5aabdab98;Brandon Green;2021-05-10;Add <a> tag for cards and remove link from div (#1511); 1; 5; 1
+09a20e84f;Brian Johnson;2021-05-10;Update index.rst (#1510); 1; 3; 3
+22090f632;Brett Fazio;2021-05-10;Fix typo in seq2seq_translation_tutorial.py code (#1515); 1; 1; 1
+35833c1a6;Yi Wang;2021-05-10;Update rpc_ddp_tutorial.rst (#1514); 1; 70; 69
+f2aee2323;Yi Wang;2021-05-10;Replace RRef with RemoteModule (#1513); 1; 50; 56
+6efe1c556;Shirokov Artemy;2021-05-08;Fixed the link in the documentation (#1509); 1; 1; 1
+990fd1a63;Alexander Pivovarov;2021-05-07;Fix tensorboard tutorial to use http (#1508); 1; 1; 1
+5d3d8cfab;Daiki AMINAKA;2021-05-06;There are only four .to(device) calls in code. (#892); 1; 1; 1
+580903e3e;Alexander Pivovarov;2021-05-05;Replace num_flat_features with torch.flatten (#1505); 2; 3; 10
+024481553;Randall Hunt;2021-05-04;fixup analytics (#1504); 2; 1; 20
+e24dcedb9;Junghwan Park;2021-05-04;fix reST code-block syntax (#1496) (#1497); 6; 9; 6
+940666af0;Idris Raja;2021-05-03;remove unused import (#1501); 1; 1; 1
+5b127c53a;Idris Raja;2021-05-03;fix latex for Jacobian matrix (#1502); 1; 2; 2
+3a03e1d12;Junghwan Park;2021-05-04;fix typo (#1498) (#1499); 1; 1; 1
+ef109f006;Khalid Saifullah;2021-05-03;Fixed Typos (#1500); 1; 2; 2
+0686324ff;Mirwaisse Djanbaz;2021-05-02;Typo fix (#493); 1; 1; 1
+a407adcb5;Abdelkrim from Brussels;2021-05-02;correct typo 'initializaion' -> initialization (#652); 1; 1; 1
+6c7d1837c;Yuri Malheiros;2021-05-01;Fix batch size hyperparameter explanation (#1490); 1; 1; 1
+cf10bed4d;Lezcano;2021-04-29;Parametrizations fix (#1489); 1; 44; 38
+eba267817;Brian Johnson;2021-04-28;Add static quant to index (#1491); 1; 8; 0
+2a824f3da;Facebook Community Bot;2021-04-27;Adding Code of Conduct file (#826); 1; 76; 0
+2cfac4ac7;Facebook Community Bot;2021-04-27;OSS Automated Fix: Addition of Contributing (#825); 1; 31; 0
+2a3b93aba;Clemens Tolboom;2021-04-27;Lets make a copyright jump into 2021 (#1318); 1; 1; 1
+93d64241f;tomguluson92;2021-04-27;fix deprecated usage `ctx.saved_variables` (#1076); 1; 1; 1
+061f10104;Wanchao;2021-04-26;Add a recipe for distributed optimizer with TorchScript (#1465); 2; 222; 0
+af68d6883;mrshenli;2021-04-26;Fixing typo in distributed pipeline tutorial (#1332); 1; 1; 1
+ff0bfef7b;holly1238;2021-04-26;Update link to torch.nn.dataparallel (#1487); 1; 1; 1
+bdbaa7ac0;Yusuke Matsui;2021-04-27;changed a kernel size back to the original 5x5 (#1257); 1; 4; 4
+03341a2ed;Jinlin Zhang;2021-04-26;Added cache for incremental build. (#1184); 1; 26; 0
+72b6df184;andreistirb;2021-04-26;change the get_screen method so that it does not fill the gpu memory (#415); 1; 2; 1
+e18d23396;wAuner;2021-04-26;add code comments and test code readability++ (#849); 1; 23; 15
+8dfdda49c;Christian M. Salamut;2021-04-26;fixing loss (#1420); 1; 2; 1
+f1fd16fa9;Vincent QB;2021-04-25;Fix name error in audio tutorial (#1223); 2; 44; 43
+760455d65;Daria Kolodzey;2021-04-26;Remove unused line in the tutorial (#499); 1; 0; 1
+ff0cfa18e;rht;2021-04-25;beginner/blitz/nn: Fix misleading typo on which term to be differentiated against (#726); 1; 3; 2
+424f0275e;Heaven;2021-04-26;Fix Index of blitz (#863); 1; 4; 5
+d19bf6f41;rtharungowda;2021-04-25;Added file path to include virtualenv in README.md (#1150); 1; 2; 2
+669107c41;Jameson Williams;2021-04-24;Fix two usage errors: its vs it's (#1484); 2; 3; 3
+a06b381df;PatrikHolopainen;2021-04-25;Changed ReplayMemory class to use deque instead of list to clean up code. (#842); 1; 4; 9
+3708a1801;Martin Oywa;2021-04-24;correct tutorial on fake loss (#862); 1; 1; 1
+effbcf574;Jameson Williams;2021-04-23;Fix rendering bug in basics/data_tutorial.py (#1482); 1; 1; 1
+4c48624cb;mrshenli;2021-04-23;Update links in RPC tutorial (#946); 1; 13; 13
+e478586e7;Jinhyun Kim;2021-04-24;Fixed typos in chatbot_tutorial.py (#1001); 1; 5; 5
+df551a838;Julius Simonelli;2021-04-23;Update torchvision_tutorial.rst (#1007); 1; 1; 1
+3e6d1f4aa;James Gerity;2021-04-23;Format imports according to PEP8 (#1014); 1; 4; 2
+a075e3d54;keithbriggs;2021-04-23;Update pytorch_tutorial.py (#1480); 1; 4; 4
+cd32ed969;Vijay Krishna;2021-04-23;Fixed typo in Autograd page (#1473); 1; 1; 1
+febdbe79a;Brian Johnson;2021-04-22;Update index.rst (#1478); 1; 2; 2
+f1177c044;Chester Liu;2021-04-23;Skip dcgan_faces_tutorial.py on Windows (#1479); 1; 1; 0
+4f0558246;gaoteng-git;2021-04-21;rename images postfix to lowercase (#1477); 5; 0; 0
+7d33de796;holly1238;2021-04-21;Update colab instructions (#1475); 1; 4; 4
+6c15dfd09;holly1238;2021-04-20;Add Google Colab info to the tutorials home page (#1476); 1; 5; 0
+58f738641;Howard Huang;2021-04-20;Update rpc_tutorial (#1474); 1; 24; 45
+7340002cd;holly1238;2021-04-20;Show all Learn the Basics content in the Left Nav (#1468); 2; 17; 2
+0fb278107;D. Khuê Lê-Huu;2021-04-20;Fix typos (#707); 1; 3; 3
+35ae0ead3;Sebastian Brodehl;2021-04-20;Replace MathJax with Katex. (#1362); 2; 18; 2
+24946b2e6;gaoteng-git;2021-04-20;Add a tutorial for Tensorboard profiler (#1380); 8; 246; 0
+d763c4086;Harrison Wong;2021-04-19;Fix tensorboard pr curve example. (#1469); 2; 9; 10
+faad2644f;Stas Bekman;2021-04-19;remove python2 notes (#1279); 1; 0; 3
+a3f4644b0;Farley;2021-04-20;fix(vision-links): Replace dead vision links (#1466); 8; 11; 11
+2f55589b6;Jayasimha T;2021-04-20;Language Translation with Transformers (#1435); 3; 415; 498
+eb732ef72;Pritam Damania;2021-04-19;Fix bugs in pipeline tutorial with respect to batch size. (#1461); 1; 8; 14
+53d0fd734;Chester Liu;2021-04-20;Re-enable fgsm_tutorial.py test on Windows (#1470); 1; 2; 2
+b76d6fc24;keithbriggs;2021-04-19;Update optimization_tutorial.py (#1472); 1; 1; 1
+dc5c41c91;Lezcano;2021-04-19;Parametrizations tutorial (#1444); 4; 396; 1
+bf9138572;keithbriggs;2021-04-19;Update optimization_tutorial.py (#1471); 1; 1; 1
+393d3de67;lzxzy;2021-04-19;update CXX compiler from 11 to 14 (#766);0; 0; 0 deletions(+)
+393d3de67;lzxzy;2021-04-19;update CXX compiler from 11 to 14 (#766);0; 0; 0 deletions(+)
+393d3de67;lzxzy;2021-04-19;update CXX compiler from 11 to 14 (#766); 1; 1; 1
+82dbee94f;Alexander Stante;2021-04-18;Fix usage of correct ScriptModule (#740); 1; 2; 2
+0445e9cc8;Kento Nozawa;2021-04-18;Fix typo (#342); 2; 3; 3
+515c64ee3;Chengcheng Tang;2021-04-17;Minor edit to avoid confusion (#324); 1; 1; 1
+a0f40b6fb;alvations;2021-04-17;Add a example to retrieve a word embedding (#297); 1; 2; 0
+b5fefbebf;장보우 Bowoo Jang;2021-04-17;Fix typo (#500); 1; 1; 1
+e0938fbd1;rht;2021-04-16;cifar10 tutorial: Fix grammatical error (#721); 1; 3; 3
+fd817f951;Elliot Waite;2021-04-16;Fix typos in C++ extensions tutorial (#768); 1; 14; 14
+fa83e33f9;Pierre Tholoniat;2021-04-16;Fix typo. (#1082); 1; 1; 1
+f35c04add;Samarth Mishra;2021-04-16;Update dcgan_faces_tutorial.py (#816); 1; 2; 2
+ffcaefdbf;Ayush Shridhar;2021-04-16;Typo: let -> let's (#875); 1; 1; 1
+5eaaf3508;Masaki Kozuki;2021-04-16;fix typo: forward->backward (#872); 1; 1; 1
+f11981952;Tanmay Vakare;2021-04-15;corrected typo (#882); 1; 1; 1
+c1caaac26;Gilles Peiffer;2021-04-14;Fix ReST and typo in CIFAR tutorial (#1053); 1; 1; 1
+df2be6a0d;tastyminerals;2021-04-13;Add an additional "Note" (#1000); 1; 8; 0
+f13d5e1d5;jjsjann123;2021-04-13;review comments on NHWC doc (#990); 1; 97; 30
+f77603399;Ilya Kamenshchikov;2021-04-13;Use python3 super syntax (#976); 1; 1; 1
+4bd116438;Tom Dörr;2021-04-13;Fix typo (#891); 1; 1; 1
+7c68af860;LeafyLi;2021-04-12;Fix spelling of "in to" -> "into" (#997); 1; 1; 1
+86ee4d0d1;Iman Tabrizian;2021-04-12;change reduce_op to ReduceOp (#1048); 1; 7; 7
+4f2ce0e89;Imad Toubal;2021-04-12;Fixed a simple punctuation error. (#1015); 1; 1; 1
+f1a94fb15;Mario Šaško;2021-04-12;Fix loss_D definition in dcgan tutorial (#1051); 1; 1; 1
+585563ec0;Shing Chan;2021-04-12;add caveat on RNGs and dataloaders (#1121); 1; 7; 1
+be9d2e6eb;M. H. Kwon;2021-04-13;update dynamic quantization bert tutorial (#1129); 1; 2; 2
+a67438ba5;Pritam Damania;2021-04-09;Fix bugs in pipeline tutorial with respect to batch size. (#1459); 1; 8; 14
+f9b584001;Chanran Kim;2021-04-10;To solve the wrong example of MultiScaleRoIAlign() (#1085); 1; 1; 1
+508023554;Nat Kershaw (MSFT);2021-04-09;Change get_lr() call to get_last_lr() as per warning (#1099); 1; 1; 1
+0c83a7bb0;SplitInfinity;2021-04-09;[TorchScript] Fix Intro to TorchScript tutorial (#866); 1; 6; 2
+a68556421;Hans-Christian Ruiz Euler;2021-04-08;Update dist_tuto.rst to include spawn mode (#1224); 1; 3; 2
+4f0f5177d;Jungsub Lim;2021-04-09;Update reinforcement_q_learning.py (#1286); 1; 1; 1
+3f9967dd5;Daniel Winkler;2021-04-08;Fix ReST formatting of code example in iOS GPU workflow (#1298); 1; 2; 1
+e7932fc91;Phoenix Meadowlark;2021-04-08;Fix typo in Introduction to TorchScript Tutorial (#1190); 1; 1; 1
+8fea5d349;Brian Johnson;2021-04-08;Adds temporary reader survey to site.  (#1441); 1; 4; 0
+cecea517b;Manju;2021-04-08;small fix: torch.nn.Parameter instead of nn.Linear (#1302); 1; 2; 2
+6738ff19a;Simon Dunne;2021-04-07;Fix formatting typo preventing rendering of note (#1463); 1; 2; 0
+666e12a5d;Taha Yassine;2021-04-07;Correct mistake in autograd_tutorial.py (#1367); 1; 2; 4
+49fe71db2;Jake Tae;2021-04-07;fix: update link to transformer tutorial (#1363); 1; 1; 1
+167ef25f2;Ryan;2021-04-06;Updated web link for flask_rest_api_tutorial.py (#1450); 1; 1; 1
+c47cfc1c0;nathanbegbie;2021-04-06;remove unnecessary imports in pytorch_tutorial.py (#1456); 1; 0; 4
+4bf264ba2;ollenordesjo;2021-04-06;Update instructions to copy all files (#1462); 1; 3; 3
+78b37e09b;Adrià Arrufat;2021-04-07;Fix typo in fx_conv_bn_fuser.py (#1440); 1; 2; 2
+a7aa02c90;Oleh;2021-04-06;Update cifar10_tutorial.py (#1258); 1; 5; 3
+9b377fd4a;Baran Elitez;2021-04-06;Fix the erroneus variable. (#1240); 1; 1; 1
+7c6ff802f;Jerry Zhang;2021-04-05;[quant] Fix fx quant ptq static tutorial (#1457); 1; 9; 3
+30d0f3ae3;Nikita Shulga;2021-04-05;Pin docutils to 0.16 (#1458); 1; 1; 0
+9a43c95b7;Aurélien Geron;2021-04-06;Register all the parameters in the optimizer (#1455); 1; 1; 1
+6fb4757ad;Arthur Masson;2021-04-01;fix dead link (#1452); 1; 1; 1
+4b84867a5;Taylor Robie;2021-04-01;Write quick start guide for Timer. (#1334); 2; 401; 0
+876707c82;Antony Kellermann;2021-03-31;Remove backslash (#1291); 1; 1; 1
+5016e7277;Nat Kershaw (MSFT);2021-03-31;Remove duplicate refs from seq2seq translation tutorial (#1100); 1; 0; 11
+3ea3439e6;Sean Chao;2021-04-01;Fix typos in tv tutorial (#1357); 3; 3; 3
+61d9d4bfc;Peter Whidden;2021-03-29;add missing space in code snippet (#1447); 1; 1; 1
+70f82fe95;Brian Johnson;2021-03-25;Update build.sh (#1445); 1; 3; 3
+1e0839fbb;Brian Johnson;2021-03-25;Update README.md (#1443); 1; 0; 1
+0e9bbfc07;Albert Larson;2021-03-25;Minor typo (#1437); 1; 1; 1
+3e11c1f1d;Jerry Zhang;2021-03-24;[tutorial] Add back eager mode static quant tutorial as rst file (#1370); 2; 657; 33
+25ece55aa;Brian Johnson;2021-03-23;Update pytorch_with_examples.rst (#1438); 1; 5; 0
+d92492e6a;Lei Mao;2021-03-23;Correct Custom Module Name (#1180); 1; 1; 1
+c15c405ec;guyang3532;2021-03-23;Fix Win CI failure for installing torchaudio (#1434); 1; 1; 2
+ee6256c13;ptrblck;2021-03-21;update out of place ops; update act fn; optimzers; schedulers; samplers (#989); 1; 58; 50
+af754cbda;mrshenli;2021-03-19;Add a recipe for CUDA RPC (#1429); 3; 157; 3
+7387edb61;Fritz Obermeyer;2021-03-19;Fix link to pybind11 docs (#1364); 1; 1; 1
+b23c89a2d;dependabot[bot];2021-03-19;Bump pillow from 8.1.0 to 8.1.1 in /.devcontainer (#1427); 1; 1; 1
+a1aa3b96e;Brian Johnson;2021-03-19;Brianjo ddp patch (#1426); 3; 3; 3
+2107a7a52;dependabot[bot];2021-03-19;Bump pillow from 8.1.0 to 8.1.1 (#1423); 1; 1; 1
+34b350ba1;guyang3532;2021-03-19;fgsm_tutorial temp disable for windows (#1425); 1; 2; 0
+d828a86b2;Ritwik Gupta;2021-03-18;Small typo fix 'weigth' -> 'weight' (#1408); 1; 1; 1
+51de9f9e7;Pritam Damania;2021-03-18;Updates to ddp pipeline tutorial (#1419); 1; 105; 46
+002409a76;Jeff Tang;2021-03-17;Vt tutorial title update (#1418); 1; 1; 1
+d62b1c130;Pritam Damania;2021-03-17;Tutorial for pipeline parallelism. (#1343); 3; 470; 0
+50ecf4046;Chester Liu;2021-03-17;Exclude audio_preprocessing_tutorial.py on Windows CI build (#1414); 1; 3; 0
+4ceb9c8c8;Brian Johnson;2021-03-16;Adds vt_tutorial to TOC. (#1417); 1; 9; 1
+0365c6acb;Jeff Tang;2021-03-15;vision transformer for 1.8 tutorial (#1395); 2; 288; 0
+81dfd89a4;Brian Johnson;2021-03-15;Update build.sh (#1416); 1; 1; 1
+cd07ceac8;Brian Johnson;2021-03-15;Update build.sh (#1415); 1; 3; 0
+8894cbc8a;holly1238;2021-03-08;Add new FX tutorial to the left hand nav (#1402); 1; 2; 1
+1714f3ab9;moto;2021-03-08;Add instruction to install torchaudio and other packages (#1398); 1; 4; 0
+468a52d87;Brian Johnson;2021-03-05;Update profiler_recipe.py (#1394); 1; 0; 4
+f819e0b88;Brian Johnson;2021-03-05;Update layout.html (#1397); 1; 1; 1
+a6066cb3a;Brian Johnson;2021-03-04;Update build.sh (#1396); 1; 2; 0
+4794be6f7;Brian Johnson;2021-03-04;1.8 PRs (#1382); 11; 2380; 481
+81e70018d;Akshay Kumar;2021-03-05;Update dynamic_quantization_tutorial.py (#1384); 1; 1; 1
+78cf46b85;mrshenli;2021-03-04;Add ZeroRedundancyOptimizer recipe to distributed overview page (#1393); 1; 7; 3
+db6d74dd8;mrshenli;2021-03-04;Update ZeRO recipe to match argument name change (#1392); 1; 12; 9
+4d8e7881f;Brian Johnson;2021-03-04;Brianjo expand fix (#1391); 2; 2; 2
+8121690fe;suraj813;2021-03-04;[WIP] Updates index.rst for LTB  (#1348); 15; 30; 29
+38d9474ac;Jerry Zhang;2021-03-04;[quant] Add links in the tutorials (#1366); 2; 3; 3
+b56094c02;Brian Johnson;2021-03-04;Update prototype_index.rst (#1390); 1; 11; 11
+8b1cc5955;Brian Johnson;2021-03-04;Update layout.html (#1389); 1; 1; 1
+8313780d6;holly1238;2021-03-03;Adding tutorials to the matrix (#1388); 1; 23; 1
+8261008eb;Zafar;2021-03-03;[fix] Wrong code formatting (#1387); 1; 13; 12
+243ed3569;holly1238;2021-03-03;Adding Prototype Tutorials to the site (#1385); 4; 150; 2
+7449ed372;Brian Johnson;2021-03-03;Update spatial_transformer_tutorial.py (#1386); 2; 12; 1
+82d922b99;holly1238;2021-03-03;Tutorial left nav updates (#1377); 1; 12; 13
+9d46360b5;cccclai;2021-03-01;[Lite Interpreter] Add lite interpreter workflow in Android and iOS - master branch (#1378); 1; 221; 0
+8d0b5cc8d;Randall Hunt;2021-02-26;Update CUDA version to 10.2 (#1373); 4; 25; 27
+960192c2c;Brandon Green;2021-02-26;Add array to control which section gets collapsed (#1372); 1; 5; 0
+ef58ce15e;mrshenli;2021-02-26;Add ZeroRedundancyOptimizer Recipe (#1375); 2; 165; 1
+587700609;holly1238;2021-02-26;Added TorchScript label (#1376); 1; 3; 3
+a6ae79a6d;gunandrose4u;2021-02-22;Update ddp tutorial to tell user that TcpStore has been enabled on Windows platform (#1321); 1; 15; 19
+f0e867305;Chester Liu;2021-02-20;Update bulid_for_windows.sh to use requirements.txt (#1336); 1; 4; 4
+9bf1bc71a;Mithun Paul;2021-02-17;fixed typo (#1308); 1; 1; 1
+2d8227c65;Randall Hunt;2021-02-17;fix Pillow requirement in .devcontainer (#1361); 1; 2; 4
+29e7620aa;Pat Mellon;2021-02-16;Update analytics to capture star ratings (#1358); 1; 8; 15
+2337ff52c;Randall Hunt;2021-02-16;bump pillow version to 8.1.0 (#1353); 2; 2; 6
+9b6839705;suraj813;2021-02-10;Rename tensor_tutorial.py to tensorqs_tutorial.py; 1; 0; 0
+d835c5319;suraj813;2021-02-10;Rename autograd_tutorial.py to autogradqs_tutorial.py; 1; 0; 0
+9f02a40ca;Seth Juarez;2021-02-09;PyTorch Learn the Basics (#1230); 23; 1684; 1
+347ce5c91;Randall Hunt;2021-02-09;set locale in buildscript to avoid spacy errors in python 3.6 (#1344); 1; 4; 0
+a42fb20c8;Simon Weiß;2021-02-08;Fix multiple typos in beginner tutorial: nn_tutorial.py (#805); 1; 4; 4
+77d01d464;Jerry Zhang;2021-02-08;Add FX Graph Mode ptq static quant tutorial (#1341); 2; 442; 1
+a88183552;mrshenli;2021-02-05;Removing wrong numbers (#1346); 1; 0; 22
+7eb911421;Jeff Tang;2021-02-05;added 2 mobile cards for ios and android tutorials (#1340); 1; 26; 0
+32970a34a;Ailing;2021-02-05;Fix typo in link. (#1339); 1; 1; 1
+ec7da9821;Brian Johnson;2021-02-05;Brianjo torchtext fix (#1345); 2; 2; 2
+1f9c7c46c;ilia-cher;2021-02-04;Update profiler docs (#1337); 2; 8; 0
+0b3acfba5;Brandon Green;2021-02-03;GA updates (#1226); 1; 5; 4
+a6c4fd872;suraj813;2021-02-02;Removes tutorial that uses faces data (#1330); 2; 0; 490
+2a26aaf6a;Ailing;2021-02-01;Add tutorial for extending dispatcher for new backend. (#1314); 3; 397; 5
+9a38f3d41;Brian Johnson;2021-01-29;Rename profiler.py to profiler_recipe.py (#1326); 3; 3; 3
+203099a02;Rohan Varma;2021-01-28;Adding more detail to profiling recipe (#1320); 3; 138; 19
+7045082ff;Brian Johnson;2021-01-28;Update Makefile (#1325); 3; 0; 912
+46de0698a;Brian Johnson;2021-01-28;Brianjo update (#1322); 2; 0; 693
+6ce4bb072;Jerry Zhang;2021-01-26;[quant] Guide on using FX Graph Mode Quantization and symbolic trace (#1312); 2; 348; 4
+c5794c9b9;Yi Zhang;2021-01-19;remove deadlink (#1309); 1; 0; 2
+e72255a40;SplitInfinity;2021-01-19;[TorchScript] Fix archive file extension in tutorials (#1310); 1; 2; 2
+c5fe766c7;Jerry Zhang;2021-01-05;Add FX Graph Mode Post Training Dynamic Quantization Tutorial (#1283); 2; 297; 1
+b3dd09e4d;suraj813;2020-12-30;Update tensors and autograd (#1185); 4; 460; 326
+5ea0ff64d;suraj813;2020-12-30;Update profiler tutorial to prevent build (#1299); 2; 2; 2
+5edc9f4b3;Bilal Alsallakh;2020-12-29;Remove trailing comma (#1271); 1; 2; 2
+f2ac2534e;suraj813;2020-12-28;Profiler tutorial (#1249); 2; 324; 0
+9a86d97cc;suraj813;2020-12-18;fix formatting issues and title (#1285); 2; 8; 8
+f36e7a598;suraj813;2020-12-17;RL tutorial for playing Mario (#1281); 6; 799; 2
+0e7d61073;Jerry Zhang;2020-12-16;Add fx graph mode ptq static tutorial (#1274); 2; 451; 0
+669717ebb;Brian Johnson;2020-12-10;Update test for 1.7.1 (#1276);0; 0; 0 deletions(+)
+669717ebb;Brian Johnson;2020-12-10;Update test for 1.7.1 (#1276); 1; 10; 5
+5b42d6cec;Stas Bekman;2020-12-05;typo (#1268); 1; 1; 1
+ce58d5904;Gao; Xiang;2020-12-03;Replace "Learning PyTorch with Examples" with fitting sine function with a third order polynomial (#1265); 13; 416; 465
+133e5b6a8;Guanheng George Zhang;2020-12-03;Remove legacy torchtext code from translation tutorial (#1250); 1; 91; 93
+3128e1310;Guanheng George Zhang;2020-12-03;Remove legacy torchtext code from Transformer tutorial (#1251); 1; 26; 15
+8777ee2f6;Heitor Schueroff;2020-12-02;[WIP] Benchmark Recipe (#1176); 3; 901; 1
+1fa08cbb0;Brian Johnson;2020-12-02;Adds gh link to mnist dataset (#1264); 1; 1; 1
+33dc820d0;Brian Johnson;2020-12-02;Add mnist file for nn_tutorial; 1; 0; 0
+d49ce5ce4;Brian Johnson;2020-12-01;Update requirements.txt (#1260); 1; 1; 1
+45e4f2a1c;Jeff Tang;2020-11-20;fixed repo links (#1248); 2; 4; 4
+73b6cd9a9;Brian Johnson;2020-11-17;Update README.md (#1245); 1; 7; 0
+9ecc44a60;Gao; Xiang;2020-11-16;Fix TF32 convergence issue with TF32 (#1244); 2; 18; 2
+e6167a9e5;Brian Johnson;2020-11-13;Update speech_command_recognition_with_torchaudio.py (#1239); 1; 1; 1
+0f6b204f1;Kaszanas;2020-11-13;Fixed link to docs in audio_preprocessing_tutorial (#1234); 1; 1; 1
+7bd031519;Brian Johnson;2020-11-12;Update index.rst (#1232); 1; 1; 0
+65778b9f3;Jeff Tang;2020-11-11;iOS and Android image segmentation tutorials; minor recipes code and typo fix for 1.7 (#1213); 10; 496; 19
+74b76631c;David Reiss;2020-11-11;Add NNAPI tutorial (#1229); 1; 185; 0
+0f29eeb2d;guyang3532;2020-11-10;Add windows CI test for tutorials and parallelize with 4 workers (#1148); 2; 115; 18
+12cecd116;Brian Johnson;2020-11-06;Update index.rst (#1221); 2; 8; 0
+7e1cee8f5;Vincent QB;2020-11-06;Add new speech command recognition tutorial (#1204); 1; 543; 0
+9a4d70270;Tao Xu;2020-11-05;[Mobile GPU] Fix typos (#1220); 2; 9; 8
+58dd3cd79;Pat Mellon;2020-11-04;Update analytics (#1217); 1; 11; 21
+603773e1d;dependabot[bot];2020-11-04;Bump pillow from 4.1.1 to 7.1.0 (#1218); 1; 1; 1
+89acae0ac;Jeff Tang;2020-11-04;added code copy button (#1216); 2; 3; 2
+488a2ebc4;Sreerag M;2020-10-29;Fixed typo (#1127); 1; 1; 1
+9d536966a;albanD;2020-10-27;Update chatbot_tutorial.py (#1212); 1; 2; 1
+e5f60c643;albanD;2020-10-27;Remove views when not necessary (#1211); 3; 3; 3
+1c1f40d5f;albanD;2020-10-27;Update static_quantization_tutorial.py (#1210); 1; 1; 1
+40f802750;Guanheng George Zhang;2020-10-27;Update transformer tutorial (#1197); 1; 11; 11
+8eb4e3da4;gunandrose4u;2020-10-27;Update ddp_tutorial to work on Windows platform (#1182); 1; 22; 5
+5c7e38b69;Himangshu Lahkar;2020-10-27;CPP Transformer Tutorial (#1192); 3; 360; 0
+84bf3e32e;Brian Johnson;2020-10-26;1.7 release (#1206); 8; 869; 1
+41f58c154;Richard Zou;2020-10-26;Add recipe for prototype vmap (#1209); 1; 121; 0
+a299e79e4;Ivan Kobzarev;2020-10-26;[tutorial][vulkan] Vulkan user workflow tutorial (#1187); 2; 247; 0
+33d9583dc;Brian Johnson;2020-10-23;Update audio_preprocessing_tutorial.py (#1202); 1; 2; 0
+e96ab7839;Vincent QB;2020-10-23;Update beginner_source/audio_preprocessing_tutorial.py (#1199); 1; 13; 5
+ded4e8d1d;Pat Mellon;2020-10-22;Update event tracking (#1188); 1; 5; 0
+2751bf30d;Brian Johnson;2020-10-09;Removes Outdated Trainer Tutorial (#1181); 2; 0; 699
+50555db77;Yuxin Wu;2020-10-02;Update saving_loading_models.py (#1173); 1; 2; 1
+3423f67c4;Jeff Tang;2020-09-29;minor typo fixes (#1160); 1; 3; 3
+bd1dfa397;Basil Hosmer;2020-09-28;retitle dispatcher tutorial (#1168); 1; 2; 2
+3208184cf;supriyar;2020-09-25;Update dynamic quant tutorial for saving quantized model (#1167); 1; 14; 6
+6973eb2e8;Pritam Damania;2020-09-24;Update tutorials to use TensorPipeRpcBackendOptions. (#1164); 2; 3; 3
+258f422fd;Jinlin Zhang;2020-09-24;A fix for one line comment when removing runnable code. (#1165); 1; 8; 0
+96d42011d;Szymon Migacz;2020-09-21;Add Performance Tuning guide recipe (#1161); 2; 380; 0
+468124c8d;Pritam Damania;2020-09-21;Update dist_overview with additional information. (#1155); 1; 10; 0
+f1e682ea9;Peter Whidden;2020-09-21;Fix typo "asynchronizely" -> "asynchronously" (#1154); 1; 1; 1
+cba6b8505;Brian Johnson;2020-09-17;Dist rpc merge (#1158); 3; 321; 0
+ba6070e0b;Thiago Crepaldi;2020-09-15;Fix model to be properly exported to ONNX (#1144); 1; 2; 2
+fe33b549f;mcarilli;2020-09-15;Python recipe for automatic mixed precision (#1137); 5; 363; 0
+ee5e4483a;J. Randall Hunt;2020-09-09;Install torch not torch vision (#1153); 1; 1; 1
+4a7010175;Vijay Viswanathan;2020-09-01;Fix typo in "Introduction to Pytorch" tutorial (in NLP tutorial) (#1145); 1; 1; 1
+ae17b15e3;krfricke;2020-08-31;Added Ray Tune Hyperparameter Tuning Tutorial (#1066); 4; 471; 0
+3191c0cbb;Alan deLevie;2020-08-28;LSTM's -> LSTMs in equence_models_tutorial.py docs (#1136); 1; 1; 1
+e60c6af16;Brian Johnson;2020-08-28;Update index.rst; 1; 1; 1
+1707a9022;Brian Johnson;2020-08-28;Update index.rst (#1140); 1; 1; 1
+4bfe3380a;Nikita Shulga;2020-08-28;Disable `pytorch_windows_builder_worker` config (#1143); 1; 7; 7
+770abb205;Nikita Shulga;2020-08-27;Run win_test_worker manually (#1142); 1; 1; 0
+b458ced83;장보우 Bowoo Jang;2020-08-28;Fix typo & Minor changes (#1138); 1; 4; 4
+6ab3a3771;Sayantan Das;2020-08-26;Corrected model.resnet50() spelling (#1139); 1; 2; 2
+de2571faa;mcarilli;2020-08-20;Update autocast in dispatcher tutorial (#1128); 1; 61; 24
+fdbe99c17;guyang3532;2020-08-20;fix bugs for data_loading_tutorial and dcgan_faces_tutorial (#1092); 2; 2; 2
+c61e49c76;guyang3532;2020-08-20;Recover the attributes of torch in memory_format_tutorial (#1112); 1; 10; 0
+fa7cff744;Nikita Shulga;2020-08-12;Fix typo (#1118); 1; 1; 1
+78e91c54d;robz;2020-08-10;Fix typo in defining_a_neural_network.py (#1115); 1; 1; 1
+df09dc895;Jessica Lin;2020-08-07;Add tag for "Combining Distributed DataParallel with Distributed RPC Framework" tutorial; 1; 1; 0
+507a47399;Brian Johnson;2020-08-05;Brianjo hash fix (#1107); 2; 3; 3
+eb01560ea;guyang3532;2020-08-05;Disable memory_format_tutorial on Windows CI (#1105); 1; 1; 3
+cca97f011;guyang3532;2020-08-04;Add windows ci build (#1049) (#1102); 4; 114; 0
+bc9cac0a7;Brian Johnson;2020-07-31;Revert "Add windows ci build (#1049)" (#1094); 4; 0; 112
+b97599af0;guyang3532;2020-07-30;Add windows ci build (#1049); 4; 112; 0
+0beaf014d;Jessica Lin;2020-07-28;Add prototype tutorials; 1; 12; 0
+703c478bb;Jerry Zhang;2020-07-28;Add graph mode static quantization tutorial (#1070); 3; 472; 0
+b6c28ef63;hx89;2020-07-28;Add Numeric Suite Tutorial to prototype (#1064); 8; 424; 4
+1b5d762d7;Jessica Lin;2020-07-28;Release/1.6 (#1087); 33; 4075; 16
+11569e0db;gchanan;2020-07-28;Update dcgan_faces_tutorial.py; 1; 2; 2
+afede4cf2;Jessica Lin;2020-07-22;Update title; 1; 1; 1
+b6ffdb948;Edward Z. Yang;2020-07-22;Dispatcher tutorial (#1072); 5; 406; 0
+0075e3831;Jessica Lin;2020-07-21;Update README.md; 1; 3; 3
+fa90381cd;Jessica Lin;2020-07-21;Update README.txt; 1; 3; 0
+32e5407cf;Edward Z. Yang;2020-07-14;Update torch_script_custom_classes to use TORCH_LIBRARY (#1062); 2; 106; 106
+c6059ec98;Edward Z. Yang;2020-07-09;Make torch_script_custom_classes tutorial runnable; 12; 353; 301
+f90f77375;Jessica Lin;2020-07-09;Update README.md; 1; 2; 0
+999a02977;Edward Z. Yang;2020-07-09;Kill some other occurrences of RegisterOperators; 1; 2; 2
+3e32d228c;Edward Z. Yang;2020-07-09;Port custom ops tutorial to new registration API; increase testability.; 4; 145; 127
+3740027fe;Edward Z. Yang;2020-07-09;torch_script_custom_ops restructure (#1057); 3; 80; 65
+9b0635d5e;Hritik Bhandari;2020-07-09;Update neural_style_tutorial.py (#1059); 1; 1; 1
+c83c23de9;Edward Z. Yang;2020-07-09;Merge pull request #1060 from guyang3532/fix_torchvision_tutorial_win;0; 0; 0 deletions(+)
+c83c23de9;Edward Z. Yang;2020-07-09;Merge pull request #1060 from guyang3532/fix_torchvision_tutorial_win; 1; 5; 0
+67f76d325;Jessica Lin;2020-07-08;Update for prototype feature; 1; 2; 2
+d32aa04a5;Jessica Lin;2020-07-08;Update for prototype instructions; 1; 2; 2
+23fb4c73f;Jessica Lin;2020-07-08;Merge pull request #1058 from jlin27/master;0; 0; 0 deletions(+)
+23fb4c73f;Jessica Lin;2020-07-08;Merge pull request #1058 from jlin27/master; 1; 2; 0
+fb779e1f7;Jessica Lin;2020-07-08;Remove extra "done"; 1; 0; 1
+26511ccdb;Jessica Lin;2020-07-08;Add prototype; 1; 2; 2
+01fc1306d;Jessica Lin;2020-07-08;Add prototype directory; 1; 14; 3
+b6d1838fc;Jessica Lin;2020-07-08;Add prototype_source directory; 1; 7; 0
+68c22a0ba;Edward Z. Yang;2020-07-08;Bring back default filename_pattern so that by default we run all galleries.; 1; 1; 0
+0d48b724f;Jessica Lin;2020-07-03;Merge pull request #1035 from jlin27/master;0; 0; 0 deletions(+)
+0d48b724f;Jessica Lin;2020-07-03;Merge pull request #1035 from jlin27/master;0; 0; 0 deletions(+)
+0d48b724f;Jessica Lin;2020-07-03;Merge pull request #1035 from jlin27/master;0; 0; 0 deletions(+)
+0d48b724f;Jessica Lin;2020-07-03;Merge pull request #1035 from jlin27/master; 2; 13; 3
+b511d9573;Edward Z. Yang;2020-06-29;Add some missing files to gitignore; 1; 2; 0
+8d32bae6e;Jessica Lin;2020-06-25;Merge branch 'master' into master;0; 0; 0 deletions(+)
+8d32bae6e;Jessica Lin;2020-06-25;Merge branch 'master' into master;0; 0; 0 deletions(+)
+8d32bae6e;Jessica Lin;2020-06-25;Merge branch 'master' into master; 1; 22; 23
+45d02c713;Jessica Lin;2020-06-22;Update NVidia -> Nvidia; 1; 2; 2
+a9bd604fa;Jessica Lin;2020-06-18;Update feature classification labels; 9; 65; 65
+d40dc05d8;Jessica Lin;2020-06-17;Update to include recipes instructions; 1; 4; 4
+c45042cc0;Jessica Lin;2020-06-16;Update readme for index.rst; 1; 1; 1
+f7d736060;Jessica Lin;2020-06-04;Update file name in warning; 1; 1; 1
+c708c47aa;Brian Johnson;2020-05-29;Merge pull request #1004 from f0k/patch-1;0; 0; 0 deletions(+)
+c708c47aa;Brian Johnson;2020-05-29;Merge pull request #1004 from f0k/patch-1;0; 0; 0 deletions(+)
+c708c47aa;Brian Johnson;2020-05-29;Merge pull request #1004 from f0k/patch-1;0; 0; 0 deletions(+)
+c708c47aa;Brian Johnson;2020-05-29;Merge pull request #1004 from f0k/patch-1; 1; 1; 0
+7e3845c87;Brian Johnson;2020-05-28;Update Makefile; 1; 1; 1
+732a85904;Jan Schlüter;2020-05-24;Minor wording fix; 1; 1; 1
+99d15ce2b;Brian Johnson;2020-05-13;Merge pull request #993 from pytorch/recipes-breadcrumbs;0; 0; 0 deletions(+)
+99d15ce2b;Brian Johnson;2020-05-13;Merge pull request #993 from pytorch/recipes-breadcrumbs;0; 0; 0 deletions(+)
+99d15ce2b;Brian Johnson;2020-05-13;Merge pull request #993 from pytorch/recipes-breadcrumbs;0; 0; 0 deletions(+)
+99d15ce2b;Brian Johnson;2020-05-13;Merge pull request #993 from pytorch/recipes-breadcrumbs; 1; 1; 1
+5427598a8;Jessica Lin;2020-05-12;Add recipes breadcrumbs; 1; 0; 1
+f149e1091;Jessica Lin;2020-05-12;Add recipes breadcrumbs; 2; 23; 0
+4cbbacd03;Zach Hu;2020-05-08;update how add_ method is used in char_rnn_* tuutorials to avoid warnings (#975); 2; 2; 2
+16045a5ba;Jessica Lin;2020-05-05;Update .png to .PNG for some thumbnails; 1; 9; 9
+a413aa5b8;Jessica Lin;2020-05-05;Merge pull request #978 from pytorch/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+a413aa5b8;Jessica Lin;2020-05-05;Merge pull request #978 from pytorch/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+a413aa5b8;Jessica Lin;2020-05-05;Merge pull request #978 from pytorch/jlin27_tutorials_refresh; 6; 170; 190
+70cb8ac53;Jessica Lin;2020-05-04;Edit button language for Examples; 1; 1; 1
+2dfc6aa6e;Jessica Lin;2020-05-04;Add in new tutorials main page; 1; 360; 247
+11fa3df63;Jessica Lin;2020-05-04;Merge pull request #974 from pytorch/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+11fa3df63;Jessica Lin;2020-05-04;Merge pull request #974 from pytorch/jlin27_tutorials_refresh; 1; 248; 361
+827254a7f;Jessica Lin;2020-05-04;Fix known issue for TorchScript and Flask links; 5; 22; 22
+ee2d4b413;Jessica Lin;2020-05-04;Remove testing recipes; 3; 2; 483
+bf2d71115;Jessica Lin;2020-05-04;Fix TensorBoard recipe issues; 4; 7; 13
+d4cd58d54;Jessica Lin;2020-05-04;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+d4cd58d54;Jessica Lin;2020-05-04;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh; 3; 21; 20
+78d16dd09;Jessica Lin;2020-05-02;Add break after pagination; 1; 1; 0
+cd0740d86;Jessica Lin;2020-05-02;Fix typo in tutorial title; 1; 1; 1
+144b3f789;Jessica Lin;2020-05-02;Clean up thumbnail for Channels Last tutorial; 2; 1; 1
+dcce05f17;Jessica Lin;2020-05-02;Correct some thumbnail urls; 8; 970; 8
+65f78a689;Jessica Lin;2020-05-01;Update Tensorboard Recipe; 6; 12; 12
+84673d62b;Jessica Lin;2020-05-01;Updates to TensorBoard recipe; 4; 45; 18
+d577f664e;Jessica Lin;2020-05-01;Fix TensorBoard recipe issues; 5; 198; 284
+eac0ae97a;Jessica Lin;2020-05-01;Add links to TBD in Basic Recipes; 24; 43; 46
+61084b57d;Jessica Lin;2020-05-01;Update recipe image links; 2; 18; 18
+91223205c;Brian Johnson;2020-05-01;Resized to 600x600; 2; 0; 0
+c89fd4e57;Brian Johnson;2020-05-01;Last two images.; 2; 0; 0
+fc2813bbc;Brian Johnson;2020-05-01;Added 600x600 artwork for tutorials.; 7; 0; 0
+2c4cf6580;Jessica Lin;2020-05-01;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+2c4cf6580;Jessica Lin;2020-05-01;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh; 3; 13; 15
+08bd1b476;Jessica Lin;2020-05-01;Add thumbnail for Loading Data in PyTorch;0; 0; 0 deletions(+)
+08bd1b476;Jessica Lin;2020-05-01;Add thumbnail for Loading Data in PyTorch; 2; 8; 8
+935bace7b;Jessica Lin;2020-05-01;Add thumbnail for Loading data in PyTorch; 3; 2; 2
+93884008f;Jessica Lin;2020-05-01;Clear our pytorch_sphinx_theme; 1; 0; 1
+bf326bc97;Jessica Lin;2020-05-01;Add cropped Recipe thumbnails; 10; 15; 17
+4c211c69c;Jessica Lin;2020-05-01;Add new index.rst and cropped thumbnails; 94; 8833; 248
+f557ee0ad;Jessica Lin;2020-04-29;Merge pull request #973 from mrshenli/ddp;0; 0; 0 deletions(+)
+f557ee0ad;Jessica Lin;2020-04-29;Merge pull request #973 from mrshenli/ddp; 1; 80; 85
+e765195ad;Jessica Lin;2020-04-27;Update image for Defining a Neural Network; 1; 1; 1
+c5efa6d3f;Jessica Lin;2020-04-27;Thumbnail for Defining a Network Recipe; 1; 0; 0
+2a3444c88;Jessica Lin;2020-04-27;Update image links for all cards; 1; 15; 16
+2b3408542;Jessica Lin;2020-04-27;Update Quantization image; 1; 1; 1
+0fa764643;Jessica Lin;2020-04-27;Delete nested recipes_index.rst; 1; 0; 100
+680b1f906;Jessica Lin;2020-04-27;Add Custom Datasets Recipe; 1; 8; 0
+2d0c48443;Jessica Lin;2020-04-27;Update thumbnail images for some Basic Recipes; 1; 4; 4
+0e944afaf;Jessica Lin;2020-04-27;Merge pull request #971 from natalialunova/master;0; 0; 0 deletions(+)
+0e944afaf;Jessica Lin;2020-04-27;Merge pull request #971 from natalialunova/master;0; 0; 0 deletions(+)
+0e944afaf;Jessica Lin;2020-04-27;Merge pull request #971 from natalialunova/master;0; 0; 0 deletions(+)
+0e944afaf;Jessica Lin;2020-04-27;Merge pull request #971 from natalialunova/master; 50; 0; 7868
+784debde0;Jessica Lin;2020-04-27;Add 2 TorchScript Recipes; 53; 8358; 4
+ec813ce9d;Jessica Lin;2020-04-27;Merge pull request #967 from gottbrath/master;0; 0; 0 deletions(+)
+ec813ce9d;Jessica Lin;2020-04-27;Merge pull request #967 from gottbrath/master;0; 0; 0 deletions(+)
+ec813ce9d;Jessica Lin;2020-04-27;Merge pull request #967 from gottbrath/master; 1; 0; 0
+04df8d535;Jessica Lin;2020-04-27;Delete thumbnail; 1; 0; 0
+420275cef;Jessica Lin;2020-04-27;Add Custom Datasets Recipe thumbnail; 1; 0; 0
+057b95719;Jessica Lin;2020-04-27;Merge branch 'master' into master;0; 0; 0 deletions(+)
+057b95719;Jessica Lin;2020-04-27;Merge branch 'master' into master;0; 0; 0 deletions(+)
+057b95719;Jessica Lin;2020-04-27;Merge branch 'master' into master;0; 0; 0 deletions(+)
+057b95719;Jessica Lin;2020-04-27;Merge branch 'master' into master;0; 0; 0 deletions(+)
+057b95719;Jessica Lin;2020-04-27;Merge branch 'master' into master; 4; 184; 0
+7a4471f5f;Chris Gottbrath;2020-04-23;adding the pixelated cat image for the quantization recipe.; 2; 1; 1
+7e74f516e;Brian Johnson;2020-04-22;Merge pull request #966 from pytorch/brianjo-patch-test;0; 0; 0 deletions(+)
+7e74f516e;Brian Johnson;2020-04-22;Merge pull request #966 from pytorch/brianjo-patch-test;0; 0; 0 deletions(+)
+7e74f516e;Brian Johnson;2020-04-22;Merge pull request #966 from pytorch/brianjo-patch-test; 1; 1; 1
+fe2a799a7;Brian Johnson;2020-04-22;Update build.sh; 1; 0; 2
+5cd2923f8;Brian Johnson;2020-04-22;Update build.sh; 1; 1; 1
+2a7db76c0;Brian Johnson;2020-04-22;Update build.sh; 1; 2; 0
+dc723cc9d;Brian Johnson;2020-04-22;Update audio_preprocessing_tutorial.py; 1; 1; 1
+c4e4f62a1;Brian Johnson;2020-04-22;Update README.md; 1; 1; 1
+c403da76f;Brian Johnson;2020-04-21;Merge branch 'master' into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+c403da76f;Brian Johnson;2020-04-21;Merge branch 'master' into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+c403da76f;Brian Johnson;2020-04-21;Merge branch 'master' into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+c403da76f;Brian Johnson;2020-04-21;Merge branch 'master' into jlin27_tutorials_refresh; 1; 9; 5
+5bf88b37f;Vitaly Fedyunin;2020-04-20;Add Channels Last tutorial; 5; 301; 0
+f20808550;Jessica Lin;2020-04-20;Merge branch 'master' into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+f20808550;Jessica Lin;2020-04-20;Merge branch 'master' into jlin27_tutorials_refresh; 1; 1; 1
+489334d62;Jessica Lin;2020-04-20;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+489334d62;Jessica Lin;2020-04-20;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh; 1; 2; 2
+7e4118660;Jessica Lin;2020-04-20;Merge pull request #955 from bilalsal/patch-5;0; 0; 0 deletions(+)
+7e4118660;Jessica Lin;2020-04-20;Merge pull request #955 from bilalsal/patch-5; 1; 0; 3
+fe7235a83;Jessica Lin;2020-04-20;Update recipes/README.txt; 1; 27; 3
+d104710dd;Jessica Lin;2020-04-20;Add 6 Basics Recipes;0; 0; 0 deletions(+)
+d104710dd;Jessica Lin;2020-04-20;Add 6 Basics Recipes; 56; 8083; 3
+7fdea61f5;Bilal Alsallakh;2020-04-20;Captum Recipe Teaser Image; 1; 0; 0
+5cc89d8c5;Brian Johnson;2020-04-19;Merge pull request #956 from pytorch/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+5cc89d8c5;Brian Johnson;2020-04-19;Merge pull request #956 from pytorch/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+5cc89d8c5;Brian Johnson;2020-04-19;Merge pull request #956 from pytorch/jlin27_tutorials_refresh; 1; 1; 1
+f256d127f;Jessica Lin;2020-04-17;Merge pull request #953 from gottbrath/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+f256d127f;Jessica Lin;2020-04-17;Merge pull request #953 from gottbrath/jlin27_tutorials_refresh; 1; 55; 5
+a9ed7930f;Jessica Lin;2020-04-17;Merge branch 'jlin27_tutorials_refresh' into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+a9ed7930f;Jessica Lin;2020-04-17;Merge branch 'jlin27_tutorials_refresh' into jlin27_tutorials_refresh; 1; 26; 0
+21543b2e4;Jessica Lin;2020-04-17;Add in 3 recipes from Cami; 14; 0; 1658
+9bd9069b8;Jessica Lin;2020-04-17;Add in some 3 recipes from Cami; 20; 2168; 47
+375218561;Jessica Lin;2020-04-17;Delete index.rst from recipes_source/recipes; 1; 0; 38
+bee7cecd8;Brian Johnson;2020-04-16;Merge pull request #952 from pytorch/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+bee7cecd8;Brian Johnson;2020-04-16;Merge pull request #952 from pytorch/jlin27_tutorials_refresh; 1; 0; 8
+a70ab595f;Bilal Alsallakh;2020-04-16;Add Captum; 1; 5; 0
+6defc2cd1;Chris Gottbrath;2020-04-14;more sphinx related changes; 2; 55; 0
+f03390958;Chris Gottbrath;2020-04-14;adding mechanism to trigger sphinx build for recipes; 2; 1; 46
+05c879031;Chris Gottbrath;2020-04-14;adding dynamic quantization recipe; 2; 320; 0
+192bb7b07;Jessica Lin;2020-04-14;Add Captum Recipe; 1; 11; 1
+d5d79fb26;Jessica Lin;2020-04-14;Merge branch 'master' into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+d5d79fb26;Jessica Lin;2020-04-14;Merge branch 'master' into jlin27_tutorials_refresh; 1; 8; 0
+c6a4a170d;Jessica Lin;2020-04-14;Add recipes_index.rst; 1; 63; 0
+d028ca099;Jessica Lin;2020-04-14;Add Captum_Recipe.py for testing; 1; 189; 0
+5d1149b78;Jessica Lin;2020-04-13;Merge pull request #921 from yf225/cpp_autograd_tutorial;0; 0; 0 deletions(+)
+5d1149b78;Jessica Lin;2020-04-13;Merge pull request #921 from yf225/cpp_autograd_tutorial;0; 0; 0 deletions(+)
+5d1149b78;Jessica Lin;2020-04-13;Merge pull request #921 from yf225/cpp_autograd_tutorial;0; 0; 0 deletions(+)
+5d1149b78;Jessica Lin;2020-04-13;Merge pull request #921 from yf225/cpp_autograd_tutorial;0; 0; 0 deletions(+)
+5d1149b78;Jessica Lin;2020-04-13;Merge pull request #921 from yf225/cpp_autograd_tutorial; 1; 255; 154
+1bf1f4624;Jessica Lin;2020-04-13;Revert back to current index.rst;0; 0; 0 deletions(+)
+1bf1f4624;Jessica Lin;2020-04-13;Revert back to current index.rst; 1; 2; 2
+5e49bebfe;Jessica Lin;2020-04-13;Testing new card changes index.rst; 1; 154; 249
+ef8a9447d;Jessica Lin;2020-04-13;Add changes for new tutorial cards in custom_directive.py; 1; 139; 2
+3939fa84b;Jessica Lin;2020-04-13;Add changes for new tutorial cards; 1; 5; 3
+0a45dccad;Jessica Lin;2020-04-13;Merge pull request #930 from rohan-varma/rpc_tut;0; 0; 0 deletions(+)
+0a45dccad;Jessica Lin;2020-04-13;Merge pull request #930 from rohan-varma/rpc_tut;0; 0; 0 deletions(+)
+0a45dccad;Jessica Lin;2020-04-13;Merge pull request #930 from rohan-varma/rpc_tut;0; 0; 0 deletions(+)
+0a45dccad;Jessica Lin;2020-04-13;Merge pull request #930 from rohan-varma/rpc_tut;0; 0; 0 deletions(+)
+0a45dccad;Jessica Lin;2020-04-13;Merge pull request #930 from rohan-varma/rpc_tut; 1; 453; 0
+4d6bb932a;Jessica Lin;2020-04-10;Remove recipes from master TOC; 1; 0; 8
+cf02900e0;Jessica Lin;2020-04-10;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+cf02900e0;Jessica Lin;2020-04-10;Merge branch 'jlin27_tutorials_refresh' of https://github.com/pytorch/tutorials into jlin27_tutorials_refresh; 13; 0; 2271
+1419f1853;Jessica Lin;2020-04-10;Push Custom Dataset Recipe converted to .py file; 11; 1772; 543
+e3f75db5e;Jessica Lin;2020-04-10;Add recipes for testing; 15; 1527; 453
+00ee94e8a;Jessica Lin;2020-04-10;Merge branch 'master' into cpp_autograd_tutorial;0; 0; 0 deletions(+)
+00ee94e8a;Jessica Lin;2020-04-10;Merge branch 'master' into cpp_autograd_tutorial; 1; 49; 53
+f37f658f4;Rohan Varma;2020-04-10;Update spacing and fix spelling error; 1; 3; 19
+97601282f;Rohan Varma;2020-04-10;Update; 1; 1; 13
+19ca681bd;Rohan Varma;2020-04-10;update;0; 0; 0 deletions(+)
+19ca681bd;Rohan Varma;2020-04-10;update;0; 0; 0 deletions(+)
+19ca681bd;Rohan Varma;2020-04-10;update; 1; 110; 110
+31e95ca7c;Jessica Lin;2020-04-10;Add custom gallery item; 1; 5; 0
+710eb2c15;Jessica Lin;2020-04-10;Merge branch 'master' into rpc_tut;0; 0; 0 deletions(+)
+710eb2c15;Jessica Lin;2020-04-10;Merge branch 'master' into rpc_tut;0; 0; 0 deletions(+)
+710eb2c15;Jessica Lin;2020-04-10;Merge branch 'master' into rpc_tut; 1; 12; 0
+214b28c42;Rohan Varma;2020-04-09;Merge remote-tracking branch 'origin/master' into rpc_tut;0; 0; 0 deletions(+)
+214b28c42;Rohan Varma;2020-04-09;Merge remote-tracking branch 'origin/master' into rpc_tut;0; 0; 0 deletions(+)
+214b28c42;Rohan Varma;2020-04-09;Merge remote-tracking branch 'origin/master' into rpc_tut; 3; 179; 34
+23af056a7;Brian Johnson;2020-04-08;Merge pull request #937 from pytorch/jlin27_tutorials_refresh;0; 0; 0 deletions(+)
+23af056a7;Brian Johnson;2020-04-08;Merge pull request #937 from pytorch/jlin27_tutorials_refresh; 1; 5; 0
+27d5454f8;Jessica Lin;2020-04-08;Update build.sh and conf.py for recipes; 2; 12; 2
+dd3c73117;Rohan Varma;2020-04-07;Merge remote-tracking branch 'origin/master' into rpc_tut;0; 0; 0 deletions(+)
+dd3c73117;Rohan Varma;2020-04-07;Merge remote-tracking branch 'origin/master' into rpc_tut; 1; 2; 2
+c6c8e21b9;Rohan Varma;2020-04-06;RST version; 1; 391; 380
+838564b0c;Will Feng;2020-04-06;Tensor -> torch::Tensor; 1; 10; 9
+e07fa0618;Will Feng;2020-04-06;use Tensor instead of Variable; 1; 8; 8
+df6eb66e3;Will Feng;2020-04-06;update; 1; 9; 15
+b86a425da;Rohan Varma;2020-04-06;Added param server tutorial; 1; 387; 0
+cf844b712;Will Feng;2020-04-01;C++ autograd tutorial; 2; 448; 0
+8ac4017d0;Francesco Saverio Zuppichini;2020-03-30;Improved  Fast RCNN tutorial  (#914); 1; 3; 1
+36ea6fcfa;Jessica Lin;2020-03-25;Merge pull request #904 from jamesr66a/tb_namespaces;0; 0; 0 deletions(+)
+36ea6fcfa;Jessica Lin;2020-03-25;Merge pull request #904 from jamesr66a/tb_namespaces; 1; 17; 16
+d7a19a934;Brian Johnson;2020-03-20;Merge pull request #896 from rohan-varma/rm_tag;0; 0; 0 deletions(+)
+d7a19a934;Brian Johnson;2020-03-20;Merge pull request #896 from rohan-varma/rm_tag; 1; 0; 5
+d225e64e9;Brian Johnson;2020-03-17;Merge pull request #887 from ankschoubey/master;0; 0; 0 deletions(+)
+d225e64e9;Brian Johnson;2020-03-17;Merge pull request #887 from ankschoubey/master;0; 0; 0 deletions(+)
+d225e64e9;Brian Johnson;2020-03-17;Merge pull request #887 from ankschoubey/master;0; 0; 0 deletions(+)
+d225e64e9;Brian Johnson;2020-03-17;Merge pull request #887 from ankschoubey/master;0; 0; 0 deletions(+)
+d225e64e9;Brian Johnson;2020-03-17;Merge pull request #887 from ankschoubey/master;0; 0; 0 deletions(+)
+d225e64e9;Brian Johnson;2020-03-17;Merge pull request #887 from ankschoubey/master; 1; 37; 12
+537faf2a3;Jessica Lin;2020-03-16;Remove duplicate Reinforcement Learning Tutorial; 1; 0; 12
+cb9c0259f;Ankush Choubey;2020-03-15;README.md: Corrected sphinx link; 1; 1; 1
+83e446a87;Jessica Lin;2020-03-13;Tutorials Refresh - Update TOC; 2; 57; 220
+fa3f1a552;Brian Johnson;2020-03-13;Merge pull request #884 from rohan-varma/fix_tut;0; 0; 0 deletions(+)
+fa3f1a552;Brian Johnson;2020-03-13;Merge pull request #884 from rohan-varma/fix_tut; 1; 7; 6
+c8591e788;Brian Johnson;2020-03-12;Merge pull request #883 from jamesr66a/update_custom_class;0; 0; 0 deletions(+)
+c8591e788;Brian Johnson;2020-03-12;Merge pull request #883 from jamesr66a/update_custom_class; 1; 49; 48
+2ea3972b3;Brian Johnson;2020-03-10;Merge pull request #880 from jamesr66a/cpp_class_op;0; 0; 0 deletions(+)
+2ea3972b3;Brian Johnson;2020-03-10;Merge pull request #880 from jamesr66a/cpp_class_op;0; 0; 0 deletions(+)
+2ea3972b3;Brian Johnson;2020-03-10;Merge pull request #880 from jamesr66a/cpp_class_op; 1; 44; 0
+8427cae6d;Brian Johnson;2020-03-09;Merge pull request #879 from mathemage/master;0; 0; 0 deletions(+)
+8427cae6d;Brian Johnson;2020-03-09;Merge pull request #879 from mathemage/master; 1; 1; 1
+7ba669330;Jessica Lin;2020-02-26;Make the build error a hint; 1; 1; 1
+1d654537f;Jessica Lin;2020-02-26;Add build error solution; 1; 2; 0
+af5bf5041;Hong Xu;2020-02-25;Remove the use of `Tensor` and `LongTensor` (#857); 1; 5; 4
+93ed7afc4;Joseph Spisak;2020-02-24;Merge pull request #864 from mrshenli/spawn;0; 0; 0 deletions(+)
+93ed7afc4;Joseph Spisak;2020-02-24;Merge pull request #864 from mrshenli/spawn; 1; 0; 4
+b440a382f;Jessica Lin;2020-02-19;Merge pull request #856 from jlin27/master;0; 0; 0 deletions(+)
+b440a382f;Jessica Lin;2020-02-19;Merge pull request #856 from jlin27/master; 1; 2; 2
+2141df193;Jessica Lin;2020-02-19;Add pruning images. Change Quantization to Model Optimization. Add pruning tutorial in ToC.; 2; 7; 2
+ad3493bfd;Jessica Lin;2020-02-19;Merge pull request #605 from mickypaganini/master;0; 0; 0 deletions(+)
+ad3493bfd;Jessica Lin;2020-02-19;Merge pull request #605 from mickypaganini/master;0; 0; 0 deletions(+)
+ad3493bfd;Jessica Lin;2020-02-19;Merge pull request #605 from mickypaganini/master;0; 0; 0 deletions(+)
+ad3493bfd;Jessica Lin;2020-02-19;Merge pull request #605 from mickypaganini/master; 1; 4; 0
+e8055d7ea;Brian Johnson;2020-02-11;Merge pull request #843 from pytorch/jlin27-quant-url-patch;0; 0; 0 deletions(+)
+e8055d7ea;Brian Johnson;2020-02-11;Merge pull request #843 from pytorch/jlin27-quant-url-patch;0; 0; 0 deletions(+)
+e8055d7ea;Brian Johnson;2020-02-11;Merge pull request #843 from pytorch/jlin27-quant-url-patch;0; 0; 0 deletions(+)
+e8055d7ea;Brian Johnson;2020-02-11;Merge pull request #843 from pytorch/jlin27-quant-url-patch; 1; 2; 1
+57497289a;Jessica Lin;2020-02-10;Retrigger CI; 1; 1; 0
+3159db06d;Jessica Lin;2020-02-06;Correct link; 1; 1; 1
+48e5cccec;Jessica Lin;2020-02-05;Revert "Correct link"; 1; 1; 1
+01eebdacb;Jessica Lin;2020-02-05;Correct link; 1; 1; 1
+27f4f75aa;Brian Johnson;2020-01-29;Merge pull request #831 from jamesr66a/custom_classes_tutorial;0; 0; 0 deletions(+)
+27f4f75aa;Brian Johnson;2020-01-29;Merge pull request #831 from jamesr66a/custom_classes_tutorial;0; 0; 0 deletions(+)
+27f4f75aa;Brian Johnson;2020-01-29;Merge pull request #831 from jamesr66a/custom_classes_tutorial; 1; 15; 14
+967d22b93;Vipul Vaibhaw;2020-01-27;torch.uint8 is now deprecated; moving to torch.bool (#812); 1; 1; 1
+8743bd8a0;James Reed;2020-01-25;small fixes; 1; 7; 6
+e0ebe0d8f;James Reed;2020-01-25;add note about includes; 1; 7; 0
+2856572ff;James Reed;2020-01-25;add pickle section; 1; 130; 6
+d9917f005;James Reed;2020-01-23;address comments; 1; 61; 55
+77a60c3ac;James Reed;2020-01-23;Tutorial for custom C++ classes in TorchScript; 2; 405; 0
+f54174f7b;Michela Paganini;2020-01-20;Merge branch 'master' into master;0; 0; 0 deletions(+)
+f54174f7b;Michela Paganini;2020-01-20;Merge branch 'master' into master;0; 0; 0 deletions(+)
+f54174f7b;Michela Paganini;2020-01-20;Merge branch 'master' into master;0; 0; 0 deletions(+)
+f54174f7b;Michela Paganini;2020-01-20;Merge branch 'master' into master;0; 0; 0 deletions(+)
+f54174f7b;Michela Paganini;2020-01-20;Merge branch 'master' into master;0; 0; 0 deletions(+)
+f54174f7b;Michela Paganini;2020-01-20;Merge branch 'master' into master; 1; 55; 110
+0dc37b54d;Cami Williams;2020-01-16;Merge pull request #797 from CamiWilliams/audiotutorial;0; 0; 0 deletions(+)
+0dc37b54d;Cami Williams;2020-01-16;Merge pull request #797 from CamiWilliams/audiotutorial;0; 0; 0 deletions(+)
+0dc37b54d;Cami Williams;2020-01-16;Merge pull request #797 from CamiWilliams/audiotutorial; 1; 151; 13
+9cdb8409c;Brian Johnson;2020-01-15;Merge branch 'master' into master;0; 0; 0 deletions(+)
+9cdb8409c;Brian Johnson;2020-01-15;Merge branch 'master' into master;0; 0; 0 deletions(+)
+9cdb8409c;Brian Johnson;2020-01-15;Merge branch 'master' into master;0; 0; 0 deletions(+)
+9cdb8409c;Brian Johnson;2020-01-15;Merge branch 'master' into master; 1; 1; 1
+3abe39d3f;Jessica Lin;2020-01-14;Merge branch 'master' into __gg_suo/1578961238;0; 0; 0 deletions(+)
+3abe39d3f;Jessica Lin;2020-01-14;Merge branch 'master' into __gg_suo/1578961238; 1; 1; 1
+c08189898;Jessica Lin;2020-01-14;Revert "Update rpc_tutorial.rst"; 1; 1; 1
+20237704c;Jessica Lin;2020-01-14;Merge branch 'master' into __gg_suo/1578961238;0; 0; 0 deletions(+)
+20237704c;Jessica Lin;2020-01-14;Merge branch 'master' into __gg_suo/1578961238;0; 0; 0 deletions(+)
+20237704c;Jessica Lin;2020-01-14;Merge branch 'master' into __gg_suo/1578961238; 1; 1; 1
+dac66c7b3;Joseph Spisak;2020-01-14;Update rpc_tutorial.rst; 1; 1; 1
+70ea29e99;Michael Suo;2020-01-13;Remove PyTorch 1.2 notes in tutorials; 2; 0; 3
+b4d26af13;Jessica Lin;2020-01-13;Merge pull request #807 from mrshenli/rpc;0; 0; 0 deletions(+)
+b4d26af13;Jessica Lin;2020-01-13;Merge pull request #807 from mrshenli/rpc; 1; 17; 0
+6c7d59758;Shen Li;2020-01-10;User relative URLs; 2; 2; 2
+6a62f96e5;Shen Li;2020-01-10;Distinguish single-machine and distributed model parallel; 2; 10; 3
+da2fe00a8;Michela Paganini;2020-01-10;Merge branch 'master' into master;0; 0; 0 deletions(+)
+da2fe00a8;Michela Paganini;2020-01-10;Merge branch 'master' into master; 1; 21; 19
+2d8032d03;Shen Li;2020-01-10;Merge branch 'master' of https://github.com/pytorch/tutorials into rpc;0; 0; 0 deletions(+)
+2d8032d03;Shen Li;2020-01-10;Merge branch 'master' of https://github.com/pytorch/tutorials into rpc;0; 0; 0 deletions(+)
+2d8032d03;Shen Li;2020-01-10;Merge branch 'master' of https://github.com/pytorch/tutorials into rpc; 1; 5; 0
+bee221942;Will Feng;2020-01-10;try to fix build on manager issue; 1; 4; 4
+18a0e0eb7;Will Feng;2020-01-10;try to fix build on manager issue; 1; 80; 80
+110920f7c;Shen Li;2020-01-10;fix typos; 1; 38; 31
+755bd2fa8;Shen Li;2020-01-10;Fix typos; 1; 37; 35
+62f6fd2cc;Shen Li;2020-01-10;Address comments; 1; 21; 12
+e3514ee29;Will Feng;2020-01-09;try to fix; 1; 1; 1
+68031d7a2;Will Feng;2020-01-09;try to fix; 1; 54; 54
+94753f52f;Will Feng;2020-01-09;try to fix; 1; 12; 12
+11876d8b3;Will Feng;2020-01-09;try to fix; 1; 2; 2
+30ca017a5;Prajjwal Bhargava;2020-01-10;Merge branch 'master' into master;0; 0; 0 deletions(+)
+30ca017a5;Prajjwal Bhargava;2020-01-10;Merge branch 'master' into master; 1; 319; 44
+16e8be26e;Will Feng;2020-01-09;Revert "Create separate build jobs for PR CI and master CI"; 1; 44; 319
+eca84ca77;Will Feng;2020-01-09;Create separate build jobs for PR CI and master CI; 1; 319; 44
+3472ee2de;Brian Johnson;2020-01-09;Merge pull request #814 from pytorch/circleci_remove_context;0; 0; 0 deletions(+)
+3472ee2de;Brian Johnson;2020-01-09;Merge pull request #814 from pytorch/circleci_remove_context; 1; 35; 0
+6b1d31049;Shen Li;2020-01-09;address comments; 1; 16; 8
+0720795fd;Will Feng;2020-01-09;Remove context: org-member from config.yml to fix CI build issues; 1; 21; 42
+bc0e315f1;Edward Z. Yang;2020-01-09;Update sample makefiles to C++14; as that's what PyTorch requires now; 2; 2; 2
+d5df20a5b;prajjwal1;2020-01-04;changed heading and removed random init data in favor of sample data from dataset; 1; 24; 24
+7c0b10ec1;Shen Li;2020-01-03;address comments; 1; 16; 19
+129259752;Shen Li;2020-01-03;address comments; 1; 9; 3
+494f02f1c;Shen Li;2020-01-03;Address comments; 2; 49; 25
+b4e9f214a;Shen Li;2020-01-01;Adding an RPC Tutorial; 2; 534; 0
+88b6d4531;prajjwal1;2019-12-20;removed comment; 1; 1; 1
+676c17d8e;prajjwal1;2019-12-20;added sample code for fasterrcnn_resnet50_fpn (optional); 1; 3; 2
+60443862d;prajjwal1;2019-12-20;added sample code for fasterrcnn_resnet50_fpn (optional); 1; 23; 0
+c87836d45;Jessica Lin;2019-12-10;Merge pull request #765 from pytorch/pr-run-options;0; 0; 0 deletions(+)
+c87836d45;Jessica Lin;2019-12-10;Merge pull request #765 from pytorch/pr-run-options; 3; 34; 20
+8ac30a947;Will Feng;2019-12-09;Revert "test"; 1; 0; 0
+784c303c9;Will Feng;2019-12-09;test; 1; 0; 0
+6252688f7;Jessica Lin;2019-12-06;Merge pull request #757 from pytorch/jlin27-quant-tutorials;0; 0; 0 deletions(+)
+6252688f7;Jessica Lin;2019-12-06;Merge pull request #757 from pytorch/jlin27-quant-tutorials; 1; 4; 0
+a8eab2d48;Jessica Lin;2019-12-06;Merge pull request #760 from jianyuh/jlin27-quant-tutorials;0; 0; 0 deletions(+)
+a8eab2d48;Jessica Lin;2019-12-06;Merge pull request #760 from jianyuh/jlin27-quant-tutorials; 1; 19; 18
+b76857152;Jessica Lin;2019-12-06;Removing reference to Colab Version until completed; 1; 1; 5
+44f263cce;Jessica Lin;2019-12-06;Add space for code block to render; 1; 1; 0
+326fc7ef3;Jessica Lin;2019-12-06;Add experimental tag; 1; 2; 2
+3f3cd7c88;Jessica Lin;2019-12-06;Change capitalization to match rest of page; 1; 1; 1
+37a65b612;Jessica Lin;2019-12-06;Add link to Colab Version; 1; 5; 0
+1b14d8083;Jessica Lin;2019-12-06;Add link to Colab Version; 1; 5; 0
+22774f921;Jessica Lin;2019-12-06;Link out to the new quantized transfer learning tutorial; 1; 9; 0
+03b751405;Jessica Lin;2019-12-06;Remove the download for MRPC.zip; 1; 0; 4
+49099198d;Jessica Lin;2019-12-06;Replace the .py version; 1; 510; 0
+638bd55e5;Jessica Lin;2019-12-06;Replace with the rst version; 1; 0; 514
+6da7cfa55;Jessica Lin;2019-12-06;Replacing the python file with a rst file; 1; 0; 577
+3f20dd11e;Jessica Lin;2019-12-06;Replace dynamic quantization bert tutorial with rst file; 1; 550; 0
+a33064bcf;Jessica Lin;2019-12-06;Merge pull request #755 from jianyuh/jlin27-quant-tutorials;0; 0; 0 deletions(+)
+a33064bcf;Jessica Lin;2019-12-06;Merge pull request #755 from jianyuh/jlin27-quant-tutorials; 1; 31; 34
+27405563b;Jessica Lin;2019-12-06;Merge pull request #753 from jianyuh/jlin27-quant-tutorials;0; 0; 0 deletions(+)
+27405563b;Jessica Lin;2019-12-06;Merge pull request #753 from jianyuh/jlin27-quant-tutorials; 1; 53; 81
+c3204801c;Jessica Lin;2019-12-05;Download weights for dynamic_quantization_bert_tutorial.py; 1; 4; 0
+9ac543563;Jessica Lin;2019-12-05;Merge pull request #752 from z-a-f/zaf-quant-transfer-review;0; 0; 0 deletions(+)
+9ac543563;Jessica Lin;2019-12-05;Merge pull request #752 from z-a-f/zaf-quant-transfer-review;0; 0; 0 deletions(+)
+9ac543563;Jessica Lin;2019-12-05;Merge pull request #752 from z-a-f/zaf-quant-transfer-review;0; 0; 0 deletions(+)
+9ac543563;Jessica Lin;2019-12-05;Merge pull request #752 from z-a-f/zaf-quant-transfer-review;0; 0; 0 deletions(+)
+9ac543563;Jessica Lin;2019-12-05;Merge pull request #752 from z-a-f/zaf-quant-transfer-review; 1; 108; 124
+09031269d;Raghu Krishnamoorthi;2019-12-05;Fix formatting issues with BERT tutorial to ensure hyperlinks are rendered correctly.; 1; 23; 27
+f58558aa3;Jessica Lin;2019-12-05;Update reference to bert_mrpc image; 1; 1; 13
+cb37cbf71;Jessica Lin;2019-12-05;Modify Introduction to render properly; 1; 4; 4
+f86f07745;Jessica Lin;2019-12-05;Merge pull request #748 from jianyuh/jlin27-quant-tutorials;0; 0; 0 deletions(+)
+f86f07745;Jessica Lin;2019-12-05;Merge pull request #748 from jianyuh/jlin27-quant-tutorials; 4; 0; 0
+a800c7742;Raghu Krishnamoorthi;2019-12-04;Fix formatting and clean up tutorial on quantized transfer learning; 1; 15; 12
+5cbaeb0e8;Jianyu Huang;2019-12-04;Update Dynamic Quant for BERT tutorial; 1; 15; 50
+ab734721a;Jessica Lin;2019-12-04;Bring headers down one level; 1; 7; 9
+1fc4afb26;Brian Johnson;2019-12-04;Merge pull request #730 from albanD/autograd_blitz;0; 0; 0 deletions(+)
+1fc4afb26;Brian Johnson;2019-12-04;Merge pull request #730 from albanD/autograd_blitz;0; 0; 0 deletions(+)
+1fc4afb26;Brian Johnson;2019-12-04;Merge pull request #730 from albanD/autograd_blitz; 2; 0; 0
+8ba674318;Jessica Lin;2019-12-03;Add 2 new quant tutorials; 1; 15; 1
+ebf15417e;Jessica Lin;2019-12-03;Add 2 new quant tutorials; 2; 1198; 0
+b4134ac13;Jessica Lin;2019-12-03;Merge pull request #746 from pytorch/revert-745-master;0; 0; 0 deletions(+)
+b4134ac13;Jessica Lin;2019-12-03;Merge pull request #746 from pytorch/revert-745-master; 5; 1; 1206
+43973d16f;Jessica Lin;2019-12-03;Merge pull request #745 from jlin27/master;0; 0; 0 deletions(+)
+43973d16f;Jessica Lin;2019-12-03;Merge pull request #745 from jlin27/master; 5; 1206; 1
+4e85999a7;peterjc123;2019-12-03;Use `cmake --build .` instead of `make` (#733); 2; 9; 5
+a65bbe270;Brian Johnson;2019-12-02;Merge pull request #742 from pytorch/brianjo-patch-2;0; 0; 0 deletions(+)
+a65bbe270;Brian Johnson;2019-12-02;Merge pull request #742 from pytorch/brianjo-patch-2; 1; 1; 1
+ac8b56d56;Brian Johnson;2019-12-02;Update build.sh; 1; 1; 1
+71496bde6;Brian Johnson;2019-12-02;Merge pull request #739 from dymil/patch-1;0; 0; 0 deletions(+)
+71496bde6;Brian Johnson;2019-12-02;Merge pull request #739 from dymil/patch-1; 1; 4; 4
+64bbe4603;Alban Desmaison;2019-11-20;Update autograd blitz; 1; 10; 1
+a2e2a4b28;Seth Weidman;2019-11-13;Two small changes to kick off build; 1; 3; 3
+0b87c576a;Michela Paganini;2019-11-08;Update pruning tutorial after pytorch PR merge; 1; 10; 14
+39f80db55;Michela Paganini;2019-07-22;Add pruning tutorial; 1; 407; 0
+a8025b7a0;Seth Weidman;2019-11-06;Update dynamic_quantization_tutorial.py; 1; 1; 1
+bfd3f20a5;Seth Weidman;2019-11-04;Merge pull request #713 from pytorch/revise_static_quantization;0; 0; 0 deletions(+)
+bfd3f20a5;Seth Weidman;2019-11-04;Merge pull request #713 from pytorch/revise_static_quantization; 2; 33; 8
+a4115b6b5;Seth Weidman;2019-10-29;Add paths for downloaded files to static quantization tutorial; 1; 36; 8
+8081dd7b6;Edward Z. Yang;2019-10-23;Merge pull request #711 from pytorch/pr/check-fix;0; 0; 0 deletions(+)
+8081dd7b6;Edward Z. Yang;2019-10-23;Merge pull request #711 from pytorch/pr/check-fix; 1; 2; 2
+dd5f39022;Brian Johnson;2019-10-22;Merge pull request #708 from ailzhang/fix_indent;0; 0; 0 deletions(+)
+dd5f39022;Brian Johnson;2019-10-22;Merge pull request #708 from ailzhang/fix_indent; 1; 17; 17
+917cad5f4;Seth Weidman;2019-10-21;Fix formatting mistake on dynamic quantization; 1; 2; 1
+5fdf751db;Seth Weidman;2019-10-21;Merge pull request #687 from vincentqb/reinstate-tutorial-audio;0; 0; 0 deletions(+)
+5fdf751db;Seth Weidman;2019-10-21;Merge pull request #687 from vincentqb/reinstate-tutorial-audio; 1; 1; 1
+47af5dc90;Vincent Quenneville-Belair;2019-10-10;Partial revert "Remove problematic tutorials"; 2; 258; 0
+514a513f2;Seth Weidman;2019-10-16;Add comment on no GPUs in static quantization tutorial; 1; 2; 1
+32949f56f;Seth Weidman;2019-10-15;Fix Named Tensor - experimental order; 1; 2; 2
+809f27e5b;David Pollack;2019-10-13;Fix CrossEntropyLoss in transformers tutorial (#695); 1; 1; 1
+feca7bcdc;BoyanYK;2019-10-14;Fix tutorial comment typing error (#698); 1; 1; 1
+0d0f95415;Seth Weidman;2019-10-10;Remove erroneous print statements; 1; 1; 2
+20f59a1a1;Seth Weidman;2019-10-10;Merge pull request #686 from pytorch/static_quantization_tutorial;0; 0; 0 deletions(+)
+20f59a1a1;Seth Weidman;2019-10-10;Merge pull request #686 from pytorch/static_quantization_tutorial;0; 0; 0 deletions(+)
+20f59a1a1;Seth Weidman;2019-10-10;Merge pull request #686 from pytorch/static_quantization_tutorial;0; 0; 0 deletions(+)
+20f59a1a1;Seth Weidman;2019-10-10;Merge pull request #686 from pytorch/static_quantization_tutorial; 1; 3; 3
+bdc521230;Seth Weidman;2019-10-10;Update dynamic quantization tutorial; 1; 8; 0
+3c6390fdc;Seth Weidman;2019-10-10;Add correct download to Makefile; 1; 8; 4
+ba0a7a1f1;Seth Weidman;2019-10-10;Address Raghu's static quantization comments; 1; 5; 1
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+ae93711f3;Seth Weidman;2019-10-10;Merge branch 'master' into static_quantization_tutorial; 1; 6; 0
+7e0818f3a;Edward Z. Yang;2019-10-10;Update CUDA driver (#688); 1; 1; 1
+859b86681;Seth Weidman;2019-10-10;Merge branch 'master' into named_tensor_tutorial;0; 0; 0 deletions(+)
+859b86681;Seth Weidman;2019-10-10;Merge branch 'master' into named_tensor_tutorial;0; 0; 0 deletions(+)
+859b86681;Seth Weidman;2019-10-10;Merge branch 'master' into named_tensor_tutorial; 1; 0; 6
+219bdf990;Seth Weidman;2019-10-09;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+219bdf990;Seth Weidman;2019-10-09;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+219bdf990;Seth Weidman;2019-10-09;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+219bdf990;Seth Weidman;2019-10-09;Merge branch 'master' into static_quantization_tutorial;0; 0; 0 deletions(+)
+219bdf990;Seth Weidman;2019-10-09;Merge branch 'master' into static_quantization_tutorial; 1; 0; 4
+040fcdd33;Seth Weidman;2019-10-09;Comment text line; 1; 1; 1
+c37b14a8d;Seth Weidman;2019-10-09;Fix author's GitHub; 1; 1; 1
+9cee82507;Seth Weidman;2019-10-09;Remove problematic tutorials; 3; 0; 907
+41e26c0ed;Seth Weidman;2019-10-09;First draft of static quantization tutorial; 4; 642; 14
+1ac281b91;Richard Zou;2019-10-09;More fixes; 1; 3; 3
+1399cad17;Richard Zou;2019-10-09;More typo fixes; 1; 7; 7
+b1cd8bb6d;Richard Zou;2019-10-09;Fix more typos; 1; 8; 6
+167921fe2;Richard Zou;2019-10-09;Fix more typos; 1; 3; 3
+9d5c022d0;Richard Zou;2019-10-09;Fix typos; 1; 543; 530
+51fbe328c;Seth Weidman;2019-10-09;Add PyTorch 1.3 nightly build to .jenkins/build.sh; 1; 4; 0
+7bfccfac6;Seth Weidman;2019-10-09;Formatting; wording fixes; 2; 21; 16
+8c31fb141;Seth Weidman;2019-10-09;Address final comments; 1; 8; 5
+963b3ee3a;Seth Weidman;2019-10-09;Add initial ImageNet dataloading code; 1; 18; 0
+9eee36462;Seth Weidman;2019-10-08;Add experimental tag to index; encoding to get tutorial to run; 2; 12; 4
+91ccc857a;Seth Weidman;2019-10-08;Final formatting fixes; addressing comments on flow and wording; 1; 61; 55
+87656b2ad;Seth Weidman;2019-10-08;Fix name of Wikitext in Makefile; 1; 3; 3
+5c15b669f;Seth Weidman;2019-10-08;Formatting fixes; reordering for flow and clarity; 1; 97; 96
+176155575;Seth Weidman;2019-10-07;Final draft of named tensor tutorial; 1; 61; 55
+bdf3c13cc;Seth Weidman;2019-10-07;Made most of Richard's changes; 1; 89; 46
+988791a8a;Seth Weidman;2019-10-07;Merge branch 'master' into named_tensor_tutorial;0; 0; 0 deletions(+)
+988791a8a;Seth Weidman;2019-10-07;Merge branch 'master' into named_tensor_tutorial; 1; 2; 2
+096e31a40;Seth Weidman;2019-10-07;Merge branch 'master' of github.com:pytorch/tutorials;0; 0; 0 deletions(+)
+096e31a40;Seth Weidman;2019-10-07;Merge branch 'master' of github.com:pytorch/tutorials; 4; 307; 0
+97123dadb;Jessica Lin;2019-10-07;Merge pull request #664 from pytorch/jlin27-cpp-frontend-remove-conv5;0; 0; 0 deletions(+)
+97123dadb;Jessica Lin;2019-10-07;Merge pull request #664 from pytorch/jlin27-cpp-frontend-remove-conv5;0; 0; 0 deletions(+)
+97123dadb;Jessica Lin;2019-10-07;Merge pull request #664 from pytorch/jlin27-cpp-frontend-remove-conv5;0; 0; 0 deletions(+)
+97123dadb;Jessica Lin;2019-10-07;Merge pull request #664 from pytorch/jlin27-cpp-frontend-remove-conv5; 1; 1; 1
+59fcb14cd;Seth Weidman;2019-10-03;Merge branch 'master' into reorganize_beginner_tutorials;0; 0; 0 deletions(+)
+59fcb14cd;Seth Weidman;2019-10-03;Merge branch 'master' into reorganize_beginner_tutorials;0; 0; 0 deletions(+)
+59fcb14cd;Seth Weidman;2019-10-03;Merge branch 'master' into reorganize_beginner_tutorials; 5; 55; 77
+8434f3d71;Seth Weidman;2019-10-03;Update file to kick off Circle build; 1; 1; 1
+38aa56120;Pieter Noordhuis;2019-10-02;Update example code; 1; 3; 5
+4c4c79769;Pieter Noordhuis;2019-10-02;Rename `init_processes` to singular form; 1; 4; 4
+39851c6eb;Pieter Noordhuis;2019-10-02;Remove automatic rank and group_name for file initialization; 1; 5; 6
+a799c9155;Pieter Noordhuis;2019-10-02;Remove multicast; 1; 8; 24
+89ed8bfe8;Pieter Noordhuis;2019-10-02;Remove THD section; 1; 0; 27
+a513c4141;Pieter Noordhuis;2019-10-02;Update backends section; 1; 21; 29
+7fb430fd2;Pieter Noordhuis;2019-10-02;Rename; 1; 1; 1
+6ce485f5c;Pieter Noordhuis;2019-10-02;Typo; 1; 1; 1
+9f716b4cc;Pieter Noordhuis;2019-10-02;Flow; 1; 1; 1
+6c53b2a48;Pieter Noordhuis;2019-10-02;Fill; 1; 4; 1
+e0791cff1;Edward Z. Yang;2019-10-01;Merge pull request #644 from peterbell10/packed_accessor;0; 0; 0 deletions(+)
+e0791cff1;Edward Z. Yang;2019-10-01;Merge pull request #644 from peterbell10/packed_accessor;0; 0; 0 deletions(+)
+e0791cff1;Edward Z. Yang;2019-10-01;Merge pull request #644 from peterbell10/packed_accessor; 1; 15; 15
+a5aec5641;Seth Weidman;2019-09-30;First commit of named tensor tutorial; 3; 488; 0
+ea34cb0b1;Seth Weidman;2019-09-27;Merge pull request #674 from pytorch/remove_tutorial_numbers;0; 0; 0 deletions(+)
+ea34cb0b1;Seth Weidman;2019-09-27;Merge pull request #674 from pytorch/remove_tutorial_numbers;0; 0; 0 deletions(+)
+ea34cb0b1;Seth Weidman;2019-09-27;Merge pull request #674 from pytorch/remove_tutorial_numbers; 1; 1; 1
+50f99084d;Seth Weidman;2019-09-26;Merge branch 'master' into remove_tutorial_numbers;0; 0; 0 deletions(+)
+50f99084d;Seth Weidman;2019-09-26;Merge branch 'master' into remove_tutorial_numbers; 1; 1; 1
+b08313ef1;Seth Weidman;2019-09-24;Remove numbers from tutorial names; 8; 8; 8
+322b101b4;Jessica Lin;2019-09-18;Update cpp_frontend.rst; 1; 0; 6
+aec098893;Seth Weidman;2019-09-16;Merge pull request #659 from pytorch/remove_generative_section;0; 0; 0 deletions(+)
+aec098893;Seth Weidman;2019-09-16;Merge pull request #659 from pytorch/remove_generative_section;0; 0; 0 deletions(+)
+aec098893;Seth Weidman;2019-09-16;Merge pull request #659 from pytorch/remove_generative_section;0; 0; 0 deletions(+)
+aec098893;Seth Weidman;2019-09-16;Merge pull request #659 from pytorch/remove_generative_section; 1; 5; 19
+d9a9f91df;Brian Johnson;2019-09-13;Merge branch 'master' into master;0; 0; 0 deletions(+)
+d9a9f91df;Brian Johnson;2019-09-13;Merge branch 'master' into master;0; 0; 0 deletions(+)
+d9a9f91df;Brian Johnson;2019-09-13;Merge branch 'master' into master;0; 0; 0 deletions(+)
+d9a9f91df;Brian Johnson;2019-09-13;Merge branch 'master' into master;0; 0; 0 deletions(+)
+d9a9f91df;Brian Johnson;2019-09-13;Merge branch 'master' into master; 1; 1; 1
+56c8702ee;Seth Weidman;2019-09-12;Formatting fixes; 2; 5; 4
+9b675529c;Seth Weidman;2019-09-12;Merge pull request #655 from pytorch/reorganize_text_tutorials;0; 0; 0 deletions(+)
+9b675529c;Seth Weidman;2019-09-12;Merge pull request #655 from pytorch/reorganize_text_tutorials; 1; 1; 1
+b2ded2d73;Seth Weidman;2019-09-11;Update Transformer and Sentiment tutorials based on feedback; 3; 19; 21
+0e8d7f856;Seth Weidman;2019-09-11;Reorganize / clean up Text tutorials; 8; 120; 118
+8ea768d66;Jessica Lin;2019-09-10;Merge pull request #654 from pytorch/SethHWeidman-patch-1;0; 0; 0 deletions(+)
+8ea768d66;Jessica Lin;2019-09-10;Merge pull request #654 from pytorch/SethHWeidman-patch-1; 1; 2; 2
+623f0a872;Seth Weidman;2019-09-10;Merge pull request #651 from pytorch/torchtext_translation_tutorial;0; 0; 0 deletions(+)
+623f0a872;Seth Weidman;2019-09-10;Merge pull request #651 from pytorch/torchtext_translation_tutorial; 2; 7; 2
+95947b91a;Seth Weidman;2019-09-10;Add new line at end of file; 1; 8; 7
+996e6e87b;Seth Weidman;2019-09-09;Merge branch 'master' into master;0; 0; 0 deletions(+)
+996e6e87b;Seth Weidman;2019-09-09;Merge branch 'master' into master;0; 0; 0 deletions(+)
+996e6e87b;Seth Weidman;2019-09-09;Merge branch 'master' into master;0; 0; 0 deletions(+)
+996e6e87b;Seth Weidman;2019-09-09;Merge branch 'master' into master;0; 0; 0 deletions(+)
+996e6e87b;Seth Weidman;2019-09-09;Merge branch 'master' into master; 1; 2; 0
+1dcaf9eeb;Seth Weidman;2019-09-09;Merge branch 'master' into torchtext_translation_tutorial;0; 0; 0 deletions(+)
+1dcaf9eeb;Seth Weidman;2019-09-09;Merge branch 'master' into torchtext_translation_tutorial;0; 0; 0 deletions(+)
+1dcaf9eeb;Seth Weidman;2019-09-09;Merge branch 'master' into torchtext_translation_tutorial;0; 0; 0 deletions(+)
+1dcaf9eeb;Seth Weidman;2019-09-09;Merge branch 'master' into torchtext_translation_tutorial; 1; 9; 6
+93a417785;Seth Weidman;2019-09-07;Add torchtext thumbnail; 1; 0; 0
+1beae368d;Seth Weidman;2019-09-07;Add tutorial with sequence to sequence translation torchtext; 3; 508; 3
+6d2829ae7;Seth Weidman;2019-09-06;Merge branch 'reorganize_production_tutorials' of github.com:pytorch/tutorials into reorganize_production_tutorials;0; 0; 0 deletions(+)
+6d2829ae7;Seth Weidman;2019-09-06;Merge branch 'reorganize_production_tutorials' of github.com:pytorch/tutorials into reorganize_production_tutorials; 4; 33; 36
+1218d05c9;Guanheng Zhang;2019-09-06;Not save model.; 1; 8; 10
+984b93706;Seth Weidman;2019-09-06;Merge branch 'master' into reorganize_production_tutorials;0; 0; 0 deletions(+)
+984b93706;Seth Weidman;2019-09-06;Merge branch 'master' into reorganize_production_tutorials; 2; 105; 31
+b41b96f3f;Guanheng Zhang;2019-09-06;Add picture.; 1; 0; 0
+73df8344b;Guanheng Zhang;2019-09-06;Add picture.; 1; 0; 328
+983645a27;Guanheng Zhang;2019-09-06;Add nn.Transformer tutorial.; 3; 662; 0
+afad2e527;Jessica Lin;2019-09-06;Merge pull request #646 from jlin27/master;0; 0; 0 deletions(+)
+afad2e527;Jessica Lin;2019-09-06;Merge pull request #646 from jlin27/master; 9; 192; 219
+dde846b98;Jessica Lin;2019-09-05;Add note to fix Windows Broken pipe error; 1; 3; 0
+ffecdf7e2;Jessica Lin;2019-09-05;Merge pull request #645 from jlin27/master;0; 0; 0 deletions(+)
+ffecdf7e2;Jessica Lin;2019-09-05;Merge pull request #645 from jlin27/master; 1; 30; 21
+1bc0efeae;Lazaros Toumanidis;2019-09-05;Update transfer_learning_tutorial.py (#640); 1; 2; 1
+1f6b4a4e3;Brian Johnson;2019-09-04;Merge branch 'master' into packed_accessor;0; 0; 0 deletions(+)
+1f6b4a4e3;Brian Johnson;2019-09-04;Merge branch 'master' into packed_accessor;0; 0; 0 deletions(+)
+1f6b4a4e3;Brian Johnson;2019-09-04;Merge branch 'master' into packed_accessor; 1; 45; 44
+4eeb8a38b;Harshit Kumar;2019-08-30;Fix formatting issues in tensorboard tutorial; 1; 6; 4
+bde989b1a;Seth Weidman;2019-08-28;Merge pull request #620 from ohadf/patch-1;0; 0; 0 deletions(+)
+bde989b1a;Seth Weidman;2019-08-28;Merge pull request #620 from ohadf/patch-1;0; 0; 0 deletions(+)
+bde989b1a;Seth Weidman;2019-08-28;Merge pull request #620 from ohadf/patch-1;0; 0; 0 deletions(+)
+bde989b1a;Seth Weidman;2019-08-28;Merge pull request #620 from ohadf/patch-1;0; 0; 0 deletions(+)
+bde989b1a;Seth Weidman;2019-08-28;Merge pull request #620 from ohadf/patch-1;0; 0; 0 deletions(+)
+bde989b1a;Seth Weidman;2019-08-28;Merge pull request #620 from ohadf/patch-1;0; 0; 0 deletions(+)
+bde989b1a;Seth Weidman;2019-08-28;Merge pull request #620 from ohadf/patch-1; 1; 1; 1
+a3854acf3;Brian Johnson;2019-08-26;Merge pull request #636 from pytorch/jlin27-update-unintialized-matrix-explanation;0; 0; 0 deletions(+)
+a3854acf3;Brian Johnson;2019-08-26;Merge pull request #636 from pytorch/jlin27-update-unintialized-matrix-explanation; 1; 9; 9
+12645e918;Seth Weidman;2019-08-26;Merge branch 'master' into patch-1;0; 0; 0 deletions(+)
+12645e918;Seth Weidman;2019-08-26;Merge branch 'master' into patch-1; 1; 10; 3
+e9bef7332;Brian Johnson;2019-08-26;Merge branch 'master' into jlin27-update-unintialized-matrix-explanation;0; 0; 0 deletions(+)
+e9bef7332;Brian Johnson;2019-08-26;Merge branch 'master' into jlin27-update-unintialized-matrix-explanation;0; 0; 0 deletions(+)
+e9bef7332;Brian Johnson;2019-08-26;Merge branch 'master' into jlin27-update-unintialized-matrix-explanation; 1; 0; 0
+ffcb527f3;Jessica Lin;2019-08-23;Update unintialized matrix explanation; 1; 2; 0
+15bfd259a;Seth Weidman;2019-08-23;Merge branch 'master' into update_index_rst;0; 0; 0 deletions(+)
+15bfd259a;Seth Weidman;2019-08-23;Merge branch 'master' into update_index_rst; 1; 6; 6
+e765acad2;Brian Johnson;2019-08-22;Merge pull request #632 from pytorch/brianjo-patch-remove-old-torchscripttutorial;0; 0; 0 deletions(+)
+e765acad2;Brian Johnson;2019-08-22;Merge pull request #632 from pytorch/brianjo-patch-remove-old-torchscripttutorial; 1; 0; 384
+d1735c1c6;Brian Johnson;2019-08-22;Merge pull request #525 from pytorch/nn_module_to_device;0; 0; 0 deletions(+)
+d1735c1c6;Brian Johnson;2019-08-22;Merge pull request #525 from pytorch/nn_module_to_device;0; 0; 0 deletions(+)
+d1735c1c6;Brian Johnson;2019-08-22;Merge pull request #525 from pytorch/nn_module_to_device;0; 0; 0 deletions(+)
+d1735c1c6;Brian Johnson;2019-08-22;Merge pull request #525 from pytorch/nn_module_to_device; 1; 6; 5
+754edce6a;Brian Johnson;2019-08-21;Merge pull request #619 from SethHWeidman/misc_changes;0; 0; 0 deletions(+)
+754edce6a;Brian Johnson;2019-08-21;Merge pull request #619 from SethHWeidman/misc_changes;0; 0; 0 deletions(+)
+754edce6a;Brian Johnson;2019-08-21;Merge pull request #619 from SethHWeidman/misc_changes;0; 0; 0 deletions(+)
+754edce6a;Brian Johnson;2019-08-21;Merge pull request #619 from SethHWeidman/misc_changes;0; 0; 0 deletions(+)
+754edce6a;Brian Johnson;2019-08-21;Merge pull request #619 from SethHWeidman/misc_changes;0; 0; 0 deletions(+)
+754edce6a;Brian Johnson;2019-08-21;Merge pull request #619 from SethHWeidman/misc_changes;0; 0; 0 deletions(+)
+754edce6a;Brian Johnson;2019-08-21;Merge pull request #619 from SethHWeidman/misc_changes; 1; 7; 5
+29eea2717;Brian Johnson;2019-08-20;Merge branch 'master' into patch-2;0; 0; 0 deletions(+)
+29eea2717;Brian Johnson;2019-08-20;Merge branch 'master' into patch-2;0; 0; 0 deletions(+)
+29eea2717;Brian Johnson;2019-08-20;Merge branch 'master' into patch-2; 1; 6; 0
+a71a4f228;Seth Weidman;2019-08-20;Merge branch 'master' into nn_module_to_device;0; 0; 0 deletions(+)
+a71a4f228;Seth Weidman;2019-08-20;Merge branch 'master' into nn_module_to_device;0; 0; 0 deletions(+)
+a71a4f228;Seth Weidman;2019-08-20;Merge branch 'master' into nn_module_to_device; 1; 1; 1
+4ea9ef40d;Ohad Fried;2019-08-19;Fixed static image links; 1; 3; 3
+8ed972790;Ohad Fried;2019-08-19;Fixed typo in running loss calculation; 1; 2; 2
+c322d1c0f;Seth Weidman;2019-08-19;Move scheduler.step to be consistent with PyTorch 1.1+; 1; 1; 1
+d85a3d2fe;Seth Weidman;2019-08-19;Change printing to not blow up people's notebooks; be consistent with CIFAR tutorial; 8; 17; 9
+196cc7499;Seth Weidman;2019-08-19;Merge pull request #527 from jpgard/master;0; 0; 0 deletions(+)
+196cc7499;Seth Weidman;2019-08-19;Merge pull request #527 from jpgard/master;0; 0; 0 deletions(+)
+196cc7499;Seth Weidman;2019-08-19;Merge pull request #527 from jpgard/master;0; 0; 0 deletions(+)
+196cc7499;Seth Weidman;2019-08-19;Merge pull request #527 from jpgard/master;0; 0; 0 deletions(+)
+196cc7499;Seth Weidman;2019-08-19;Merge pull request #527 from jpgard/master; 1; 6; 15
+6b53d2b66;Diego Estrada;2019-08-18;fix typos; 1; 29; 29
+8ddb3a97c;Brian Johnson;2019-08-17;Merge pull request #617 from pytorch/new-theme-update;0; 0; 0 deletions(+)
+8ddb3a97c;Brian Johnson;2019-08-17;Merge pull request #617 from pytorch/new-theme-update;0; 0; 0 deletions(+)
+8ddb3a97c;Brian Johnson;2019-08-17;Merge pull request #617 from pytorch/new-theme-update;0; 0; 0 deletions(+)
+8ddb3a97c;Brian Johnson;2019-08-17;Merge pull request #617 from pytorch/new-theme-update;0; 0; 0 deletions(+)
+8ddb3a97c;Brian Johnson;2019-08-17;Merge pull request #617 from pytorch/new-theme-update;0; 0; 0 deletions(+)
+8ddb3a97c;Brian Johnson;2019-08-17;Merge pull request #617 from pytorch/new-theme-update;0; 0; 0 deletions(+)
+8ddb3a97c;Brian Johnson;2019-08-17;Merge pull request #617 from pytorch/new-theme-update; 1; 3; 0
+500de6bd3;Meteorix;2019-08-16;fix link format; 1; 1; 1
+51b57f13d;Meteorix;2019-08-16;point to service-streamer tutorial; 1; 15; 0
+bd90b3333;Nick Korovaiko;2019-08-15;use the new API for registering an operator; 1; 3; 3
+5859c0e78;Brian Johnson;2019-08-13;Merge pull request #610 from Krovatkin/krovatkin/update_version;0; 0; 0 deletions(+)
+5859c0e78;Brian Johnson;2019-08-13;Merge pull request #610 from Krovatkin/krovatkin/update_version;0; 0; 0 deletions(+)
+5859c0e78;Brian Johnson;2019-08-13;Merge pull request #610 from Krovatkin/krovatkin/update_version;0; 0; 0 deletions(+)
+5859c0e78;Brian Johnson;2019-08-13;Merge pull request #610 from Krovatkin/krovatkin/update_version; 1; 1; 1
+0a7835162;Brian Johnson;2019-08-12;Merge branch 'master' into krovatkin/seth_feedback;0; 0; 0 deletions(+)
+0a7835162;Brian Johnson;2019-08-12;Merge branch 'master' into krovatkin/seth_feedback; 1; 7; 6
+4174b2139;Brian Johnson;2019-08-12;Merge pull request #608 from pytorch/1.2-Binary-Update;0; 0; 0 deletions(+)
+4174b2139;Brian Johnson;2019-08-12;Merge pull request #608 from pytorch/1.2-Binary-Update; 1; 1; 0
+0cf0c680f;Nikolay Korovaiko;2019-08-12;fix confusion w.r.t. which model to serialize and use; 1; 8; 5
+9ab9b0043;Brian Johnson;2019-08-12;Update build.sh; 1; 0; 30
+438606d5f;Brian Johnson;2019-08-12;Update requirements.txt; 1; 2; 0
+56b6951a0;Brian Johnson;2019-08-10;Merge pull request #607 from pytorch/torchscript-intro-update;0; 0; 0 deletions(+)
+56b6951a0;Brian Johnson;2019-08-10;Merge pull request #607 from pytorch/torchscript-intro-update; 1; 2; 2
+ab770d61d;Brian Johnson;2019-08-09;Create Intro_to_TorchScript_tutorial.py; 1; 384; 0
+60d6ef365;Brian Johnson;2019-08-08;Merge pull request #604 from pytorch/brianjo-patch-1;0; 0; 0 deletions(+)
+60d6ef365;Brian Johnson;2019-08-08;Merge pull request #604 from pytorch/brianjo-patch-1;0; 0; 0 deletions(+)
+60d6ef365;Brian Johnson;2019-08-08;Merge pull request #604 from pytorch/brianjo-patch-1;0; 0; 0 deletions(+)
+60d6ef365;Brian Johnson;2019-08-08;Merge pull request #604 from pytorch/brianjo-patch-1; 1; 1; 0
+4cdad630d;Seth Weidman;2019-08-08;Fix types in TensorBoard tutorial; 1; 3; 4
+1e6be64d2;Brian Johnson;2019-08-08;Merge pull request #599 from SethHWeidman/tensorboard_tutorial;0; 0; 0 deletions(+)
+1e6be64d2;Brian Johnson;2019-08-08;Merge pull request #599 from SethHWeidman/tensorboard_tutorial; 1; 0; 403
+551d696ad;Seth Weidman;2019-08-08;Remove .py version of TensorBoard tutorial; 1; 403; 0
+8f88909f5;Brian Johnson;2019-08-07;Merge branch 'master' into tensorboard_tutorial;0; 0; 0 deletions(+)
+8f88909f5;Brian Johnson;2019-08-07;Merge branch 'master' into tensorboard_tutorial;0; 0; 0 deletions(+)
+8f88909f5;Brian Johnson;2019-08-07;Merge branch 'master' into tensorboard_tutorial; 1; 6; 0
+d065c7545;Ubuntu;2019-08-08;Merge branch 'master' into tensorboard_tutorial;0; 0; 0 deletions(+)
+d065c7545;Ubuntu;2019-08-08;Merge branch 'master' into tensorboard_tutorial; 11; 420; 13
+3cb9b3027;Brian Johnson;2019-08-07;Merge branch 'master' into audio;0; 0; 0 deletions(+)
+3cb9b3027;Brian Johnson;2019-08-07;Merge branch 'master' into audio;0; 0; 0 deletions(+)
+3cb9b3027;Brian Johnson;2019-08-07;Merge branch 'master' into audio;0; 0; 0 deletions(+)
+3cb9b3027;Brian Johnson;2019-08-07;Merge branch 'master' into audio;0; 0; 0 deletions(+)
+3cb9b3027;Brian Johnson;2019-08-07;Merge branch 'master' into audio;0; 0; 0 deletions(+)
+3cb9b3027;Brian Johnson;2019-08-07;Merge branch 'master' into audio; 1; 2; 2
+44187c5ff;Wanchao Liang;2019-08-07;Update Deploy Seq2Seq Tutorial with New TorchScript API; 5; 82; 86
+198d526f8;Brian Johnson;2019-08-07;Update text_sentiment_ngrams_tutorial.py; 1; 0; 3
+05a9a0bf8;Brian Johnson;2019-08-07;Update text_sentiment_ngrams_tutorial.py; 1; 5; 7
+d6bb0af5e;Brian Johnson;2019-08-07;Update text_sentiment_ngrams_tutorial.py; 1; 1; 1
+755db7f1e;Brian Johnson;2019-08-07;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+755db7f1e;Brian Johnson;2019-08-07;Merge branch 'master' into text-tutorial; 1; 3; 0
+80201b6a8;Brian Johnson;2019-08-07;Merge pull request #560 from Krovatkin/krovatkin/cpp_export;0; 0; 0 deletions(+)
+80201b6a8;Brian Johnson;2019-08-07;Merge pull request #560 from Krovatkin/krovatkin/cpp_export; 1; 7; 1
+1febb83c3;Brian Johnson;2019-08-07;Update build.sh; 1; 3; 3
+f96a035e0;Brian Johnson;2019-08-07;Update build.sh; 1; 0; 6
+d028e91fe;Brian Johnson;2019-08-07;Merge branch 'master' into krovatkin/cpp_export;0; 0; 0 deletions(+)
+d028e91fe;Brian Johnson;2019-08-07;Merge branch 'master' into krovatkin/cpp_export; 1; 10; 2
+e1615dfcd;Brian Johnson;2019-08-07;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+e1615dfcd;Brian Johnson;2019-08-07;Merge branch 'master' into text-tutorial; 3; 389; 0
+572f9c2bf;Brian Johnson;2019-08-07;Update build.sh; 1; 1; 1
+27a7311d8;Brian Johnson;2019-08-07;Update text_sentiment_ngrams_tutorial.py; 1; 2; 2
+96013143d;Brian Johnson;2019-08-07;Update build.sh; 1; 1; 1
+ae3e15dd8;Brian Johnson;2019-08-07;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+ae3e15dd8;Brian Johnson;2019-08-07;Merge branch 'master' into text-tutorial; 1; 3; 0
+f3e0ed047;Brian Johnson;2019-08-07;Update index.rst; 1; 6; 4
+881636690;Brian Johnson;2019-08-06;Merge pull request #577 from jiangzhonglian/master;0; 0; 0 deletions(+)
+881636690;Brian Johnson;2019-08-06;Merge pull request #577 from jiangzhonglian/master;0; 0; 0 deletions(+)
+881636690;Brian Johnson;2019-08-06;Merge pull request #577 from jiangzhonglian/master;0; 0; 0 deletions(+)
+881636690;Brian Johnson;2019-08-06;Merge pull request #577 from jiangzhonglian/master;0; 0; 0 deletions(+)
+881636690;Brian Johnson;2019-08-06;Merge pull request #577 from jiangzhonglian/master;0; 0; 0 deletions(+)
+881636690;Brian Johnson;2019-08-06;Merge pull request #577 from jiangzhonglian/master; 1; 4; 0
+aeab17e8d;Brian Johnson;2019-08-06;Update text_sentiment_ngrams_tutorial.py; 1; 1; 1
+5477efa56;Brian Johnson;2019-08-06;Update build.sh; 1; 3; 0
+a5287cf13;Brian Johnson;2019-08-06;Merge pull request #594 from pytorch/torchtext-test;0; 0; 0 deletions(+)
+a5287cf13;Brian Johnson;2019-08-06;Merge pull request #594 from pytorch/torchtext-test; 1; 6; 0
+8b8e72b6a;Brian Johnson;2019-08-06;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+8b8e72b6a;Brian Johnson;2019-08-06;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+8b8e72b6a;Brian Johnson;2019-08-06;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+8b8e72b6a;Brian Johnson;2019-08-06;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+8b8e72b6a;Brian Johnson;2019-08-06;Merge branch 'master' into text-tutorial;0; 0; 0 deletions(+)
+8b8e72b6a;Brian Johnson;2019-08-06;Merge branch 'master' into text-tutorial; 1; 1; 1
+294c17c1c;Sebastian Messmer;2019-08-05;Mention a quirk with jupyter notebooks; 1; 5; 0
+3fde079d1;Brian Johnson;2019-08-05;Merge pull request #590 from pytorch/torchvision-patch-1;0; 0; 0 deletions(+)
+3fde079d1;Brian Johnson;2019-08-05;Merge pull request #590 from pytorch/torchvision-patch-1; 1; 51; 44
+75635f41b;Brian Johnson;2019-08-05;Update flask_rest_api_tutorial.py; 1; 2; 2
+d12fcca2d;Brian Johnson;2019-08-05;Merge branch 'master' into audio;0; 0; 0 deletions(+)
+d12fcca2d;Brian Johnson;2019-08-05;Merge branch 'master' into audio; 1; 1; 1
+dd93a45e1;Seth Weidman;2019-08-05;Changes to get Flask tutorial to run; 1; 31; 29
+f78435594;Brian Johnson;2019-08-05;Merge branch 'master' into flask_tutorial;0; 0; 0 deletions(+)
+f78435594;Brian Johnson;2019-08-05;Merge branch 'master' into flask_tutorial;0; 0; 0 deletions(+)
+f78435594;Brian Johnson;2019-08-05;Merge branch 'master' into flask_tutorial; 1; 1; 1
+36cbfa0e8;Ubuntu;2019-08-05;Actually remove changes to sphinx theme; 1; 1; 1
+2115195b7;Ubuntu;2019-08-05;Remove final TensorBoard stuff; 8; 3; 1
+87cb001d9;Ubuntu;2019-08-05;Remove more TensorBoard stuff from flask branch; 1; 1; 7
+1c95a8cad;Ubuntu;2019-08-05;Remove TensorBoard stuff from flask branch; 2; 0; 390
+ba975e18d;Ubuntu;2019-08-05;Remove flask tutorial notebook folder; 2; 0; 53
+ffe169683;Ubuntu;2019-08-05;Merge branch 'master' into flask_tutorial;0; 0; 0 deletions(+)
+ffe169683;Ubuntu;2019-08-05;Merge branch 'master' into flask_tutorial; 1; 19; 14
+fe787fa14;Ubuntu;2019-08-05;Add flask tutorial files; 2; 53; 0
+a65bf49de;Ubuntu;2019-08-05;Merge remote-tracking branch 'upstream/master';0; 0; 0 deletions(+)
+a65bf49de;Ubuntu;2019-08-05;Merge remote-tracking branch 'upstream/master'; 1; 3; 3
+951401532;Ubuntu;2019-08-04;New TensorBoard tutorial title; 1; 1; 1
+8e36beda1;Ubuntu;2019-08-04;New TensorBoard tutorial; 8; 387; 250
+245c7c81a;Brian Johnson;2019-08-02;Rename text_sentiment_ngrams.py to text_sentiment_ngrams_tutorial.py; 1; 1; 1
+b6a683f6a;Brian Johnson;2019-08-02;Merge pull request #585 from pytorch/flask-fix;0; 0; 0 deletions(+)
+b6a683f6a;Brian Johnson;2019-08-02;Merge pull request #585 from pytorch/flask-fix; 1; 14; 13
+95e35a434;Brian Johnson;2019-08-02;Update flask_rest_api_tutorial.py; 1; 2; 3
+d659ec404;Brian Johnson;2019-08-02;Update flask_rest_api_tutorial.py; 1; 3; 1
+4b026254a;Brian Johnson;2019-08-02;Update flask_rest_api_tutorial.py; 1; 46; 46
+d0b97fcb2;Brian Johnson;2019-08-02;Add files via upload; 1; 0; 0
+2084f60fc;Brian Johnson;2019-08-02;[WIP] Text tutorial; 1; 371; 0
+d4742b84b;Brian Johnson;2019-08-02;Update flask_rest_api_tutorial.py; 1; 1; 1
+c5109a28a;Brian Johnson;2019-08-02;Add files via upload; 1; 1; 0
+ed4422dc2;Brian Johnson;2019-08-02;Update flask_rest_api_tutorial.py; 1; 2; 2
+b071cdec8;Brian Johnson;2019-08-02;Update flask_rest_api_tutorial.py; 1; 2; 2
+2164075d2;Brian Johnson;2019-08-02;Update flask_rest_api_tutorial.py; 1; 2; 2
+62dd985a7;Brian Johnson;2019-08-02;Update requirements.txt; 1; 1; 0
+b8b22f2a1;Brian Johnson;2019-08-02;Add files via upload; 1; 0; 0
+18cada032;Joseph Spisak;2019-08-01;Merge pull request #537 from avinassh/rest-api;0; 0; 0 deletions(+)
+18cada032;Joseph Spisak;2019-08-01;Merge pull request #537 from avinassh/rest-api; 2; 4; 4
+233f4029a;Ubuntu;2019-07-31;Fix capitalization; numbering; 2; 2; 2
+4b82e6939;Ubuntu;2019-07-31;Fix numbering; wording; 1; 10; 11
+c0c5fbe4e;Ubuntu;2019-07-31;Fix typo; 1; 1; 1
+e301f8362;Ubuntu;2019-07-31;Remove captions from images; 1; 2; 6
+557a5d2d2;Ubuntu;2019-07-31;Add Tensorboard tutorial to blitz README; 1; 4; 0
+3b7d66b44;Ubuntu;2019-07-31;Fix formatting; wording; 1; 17; 10
+a3fbb9c61;Ubuntu;2019-07-31;Merge branch 'tensorboard_tutorials';0; 0; 0 deletions(+)
+a3fbb9c61;Ubuntu;2019-07-31;Merge branch 'tensorboard_tutorials'; 6; 117; 186
+1c59b958f;Vincent Quenneville-Belair;2019-07-31;typos.; 1; 11; 11
+c8d46adc2;Brian Johnson;2019-07-30;Merge pull request #582 from pytorch/1.2-Release-Branch-Test;0; 0; 0 deletions(+)
+c8d46adc2;Brian Johnson;2019-07-30;Merge pull request #582 from pytorch/1.2-Release-Branch-Test; 2; 321; 1
+06ba7f516;Brian Johnson;2019-07-30;Update build.sh; 1; 1; 1
+177c3f1d8;Brian Johnson;2019-07-30;Update build.sh; 1; 6; 6
+1401e8970;avi;2019-07-30;update flask deploy URL; 1; 1; 1
+c18c8315f;avi;2019-07-30;some more fixes; 1; 10; 7
+105da91fa;avi;2019-07-30;Fix grammar issues and improvements from PR review; 1; 38; 34
+be03660d4;avi;2019-07-30;clean up index.rst; 1; 0; 5
+5239d7513;avi;2019-07-30;Merge remote-tracking branch 'origin/master' into rest-api;0; 0; 0 deletions(+)
+5239d7513;avi;2019-07-30;Merge remote-tracking branch 'origin/master' into rest-api;0; 0; 0 deletions(+)
+5239d7513;avi;2019-07-30;Merge remote-tracking branch 'origin/master' into rest-api; 1; 9; 8
+ad0dd80ea;Vincent Quenneville-Belair;2019-07-25;remove old audio classifier tutorial.; 1; 0; 310
+34696686d;Vincent Quenneville-Belair;2019-07-25;correct path.; 1; 1; 1
+9341570d4;Brian Johnson;2019-07-25;Merge pull request #579 from pytorch/TOC-Update;0; 0; 0 deletions(+)
+9341570d4;Brian Johnson;2019-07-25;Merge pull request #579 from pytorch/TOC-Update; 1; 0; 7
+a51999e29;Brian Johnson;2019-07-25;Merge pull request #559 from lara-hdr/lahaidar/ort_tutorial;0; 0; 0 deletions(+)
+a51999e29;Brian Johnson;2019-07-25;Merge pull request #559 from lara-hdr/lahaidar/ort_tutorial; 1; 5; 5
+3e1613d74;片刻;2019-07-25;chatbot_tutorial.py:   Solve the optimizer cuda call problem; 1; 11; 0
+a2d197c2c;Vincent Quenneville-Belair;2019-07-24;remove scale.; 1; 0; 4
+3933eeec4;Vincent Quenneville-Belair;2019-07-24;implement standardization.; 1; 30; 52
+02cf5f6ca;Vincent Quenneville-Belair;2019-07-24;add audio signal.; 2; 1; 1
+420132713;Lara;2019-07-24;add info about the model; 1; 10; 3
+a7c3a8b6d;Brian Johnson;2019-07-24;Update chatbot_tutorial.py (#573); 1; 2; 1
+28528e0b2;Lara;2019-07-23;adress remaining comments; 1; 14; 25
+8c4e5a688;Lara;2019-07-23;adress PR comments; 2; 56; 25
+c0ffd4e60;Vincent Quenneville-Belair;2019-07-23;audio preprocessing tutorial.; 3; 273; 4
+c6ec2824f;Lara;2019-07-23;Merge branch 'master' of https://github.com/lara-hdr/tutorials into lahaidar/ort_tutorial;0; 0; 0 deletions(+)
+c6ec2824f;Lara;2019-07-23;Merge branch 'master' of https://github.com/lara-hdr/tutorials into lahaidar/ort_tutorial; 1; 1; 1
+7e51fa051;Joseph Spisak;2019-07-22;Update cifar10_tutorial.py (#568); 1; 2; 2
+81066e13e;Brian Johnson;2019-07-22;Update ptcheat.rst (#570); 1; 2; 2
+9f21916f8;Brian Johnson;2019-07-22;Merge pull request #569 from jspisak/patch-4;0; 0; 0 deletions(+)
+9f21916f8;Brian Johnson;2019-07-22;Merge pull request #569 from jspisak/patch-4; 1; 2; 2
+a4a2fbb2c;Brian Johnson;2019-07-21;Build Repair Work: build-fix branch (#564); 2; 15; 10
+2f8fe9088;Will Feng;2019-07-18;Remove legacy function usgae in numpy_extensions_tutorial.py (#561); 1; 5; 4
+477ca1d53;Junghwan Park;2019-07-18;remove Variable which is deprecated (#558); 1; 2; 2
+fc43498c1;Diego Estrada;2019-07-17;fix custum_directive; 2; 6; 7
+1da736eac;Diego Estrada;2019-07-17;update index-rst; 4; 9; 9
+456549e16;Diego Estrada;2019-07-17;Update Super Resolution Tutorial to Use ORT; 3; 286; 407
+eb7960c4a;Marton Langa;2019-07-14;Fix typo (#556); 1; 1; 1
+3d317f89c;avi;2019-07-03;move the file to intermediate directory; 1; 0; 0
+cc96dd4bd;avi;2019-07-03;Update main index; 1; 2; 2
+0fe9b2210;avi;2019-07-03;move to intermediate section; 2; 4; 4
+e93096185;Will Feng;2019-06-26;update; 1; 0; 5
+7ee582ae3;Will Feng;2019-06-05;Fix INVISIBLE_CODE_BLOCK handling; 3; 5; 4
+dae9661e5;Will Feng;2019-06-05;Revert "test BC-breaking change"; 1; 0; 3
+18c62bdf1;Will Feng;2019-06-05;try to fix beginner_source/nn_tutorial.py; 1; 4; 0
+88d4298ca;Will Feng;2019-06-05;test BC-breaking change; 1; 3; 0
+bf8e2546c;Shagun Sodhani;2019-06-25;Replace reference to variable by tensor (#530); 1; 1; 1
+753bd12ee;avi;2019-06-20;Fix the header; 1; 7; 8
+e3fede2c7;avi;2019-06-20;fix relative link; 1; 2; 1
+41299b12b;avi;2019-06-20;fix image path; 1; 1; 2
+35dff3d17;avi;2019-06-20;add item to the index; 3; 9; 0
+3af5f1b9b;avi;2019-06-20;Update the tutorial; 1; 61; 26
+f3a60ce76;avi;2019-06-20;fix typos; 1; 6; 9
+7f3f33102;avi;2019-06-20;initial version; 1; 304; 0
+c4d6e112f;Brian Johnson;2019-06-19;Merge pull request #520 from karankumar-07/patch-1;0; 0; 0 deletions(+)
+c4d6e112f;Brian Johnson;2019-06-19;Merge pull request #520 from karankumar-07/patch-1; 1; 2; 2
+c325b2a0c;jpgard;2019-06-07;fixed small but potentially confusing typo "the a" --> "the"; 1; 1; 1
+0c11476dd;karan07;2019-06-03;as_matrix deprecated in pandas; 1; 2; 1
+15a7ddf6b;mrshenli;2019-05-30;Highlight that Model Parallel Best Practices performance numbers are environment dependent (#518); 1; 9; 0
+630802450;William Naylor;2019-05-27;change to 3x3 conv filters; for ease of reading dimension in net (#515); 1; 4; 4
+94804679d;Brian Johnson;2019-05-27;Merge pull request #513 from sakaia/fix_download;0; 0; 0 deletions(+)
+94804679d;Brian Johnson;2019-05-27;Merge pull request #513 from sakaia/fix_download; 1; 1; 1
+e37d8dd1f;polplop;2019-05-27;Changed placing of for wherex is... to comment (#434); 2; 10; 10
+d6aa1f08c;Shishir Patil;2019-05-27;moving input data to device (#487); 1; 2; 2
+b4cd127f4;Atsushi SAKAI;2019-05-27;Fix url for mobile_exporter.py (#512); 1; 1; 1
+3a220b773;sakaia@jp.fujitsu.com;2019-05-27;Fix filename for download_saved_models; 1; 1; 1
+9fb9bddf0;Jinhyun Kim;2019-05-27;Fixed a bug in data_loading_tutorial; Border lines of the grids are not considered; Should be shifted accordingly (#509); 1; 3; 2
+3f730137c;Brian Johnson;2019-05-24;Merge pull request #506 from brianjo/master;0; 0; 0 deletions(+)
+3f730137c;Brian Johnson;2019-05-24;Merge pull request #506 from brianjo/master;0; 0; 0 deletions(+)
+3f730137c;Brian Johnson;2019-05-24;Merge pull request #506 from brianjo/master; 2; 1; 18
+4e8511a4f;Brian Johnson;2019-05-23;updated torchvision version; 1; 1; 1
+400e32423;James Reed;2019-05-22;Remove preview text paragraph from custom op tutorial (#507); 1; 0; 7
+f0ab3ded5;Brian Johnson;2019-05-22;Specified Python code blocks.; 1; 6; 6
+6d42ddae8;Brian Johnson;2019-05-22;Added tweaks to tv tutorail.; 3; 2779; 169
+b0026e948;Brian Johnson;2019-05-21;New torchvision tutorial; 10; 671; 0
+18ec63ce8;Ghassen Hamrouni;2019-05-07; Fix a broken link for STN image (#496); 1; 1; 1
+c1523d3f1;peterjc123;2019-05-01;Fix cpp docs for Windows tips (#491); 2; 2; 4
+ac0e1d002;Brian Johnson;2019-04-26;Merge pull request #489 from mrshenli/link;0; 0; 0 deletions(+)
+ac0e1d002;Brian Johnson;2019-04-26;Merge pull request #489 from mrshenli/link;0; 0; 0 deletions(+)
+ac0e1d002;Brian Johnson;2019-04-26;Merge pull request #489 from mrshenli/link; 1; 2; 0
+42b3de55d;Shen Li;2019-04-25;adding links to recent tutorial pages; 1; 17; 7
+91c308332;Kenso Trabing;2019-04-24;Fix link to Sphinx-Gallery (#486); 1; 1; 1
+80542a15d;Brian Johnson;2019-04-23;Merge pull request #488 from mrshenli/rst;0; 0; 0 deletions(+)
+80542a15d;Brian Johnson;2019-04-23;Merge pull request #488 from mrshenli/rst; 2; 261; 1
+63d6601a5;Incomplete;2019-04-20;The torch tensor and numpy array shares the memory only if the torch tensor is on CPU (#485); 1; 2; 1
+5ef8df5f3;Clément Pinard;2019-04-17;Upgrade CPP extension tutorial (#483); 1; 326; 180
+e9f2c6f82;Brian Johnson;2019-04-17;Merge pull request #482 from mrshenli/mpv2;0; 0; 0 deletions(+)
+e9f2c6f82;Brian Johnson;2019-04-17;Merge pull request #482 from mrshenli/mpv2; 1; 6; 3
+f52c85de8;Brian Johnson;2019-04-16;Merge pull request #436 from mrshenli/mp;0; 0; 0 deletions(+)
+f52c85de8;Brian Johnson;2019-04-16;Merge pull request #436 from mrshenli/mp;0; 0; 0 deletions(+)
+f52c85de8;Brian Johnson;2019-04-16;Merge pull request #436 from mrshenli/mp; 1; 63; 15
+f011eae8f;Shen Li;2019-04-15;Merge remote-tracking branch 'upstream/master' into mp;0; 0; 0 deletions(+)
+f011eae8f;Shen Li;2019-04-15;Merge remote-tracking branch 'upstream/master' into mp; 1; 41; 35
+b317dc9ad;Emil;2019-04-10;Replace redundant module names (#475); 1; 10; 10
+015dc953c;tomguluson92;2019-04-09;fix broken link (#471); 1; 2; 2
+83c527f05;Shen Li;2019-04-01;address comments; 1; 35; 31
+da2338607;Shen Li;2019-04-01;Merge remote-tracking branch 'upstream/master' into mp;0; 0; 0 deletions(+)
+da2338607;Shen Li;2019-04-01;Merge remote-tracking branch 'upstream/master' into mp;0; 0; 0 deletions(+)
+da2338607;Shen Li;2019-04-01;Merge remote-tracking branch 'upstream/master' into mp;0; 0; 0 deletions(+)
+da2338607;Shen Li;2019-04-01;Merge remote-tracking branch 'upstream/master' into mp; 1; 1; 1
+8798ff3ea;Brian Johnson;2019-03-28;Update nn_tutorial to reflect UI change; 1; 1; 1
+5303996ee;Brian Johnson;2019-03-28;Merge pull request #453 from brianjo/master;0; 0; 0 deletions(+)
+5303996ee;Brian Johnson;2019-03-28;Merge pull request #453 from brianjo/master; 1; 1; 1
+4682f19b4;Brian Johnson;2019-03-27;Adding information about running tutorials in Colab.; 2; 72; 0
+eb1cd346c;Pat Mellon;2019-03-27;Update download tracking (#454); 1; 3; 3
+49cc4c270;Brian Johnson;2019-03-26;Changed the name of former torchies nn_tutorial; to make way for future site work.; 3; 4; 4
+9e6c8ba21;Elvis Dowson;2019-03-26;reinforcement_q_learning: Remove hard-coded entries for action space. (#452); 1; 8; 5
+0eec7facd;Brian Johnson;2019-03-18;Merge pull request #448 from zhiqwang/master;0; 0; 0 deletions(+)
+0eec7facd;Brian Johnson;2019-03-18;Merge pull request #448 from zhiqwang/master;0; 0; 0 deletions(+)
+0eec7facd;Brian Johnson;2019-03-18;Merge pull request #448 from zhiqwang/master; 1; 1; 1
+c6143b775;Will Feng;2019-03-12;Fix CUDNN error in spatial_transformer_tutorial.py (#446); 2; 16; 17
+e2c6b16f6;Keunwoo Choi;2019-03-09;Update parallelism_tutorial.py (#445); 1; 15; 1
+f20b8719c;Will Feng;2019-03-07;Use Docker image version 291 (#444); 1; 2; 9
+afa4fa555;Pat Mellon;2019-02-07;Wire up FB Pixel and Google Analytics event tracking; 1; 68; 0
+a58d4de13;youkaichao;2019-03-07;typo fix (#440); 2; 2; 2
+d247c370a;Will Feng;2019-03-01;Fix GPG key error (#439); 2; 14; 1
+03ead183c;Joel Marcey;2019-03-01;Fix circle build (#438); 1; 2; 1
+f68ecd6fe;Shen Li;2019-02-24;adding model parallel tutorial; 5; 326; 0
+88577d77d;Daniel Darabos;2019-02-20;Remove unused hidden state. (#435); 1; 1; 15
+068d57a4b;Will Feng;2019-02-19;Add comment to libtorch download link; 1; 1; 0
+7371fea65;Soumith Chintala;2019-02-19;fix state_dict's reference to include registered buffers; 1; 2; 1
+0bda28d38;Juan Cruz-Benito;2019-02-08;Update nn_tutorial.py (#424); 1; 1; 1
+7a57b5c52;Sidhant Nagpal;2019-01-28;Corrects the Jacobian matrix in Autograd tutorial (#426); 1; 12; 9
+5fff87419;Karthik Nayak;2019-01-26;Update reinforcement_q_learning: small grammer fix (#423); 1; 1; 1
+d46485894;Michael Suo;2019-01-22;add windows tip to cpp tutorials (#418); 2; 10; 0
+8aefdf53e;Will Feng;2019-01-22;[v1.0.1] cpp tutorial fix (#422); 3; 9; 9
+d35c4f33b;Will Feng;2019-01-22;Fix docker image name; 1; 2; 2
+83b5c39b6;Soumith Chintala;2019-01-21;fix typo admm -> addmm; 1; 1; 1
+0b37e5560;Soumith Chintala;2019-01-21;fix typo admm -> addmm; 1; 1; 1
+3cbb17f8e;Joel Marcey;2019-01-17;Revert https in images; 14; 27; 27
+7503a42ee;Joel Marcey;2019-01-17;Update view-page-source-icon.svg; 1; 1; 1
+6323a5f73;박승원;2019-01-18;Fix broken https URL back to http (#420); 1; 1; 1
+20e859f17;Brian Johnson;2019-01-16;Merge pull request #419 from TheCodez/patch-1;0; 0; 0 deletions(+)
+20e859f17;Brian Johnson;2019-01-16;Merge pull request #419 from TheCodez/patch-1; 1; 2; 2
+d6973699a;Peter Goldsborough;2019-01-15;C++ frontend Tutorial (#408); 4; 1378; 4
+878638ade;Ben Shaver;2019-01-15;Update saving_loading_models.py (#417); 1; 1; 1
+509c7f98a;Brian Johnson;2019-01-15;Merge pull request #413 from brianjo/master;0; 0; 0 deletions(+)
+509c7f98a;Brian Johnson;2019-01-15;Merge pull request #413 from brianjo/master;0; 0; 0 deletions(+)
+509c7f98a;Brian Johnson;2019-01-15;Merge pull request #413 from brianjo/master; 1; 1; 0
+bbb5f2bd4;Brian Johnson;2019-01-14;Updated gzip command to fix issue on Ubuntu 16. https://github.com/pytorch/tutorials/issues/410; 1; 1; 1
+b38343e6c;Brian Johnson;2019-01-12;Merge pull request #390 from 9bow/master;0; 0; 0 deletions(+)
+b38343e6c;Brian Johnson;2019-01-12;Merge pull request #390 from 9bow/master; 1; 35; 23
+d87425afe;Joel Marcey;2019-01-09;Use https everywhere we can. (#407); 38; 98; 98
+db015b343;Adam J. Stewart;2019-01-08;Typo fixes in 60-min blitz (#289); 3; 16; 16
+76f69e552;Soumith Chintala;2019-01-08;Merge pull request #406 from eonr/patch-1;0; 0; 0 deletions(+)
+76f69e552;Soumith Chintala;2019-01-08;Merge pull request #406 from eonr/patch-1; 1; 1; 1
+e8cc0ba88;Brian Johnson;2019-01-07;Merge pull request #405 from brianjo/master;0; 0; 0 deletions(+)
+e8cc0ba88;Brian Johnson;2019-01-07;Merge pull request #405 from brianjo/master; 1; 0; 869
+2d51162d5;Brian Johnson;2019-01-04;Merge pull request #402 from brianjo/master;0; 0; 0 deletions(+)
+2d51162d5;Brian Johnson;2019-01-04;Merge pull request #402 from brianjo/master; 1; 6; 1
+bd8361c03;Soumith Chintala;2018-12-29;Merge pull request #403 from pytorch/cppext-fix;0; 0; 0 deletions(+)
+bd8361c03;Soumith Chintala;2018-12-29;Merge pull request #403 from pytorch/cppext-fix; 1; 2; 2
+6135fc607;Brian Johnson;2018-12-26;Added nn_tutorial and graphic.; 2; 881; 0
+9e7ebc0e3;Soumith Chintala;2018-12-26;Merge pull request #401 from bpshaver/master;0; 0; 0 deletions(+)
+9e7ebc0e3;Soumith Chintala;2018-12-26;Merge pull request #401 from bpshaver/master; 1; 1; 1
+3879d330a;Joel Marcey;2018-12-23;Add Pytorch Sphinx theme as proper submodule (#399); 2; 4; 1
+fbd68a555;Brian Johnson;2018-12-21;Reducing epochs in audio_classifier to fix build issue. (#398); 1; 29; 26
+0ae734056;Soumith Chintala;2018-12-21;Merge pull request #397 from goldsborough/custom-op-faq;0; 0; 0 deletions(+)
+0ae734056;Soumith Chintala;2018-12-21;Merge pull request #397 from goldsborough/custom-op-faq; 1; 29; 26
+d1b279f28;Soumith Chintala;2018-12-20;Merge pull request #392 from 9bow/fix_typo_in_cheat_sheet;0; 0; 0 deletions(+)
+d1b279f28;Soumith Chintala;2018-12-20;Merge pull request #392 from 9bow/fix_typo_in_cheat_sheet;0; 0; 0 deletions(+)
+d1b279f28;Soumith Chintala;2018-12-20;Merge pull request #392 from 9bow/fix_typo_in_cheat_sheet; 1; 9; 0
+c0aa1a93c;Peter Goldsborough;2018-12-19;Link to FAQ on main page in custom ops tutorial; 1; 3; 32
+4703db174;Junghwan Park;2018-12-19;fix typo in cheat sheet (#381); 1; 4; 16
+b7569a37b;Michael Antonov;2018-12-18;Fixed comment typos and training values.; 1; 15; 16
+5f1dcfe59;Michael Antonov;2018-12-17;Fixed reinforcement learning to run with any screen size; added diagrams.; 2; 71; 27
+4779db87b;Soumith Chintala;2018-12-17;Merge pull request #388 from sidazhang/type_notes;0; 0; 0 deletions(+)
+4779db87b;Soumith Chintala;2018-12-17;Merge pull request #388 from sidazhang/type_notes; 1; 31; 0
+96c053751;Soumith Chintala;2018-12-16;Merge pull request #387 from vra/patch-1;0; 0; 0 deletions(+)
+96c053751;Soumith Chintala;2018-12-16;Merge pull request #387 from vra/patch-1; 1; 2; 2
+4460f6a7c;Soumith Chintala;2018-12-14;Merge pull request #385 from zasdfgbnm/jacobian-vec-product;0; 0; 0 deletions(+)
+4460f6a7c;Soumith Chintala;2018-12-14;Merge pull request #385 from zasdfgbnm/jacobian-vec-product; 1; 47; 4
+f20284391;Soumith Chintala;2018-12-13;Merge pull request #382 from aobo-y/patch-1;0; 0; 0 deletions(+)
+f20284391;Soumith Chintala;2018-12-13;Merge pull request #382 from aobo-y/patch-1; 1; 1; 1
+a46b6437b;Soumith Chintala;2018-12-12;Merge pull request #370 from SsnL/patch-1;0; 0; 0 deletions(+)
+a46b6437b;Soumith Chintala;2018-12-12;Merge pull request #370 from SsnL/patch-1; 1; 7; 18
+75884b5f0;Soumith Chintala;2018-12-09;Merge pull request #379 from orrblue/master;0; 0; 0 deletions(+)
+75884b5f0;Soumith Chintala;2018-12-09;Merge pull request #379 from orrblue/master; 1; 1; 0
+c47c4d90d;Will Feng;2018-12-07;Re-enable learning_hybrid_frontend_through_example_tutorial.py (#377); 2; 14; 21
+c64413c2e;Will Feng;2018-12-07;Clean up build.sh (#375); 1; 0; 1
+f12df99b6;Will Feng;2018-12-07;Add link to aws_distributed_training_tutorial (#376); 1; 6; 0
+6b50c1852;Will Feng;2018-12-07;Re-enable deploy_seq2seq_hybrid_frontend_tutorial.py (#374); 1; 0; 1
+87cf35dc5;Will Feng;2018-12-07;re-enable gh-pages push from CircleCI; 1; 16; 17
+a6b20d317;Will Feng;2018-12-07; Fix tutorial generation issues (#373); 10; 131; 28
+fe4cbcd0f;Will Feng;2018-12-07;Disable gh-pages push from CircleCI; 1; 17; 16
+1ccddb3f6;Will Feng;2018-12-07;fix branch check; 1; 1; 1
+4e0fe5ea8;Will Feng;2018-12-07;check existence of AWS credentials (#372); 1; 8; 0
+508f98535;Will Feng;2018-12-06;Parallel build for tutorial; and move build to CircleCI (#366); 19; 546; 60
+e05cfa472;Brian Johnson;2018-12-06;Updating for PT 1.0 release (#362); 7; 6; 14
+73fa8536b;Soumith Chintala;2018-12-06;Merge pull request #367 from goldsborough/dead-faq-link;0; 0; 0 deletions(+)
+73fa8536b;Soumith Chintala;2018-12-06;Merge pull request #367 from goldsborough/dead-faq-link; 1; 695; 0
+2fc25c2e0;Tongzhou Wang;2018-12-05;fix tutorial comment; 1; 1; 1
+a3d5eed9d;Peter Goldsborough;2018-12-04;Fix FAQ link; 1; 2; 2
+59185f929;Brendan;2018-11-30;Remove unnecessary js files in _static (#365); 4; 0; 749
+9833e5490;Soumith Chintala;2018-11-29;Merge pull request #364 from goldsborough/custom-ops-link;0; 0; 0 deletions(+)
+9833e5490;Soumith Chintala;2018-11-29;Merge pull request #364 from goldsborough/custom-ops-link; 1; 1; 1
+3f1dd7547;Soumith Chintala;2018-11-28;Merge pull request #363 from goldsborough/custom-ops;0; 0; 0 deletions(+)
+3f1dd7547;Soumith Chintala;2018-11-28;Merge pull request #363 from goldsborough/custom-ops; 2; 1090; 6
+667663c99;Michael Bunsen;2018-11-26;Fix typo in reinforcement learning tutorial (#361); 1; 1; 1
+5e48246d3;Joel Marcey;2018-11-22;Add `LC_ALL` to force a default locale (#360); 2; 6; 0
+a2b1aac53;Brian Johnson;2018-11-20;Debugging update. (#356); 4; 5; 5
+1dc0de7f7;Soumith Chintala;2018-11-19;Merge pull request #359 from JoelMarcey/http-to-https;0; 0; 0 deletions(+)
+1dc0de7f7;Soumith Chintala;2018-11-19;Merge pull request #359 from JoelMarcey/http-to-https; 27; 59; 59
+400e21b9f;Soumith Chintala;2018-11-19;Merge pull request #358 from tczhangzhi/patch-1;0; 0; 0 deletions(+)
+400e21b9f;Soumith Chintala;2018-11-19;Merge pull request #358 from tczhangzhi/patch-1; 1; 1; 1
+31d9132d1;Soumith Chintala;2018-11-07;Merge pull request #346 from brianjo/master;0; 0; 0 deletions(+)
+31d9132d1;Soumith Chintala;2018-11-07;Merge pull request #346 from brianjo/master; 1; 11; 4
+90670932c;Rui Zhu;2018-11-01;Removed onnx_caffe2 and related docs; update to caffe2.python.onnx (#348); 1; 6; 6
+f754198e4;Brian Johnson;2018-10-30;file fixes; 1; 87; 177
+ac64c0b11;Peter Goldsborough;2018-10-29;Create FAQ for C++ extensions (#345); 1; 5; 4
+72f1f1ca6;Brian Johnson;2018-10-24;Added Autograd and graphics to blitz page; 3; 10; 1
+945371a6b;Eric Nakagawa;2018-10-23;Merge pull request #344 from shiftlab/PYT-304;0; 0; 0 deletions(+)
+945371a6b;Eric Nakagawa;2018-10-23;Merge pull request #344 from shiftlab/PYT-304; 1; 2; 1
+d6936ff07;Matthew Inkawhich;2018-10-23;Fixed headings in saving_loading_models tutorial and wording/grammatical nits in chatbot_tutorial (#343); 2; 18; 17
+1df096b06;Brian Johnson;2018-10-22;Added nn_basics tutorial; 1; 959; 0
+2ca462b41;Kaiyu Yue;2018-10-14;fix the web link (#339); 1; 1; 1
+79217a1b7;Abhishek Rao;2018-10-11;Fix line endings in windows machine (#336); 1; 1; 1
+8bcd0ac63;Eric Nakagawa;2018-10-03;Merge pull request #333 from ericnakagawa/master;0; 0; 0 deletions(+)
+8bcd0ac63;Eric Nakagawa;2018-10-03;Merge pull request #333 from ericnakagawa/master;0; 0; 0 deletions(+)
+8bcd0ac63;Eric Nakagawa;2018-10-03;Merge pull request #333 from ericnakagawa/master;0; 0; 0 deletions(+)
+8bcd0ac63;Eric Nakagawa;2018-10-03;Merge pull request #333 from ericnakagawa/master; 130; 15150; 0
+ac0b33718;Eric Nakagawa;2018-10-02;Merge pull request #331 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+ac0b33718;Eric Nakagawa;2018-10-02;Merge pull request #331 from ericnakagawa/rc1; 131; 0; 26578
+4c547998f;Eric Nakagawa;2018-10-01;Merge pull request #330 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+4c547998f;Eric Nakagawa;2018-10-01;Merge pull request #330 from ericnakagawa/rc1; 1; 1; 0
+62578db4e;Eric Nakagawa;2018-10-01;Merge pull request #329 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+62578db4e;Eric Nakagawa;2018-10-01;Merge pull request #329 from ericnakagawa/rc1; 1; 1; 1
+f569ec097;Eric Nakagawa;2018-10-01;Merge pull request #328 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+f569ec097;Eric Nakagawa;2018-10-01;Merge pull request #328 from ericnakagawa/rc1; 1; 1; 1
+2ca528f04;Eric Nakagawa;2018-10-01;Merge pull request #323 from brianjo/rc1;0; 0; 0 deletions(+)
+2ca528f04;Eric Nakagawa;2018-10-01;Merge pull request #323 from brianjo/rc1; 3; 9; 8
+b1a6d7de6;Brian Johnson;2018-09-20;Updated opening text; 1; 14; 16
+79a9d143e;Eric Nakagawa;2018-09-19;Merge pull request #322 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+79a9d143e;Eric Nakagawa;2018-09-19;Merge pull request #322 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+79a9d143e;Eric Nakagawa;2018-09-19;Merge pull request #322 from ericnakagawa/rc1; 2; 10; 4
+6c544da89;Eric Nakagawa;2018-09-19;Merge pull request #320 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+6c544da89;Eric Nakagawa;2018-09-19;Merge pull request #320 from ericnakagawa/rc1; 1; 2; 2
+8ef2a1608;Eric Nakagawa;2018-09-19;Merge pull request #319 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+8ef2a1608;Eric Nakagawa;2018-09-19;Merge pull request #319 from ericnakagawa/rc1; 1; 3; 2
+963265fcc;Eric Nakagawa;2018-09-19;Update missing design files; 130; 26578; 0
+e42cbb6ce;Eric Nakagawa;2018-09-19;Pull tutorial dependencies into requirements.txt; have requirements refer to jenkins build script; 2; 11; 11
+ba8900529;Eric Nakagawa;2018-09-19;Merge pull request #314 from brianjo/rc1;0; 0; 0 deletions(+)
+ba8900529;Eric Nakagawa;2018-09-19;Merge pull request #314 from brianjo/rc1; 1; 2; 2
+8afce8a21;Peter Goldsborough;2018-09-19;Clarify sentence in C++ extensions tutorial (#311); 1; 7; 8
+cca6112c0;Joseph Spisak;2018-09-18;Update index.rst (#313); 1; 11; 8
+be1299b80;Eric Nakagawa;2018-09-18;Merge pull request #312 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+be1299b80;Eric Nakagawa;2018-09-18;Merge pull request #312 from ericnakagawa/rc1; 1; 3; 0
+a3e0c8d2b;Eric Nakagawa;2018-09-18;Comments out input as it hangs tutorial builds; 1; 2; 2
+5dc364f29;Eric Nakagawa;2018-09-18;Merge pull request #309 from MatthewInkawhich/rc1;0; 0; 0 deletions(+)
+5dc364f29;Eric Nakagawa;2018-09-18;Merge pull request #309 from MatthewInkawhich/rc1;0; 0; 0 deletions(+)
+5dc364f29;Eric Nakagawa;2018-09-18;Merge pull request #309 from MatthewInkawhich/rc1; 1; 3; 5
+27f6b35bb;Eric Nakagawa;2018-09-18;Merge pull request #307 from brianjo/rc1;0; 0; 0 deletions(+)
+27f6b35bb;Eric Nakagawa;2018-09-18;Merge pull request #307 from brianjo/rc1;0; 0; 0 deletions(+)
+27f6b35bb;Eric Nakagawa;2018-09-18;Merge pull request #307 from brianjo/rc1; 1; 4; 4
+f94219105;Eric Nakagawa;2018-09-17;Merge pull request #308 from ericnakagawa/rc1;0; 0; 0 deletions(+)
+f94219105;Eric Nakagawa;2018-09-17;Merge pull request #308 from ericnakagawa/rc1; 1; 1; 1
+f57523bbc;Matthew Inkawhich;2018-09-17;Filled model download link; fixed saving syntax; 1; 11; 6
+be5b9ce12;Eric Nakagawa;2018-09-17;Update the PT1 Tutorials Jenkins Build script to use CUDA 8.0; 1; 9; 3
+b3ad6e2ec;Brian Johnson;2018-09-17;Updated toc and tutorial notes.; 6; 19; 10
+1bdbee4fc;Brian Johnson;2018-09-17;Merge branch 'rc1' of github.com:brianjo/tutorials into rc1;0; 0; 0 deletions(+)
+1bdbee4fc;Brian Johnson;2018-09-17;Merge branch 'rc1' of github.com:brianjo/tutorials into rc1; 17; 1122; 844
+9659fa3ba;Brian Johnson;2018-09-17;Merge branch 'rc1' of github.com:pytorch/tutorials into rc1;0; 0; 0 deletions(+)
+9659fa3ba;Brian Johnson;2018-09-17;Merge branch 'rc1' of github.com:pytorch/tutorials into rc1; 5; 883; 533
+69d978ed4;Matthew Inkawhich;2018-09-16;Updated chatbot tutorial after James comments; 14; 239; 311
+82ea5499f;Brian Johnson;2018-09-14;Updated to release stylesheet (#305); 2; 10; 7
+02f74723b;Peter Goldsborough;2018-09-14;Some nits for the C++ export tutorial (#304); 1; 13; 12
+6e579ee54;Brian Johnson;2018-09-14;Updated to release stylesheet; 2; 10; 7
+3e73b5bf3;Brian Johnson;2018-09-14;Updated ToC (#303); 1; 7; 0
+69ed22299;winston6;2018-09-14;decrease train time and small typo fix (#301); 1; 3; 3
+32b6b2b83;Peter Goldsborough;2018-09-14;Tutorial on loading a model in C++ (#302); 2; 376; 7
+70a871d43;Eric Nakagawa;2018-09-13;Force verbose output for Sphinx (#294); 1; 1; 1
+a5ba09f27;Eric Nakagawa;2018-09-13;Comment Out Interactive Step (#293); 1; 2; 2
+7a52a18fe;Brian Johnson;2018-09-13;rc1 added ONNX Live Tutorial; graphic; and updated index.rst (#296); 18; 485; 24
+7f48ac827;Manuel A. Vázquez;2018-09-07;A couple of typos at the end (misplaced ``) (#298); 1; 2; 2
+5855daa6f;Brian Johnson;2018-08-31;Updated index.rst; 1; 0; 6
+2983eba6a;Brian Johnson;2018-08-31;Updated Index file and thumbnails.; 11; 185; 68
+d63d3f0ff;Eric Nakagawa;2018-08-29;Include note about installing updated GPU driver; 1; 3; 3
+cae5e50c2;Tongzhou Wang;2018-08-29;Use docs/stable/ link in DDP tutorial (#285); 1; 9; 9
+ca8f0328a;Joel Marcey;2018-08-29;Update conf.py to not include discarded folders; 1; 2; 2
+3b13373bd;Joel Marcey;2018-08-29;Master Merge Prep; 23; 0; 129
+6a30b49f9;Eric Nakagawa;2018-08-29;Update nightly to 8/28; 1; 1; 1
+2f5299a54;Matthew Inkawhich;2018-08-25;Update chatbot model loading; serialize voc.__dict__ instead of entire object; 1; 29; 38
+6636d6f95;Eric Nakagawa;2018-08-24;Added cython dependency for torch_nightly; 1; 2; 2
+2b5df19cd;Eric Nakagawa;2018-08-24;Switch Pytorch use to nightly GPU build; 1; 7; 17
+a1df3e10c;Eric Nakagawa;2018-08-24;Forcing CMAKE to 3.5 to appease build script; 1; 1; 1
+c3567bada;Eric Nakagawa;2018-08-24;Replace torch with fresh build of pytorch; 1; 21; 1
+b1acfec5d;Eric Nakagawa;2018-08-23;Troubleshooting breakage; 1; 1; 1
+db0012447;Matthew Inkawhich;2018-08-22;Use torch tensor ops in Attn module in chatbot_tutorial.py rather than loop; 1; 27; 36
+51098240d;Nathan Inkawhich;2018-08-21;fix dcgan tutorial; 1; 1; 1
+ad6ef01b4;Nathan Inkawhich;2018-08-21;tweaking dcgan tutorial; 1; 8; 7
+882a0bd04;Joseph Spisak;2018-08-20;Add files via upload; 1; 203; 0
+a8375a2a9;Joseph Spisak;2018-08-19;Update dcgan_faces_tutorial.py; 1; 1; 1
+80aa16ae4;Joseph Spisak;2018-08-19;Update dcgan_faces_tutorial.py; 1; 1; 1
+396d2fbb3;Will Feng;2018-08-17;fix dataset download; 1; 3; 3
+dcea7281e;Will Feng;2018-08-15;Add tutorial build script; 1; 49; 0
+c9ec684a5;Nathan Inkawhich;2018-08-16;Adding model download link for FGSM tutorial; 1; 1; 1
+3c10495e9;Nathan Inkawhich;2018-08-15;Refine Finetuning Torchvision Tutorial; 1; 137; 141
+7c2fc9fe9;wherring6;2018-08-15;fix: audio_classifier_tutorial.py remove Variable; 1; 1; 4
+c9716b90e;Will Feng;2018-08-15;Fix audio_classifier_tutorial.py; 1; 1; 0
+63eb1f88c;Nathan Inkawhich;2018-08-14;Add chatbot tutorial to beginner_source; 11; 1460; 0
+fd3e2e28d;Nathan Inkawhich;2018-08-14;Updating DCGAN Tutorial; 1; 212; 188
+aa538d4f5;Nathan Inkawhich;2018-08-14;Adding FGSM Adversarial Attack Tutorial; 3; 417; 0
+fbb8ee273;wherring6;2018-08-09;revised audio classifier tutorial; 1; 140; 156
+b306ffc6c;Matthew Inkawhich;2018-08-03;Move saving and loading models tutorial to pytorch_basics; 7; 14; 17
+8cacb5cbe;wherring6;2018-08-02;removed some unnecessary figures in neural style; 1; 0; 13
+3bc0794ac;wherring6;2018-08-02;added audio classifier tutorial; 2; 328; 0
+c9b711142;Will Feng;2018-08-02;Fix dataloader OOM in dcgan_faces_tutorial.py; 1; 1; 1
+539fe3193;Will Feng;2018-08-01;Fix numpy_extensions_tutorial.py; 1; 1; 1
+bbc6235d0;Rob Kunkle;2018-07-31;testing netlify; 2; 27; 8
+e4272055e;Matthew Inkawhich;2018-07-31;added saving and loading tutorial; 2; 481; 0
+46501f98f;Nathan Inkawhich;2018-07-31;Adding DCGAN Faces Tutorial; 3; 714; 0
+36135974e;Rob Kunkle;2018-07-30;Adding new content structure to index.; 23; 119; 2
+2a34561c5;Christine Abernathy;2018-07-26;Netlify test; 1; 1; 0
+a41c6bc95;wherring6;2018-07-24;updated neural transfer tutorial; 5; 181; 288
+5b4bad2bd;Nathan Inkawhich;2018-07-13;removed caffe2 onnx tutorial; 1; 0; 201
+5890b4600;Matthew Inkawhich;2018-07-09;Removed automated download in introduction to hybrid frontend tutorial; added caffe2 onnx primer tutorial back; 2; 201; 1
+9cb0fbb03;Matthew Inkawhich;2018-07-02;remove caffe2 onnx tutorial; 1; 0; 201
+3f3638f22;Nathan Inkawhich;2018-07-01;c2 to onnx and hybrid frontend initial commit; 1; 201; 0
+b0f5d29f2;Nathan Inkawhich;2018-07-22;adding Finetuning Torchvision Models tutorial; 2; 654; 0
+d5f1c92ef;Nathan Inkawhich;2018-07-13;removed caffe2 onnx tutorial; 2; 0; 202
+5e94f5fc9;Nathan Inkawhich;2018-07-10;hybrid frontend tutorials and caffe2 onnx primer; 1; 1; 0
+00e131977;Matthew Inkawhich;2018-07-09;Removed automated download in introduction to hybrid frontend tutorial; added caffe2 onnx primer tutorial back; 3; 222; 23
+7559bdfee;Matthew Inkawhich;2018-07-02;Add beginner_source/hybrid_frontend/data to .gitignore; 1; 1; 0
+8ef243dac;Matthew Inkawhich;2018-07-02;remove caffe2 onnx tutorial; 2; 0; 204
+e98491eb7;Matthew Inkawhich;2018-07-02;Temporarily removed caffe2 onnx tutorial; load iris.data file into data folder in introduction to hybrid frontend tutorial; 1; 6; 5
+7a32b021d;Nathan Inkawhich;2018-07-01;fixed eqn issue with HF example; 1; 5; 5
+c02b728c5;Nathan Inkawhich;2018-07-01;fixing equations in HF learn by example tutorial; 2; 17; 12
+057f8f5c7;Matthew Inkawhich;2018-07-01;Added thumbnail for Introduction to Hybrid Frontend tutorial; 1; 1; 0
+6f7d2451d;Matthew Inkawhich;2018-07-01;Added Introduction to Hybrid Frontend tutorial; 5; 484; 226
+0ece850ae;Nathan Inkawhich;2018-07-01;c2 to onnx and hybrid frontend initial commit; 7; 790; 0
+6bd895c11;Daniel Hunter;2018-08-15;Update data_loading_tutorial.py (#282); 1; 1; 1
+1952e5836;Christopher Chedeau;2018-08-15;Remove pillow exact dependency (#283); 1; 0; 1
+7b02323b4;vfdev;2018-08-04;Fix typos and update to 0.4.1 (#280); 1; 3; 3
+78ba7d871;Kaz FUNAKOSHI;2018-07-26;Question: requires_grad defaults False? (#276); 1; 1; 1
+770ee6fa7;Tongzhou Wang;2018-07-26;fixes for 0.4.1 (#277); 5; 6; 6
+a1d4e625c;Richard Zou;2018-07-17;Fix arange in docs. (#273); 1; 1; 1
+edfde13b9;vfdev;2018-07-01;Update cpp_extension.rst (#267); 1; 1; 1
+f15832587;adam-dziedzic;2018-07-01;corrected the example for cross-correlation with scipy (#268); 1; 47; 31
+cd4953d50;Davide Fiocco;2018-06-26;Typo fix and reformatting (#266); 1; 2; 2
+5620fdbdf;Kristofer Krus;2018-06-24;Fix incorrectly formatted pip requirements file (#264); 1; 1; 1
+695cebcac;Xikun Zhang;2018-06-19;change pillow version (#261); 1; 1; 1
+62144ed92;Arya McCarthy;2018-06-06;Update pytorch_with_examples.rst (#256); 1; 4; 4
+1627d2053;Nitzan Orr;2018-06-05;Grammar fixes in Blitz tutorials (#255); 2; 2; 2
+885c82cef;Peter Goldsborough;2018-05-31;nn.Function -> autograd.Function (#254); 1; 3; 3
+3dca1215f;jvmancuso;2018-05-26;pointer to NCCL in docs + add barrier + typo fixes (#248); 1; 5; 4
+6bc51b986;Daniel Hunter;2018-05-23;Fix typo (#251); 1; 1; 1
+93e6ad273;Sasank Chilamkurthy;2018-05-19;Fix #233; 3; 3; 3
+d1a54607f;Junghwan Park;2018-05-18;fixed a typo (#246); 1; 1; 1
+2898c5880;Florian Thöle;2018-05-17;Use variable instead of magic number in data_parallel_tutorial.py (#244); 1; 1; 1
+e83f94b87;Frederik Tiedemann;2018-05-16;typos (#243); 1; 4; 4
+2d440315a;Junghwan Park;2018-05-15;fixed a typo (#240); 1; 1; 1
+e665e9bf0;Kai Li;2018-05-15;Update autograd_tutorial.py (#238); 1; 1; 1
+720d96a39;Davide Fiocco;2018-05-15;Typo fixing and formatting change (#242); 1; 2; 2
+4667958c3;Kai Li;2018-05-15;Update word_embeddings_tutorial.py (#241); 1; 3; 3
+2d092a2f8;Kai Li;2018-05-11;Update data_parallel_tutorial.py (#239); 1; 2; 2
+06dc97785;Junghwan Park;2018-05-11;fixed a typo (#237); 1; 1; 1
+5e5cae8d7;Twinkle;2018-05-09;Update data_parallel_tutorial.py (#235); 1; 3; 3
+e55b6e2f4;Soumith Chintala;2018-05-02;add new logo; 2; 27; 18
+4ce8b871e;JxCode;2018-05-01;fix #229 makes it work on Windows (#232); 2; 4; 2
+cddabb2c3;Tongzhou Wang;2018-04-30;Use cuda device object instead of .cuda (#231); 1; 9; 7
+68a1f59cb;Peter Goldsborough;2018-04-27;Some corrections to the C++ extensions tutorial (#230); 1; 8; 7
+47f3385f5;Sasank Chilamkurthy;2018-04-26;Fix formatting bug; 1; 1; 0
+cfead1413;Sasank Chilamkurthy;2018-04-26;Remove Variable image in former torchies tutorial; 1; 0; 1
+05cf6a195;Soumith Chintala;2018-04-25;added back accidental remove; 1; 4; 1
+6900cf2e0;Peter Goldsborough;2018-04-26;Cpp extension (#214); 4; 1037; 132
+3f1cb23fc;Madder;2018-04-25;Fix epoch accuracy (avoiding integer division) (#227); 1; 1; 1
+2543feecf;Tongzhou Wang;2018-04-25;Update Neural Style Transfer to print weighted loss (#225); 1; 6; 2
+0ad33d606;Soumith Chintala;2018-04-24;update tutorials for 0.4 (#223) (#224); 37; 897; 900
+24b762320;Naren Dasan;2018-04-06;Fix typo for BoW (#222); 1; 1; 1
+7ef2a5abf;Kai Arulkumaran;2018-03-29;Add target network to DQN (#209); 1; 29; 25
+ab62128f4;Lucas Beyer;2018-03-29;Use foo.new instead of torch.FloatTensor for GPU. (#211); 1; 5; 5
+9c1bc693e;Maxime De Bruyn;2018-03-29;Update seq2seq_translation_tutorial.py (#217); 1; 1; 1
+46e34939a;Jonas Fonseca;2018-03-15;Fix a few typos in the NLP beginners introduction (#215); 1; 3; 3
+8250b2fd4;Sebastián Ramírez;2018-03-07;Fix blitz neural networks shape mismatch (#213); 1; 1; 0
+f8c423f14;Simeon Monov;2018-03-03;Changed "creator" to "grad_fn" (#212); 1; 0; 0
+acbdba452;Orpheus Lummis;2018-02-10;small style/typo fixes (#210); 2; 14; 14
+56d1da96e;Xu Song;2018-02-03;Fix 'grad_output' with 'gradient' (#207); 1; 1; 1
+e39d66eb5;zakora;2018-02-02;Minor fixes to Transfer Learning (#206); 1; 4; 4
+c60193502;Tongzhou Wang;2018-01-31;set transfer learning model in eval mode in visualize_model function (#205); 1; 4; 0
+707c244c3;Sebastian Raschka;2018-01-31;fix link linking to dataparallel (#204); 1; 2; 2
+385332e3f;Sebastian Raschka;2018-01-29;some suggestions regarding typos and style (#202); 1; 21; 19
+383e429bd;Nawfal;2018-01-23;fixed typo (#201); 1; 1; 1
+90c7ea993;Sasank Chilamkurthy;2018-01-22;Merge pull request #198 from chsasank/new-fixes;0; 0; 0 deletions(+)
+90c7ea993;Sasank Chilamkurthy;2018-01-22;Merge pull request #198 from chsasank/new-fixes; 2; 23; 16
+00e005858;Sasank Chilamkurthy;2018-01-22;fix a bug in nlp tutorial; 1; 2; 2
+c2c580612;Sasank Chilamkurthy;2018-01-22;Fix link in char rnn tutorial; 1; 2; 1
+705a88373;Olli Huotari;2018-01-22;removed references to layers as they were not working correctly (#195); 1; 10; 16
+a82d39e74;Sasank Chilamkurthy;2018-01-22;Use pandas .iloc instead of deprecated .ix; 1; 7; 6
+40d27fa71;Sasank Chilamkurthy;2018-01-22;Add explanation of optim.zero_grad; 2; 12; 2
+628c65150;Sasank Chilamkurthy;2018-01-22;Add explanation for torch.view; 1; 7; 0
+7b35173c3;Nelson Liu;2017-12-18;Fix loss calculation in transfer learning tutorial (#187); 1; 1; 1
+b758e3c3e;b21527616;2017-12-17;Fixed deep copying model.state_dict() (#188); 1; 3; 2
+016d0cc07;Richard Zou;2017-12-12;Fix softmax warnings (#177); 7; 113; 113
+4330f79f8;Alex Shepard;2017-12-07;fix comment to match behavior (#185); 1; 1; 1
+f265eb94b;Alex Shepard;2017-12-04;fix typo in "where do i go next?" (#184); 1; 2; 2
+171ebbe2b;Max Mikhaylov;2017-12-01;fixed typo (#182); 1; 1; 1
+34c8a9d83;tom kelly;2017-11-17;typos (#178); 1; 9; 9
+77fd1f559;Sasank Chilamkurthy;2017-11-16;Merge pull request #126 from v1n337/master;0; 0; 0 deletions(+)
+77fd1f559;Sasank Chilamkurthy;2017-11-16;Merge pull request #126 from v1n337/master; 5; 265; 2
+761e36994;Sasank Chilamkurthy;2017-11-14;Merge pull request #175 from eminenceG/master;0; 0; 0 deletions(+)
+761e36994;Sasank Chilamkurthy;2017-11-14;Merge pull request #175 from eminenceG/master; 1; 4; 4
+140eb2abf;Sasank Chilamkurthy;2017-11-08;Merge pull request #173 from chsasank/master;0; 0; 0 deletions(+)
+140eb2abf;Sasank Chilamkurthy;2017-11-08;Merge pull request #173 from chsasank/master; 1; 9; 1
+ad05d56bf;Sasank Chilamkurthy;2017-11-08;Intermediate tutorials heading is now flat; 1; 7; 31
+8791ae19f;Ghassen Hamrouni;2017-11-08;Add Spatial Transformer Networks Tutorial (#171); 6; 273; 0
+d9a63f1c7;SsnL;2017-11-02;typo (#172); 1; 1; 1
+8f5c1e347;Sasank Chilamkurthy;2017-10-31;Create LICENSE; 1; 29; 0
+345354a50;Rahul Prasanna;2017-10-24;update requirements.txt (#167); 1; 1; 0
+8df712e9b;tztztztztz;2017-10-24;fix image show error (#165); 1; 1; 0
+409837250;Hungryof;2017-10-24;Update neural_style_tutorial.py (#166); 1; 4; 4
+f072830da;Sasank Chilamkurthy;2017-10-20;Merge pull request #162 from vfdev-5/patch-1;0; 0; 0 deletions(+)
+f072830da;Sasank Chilamkurthy;2017-10-20;Merge pull request #162 from vfdev-5/patch-1;0; 0; 0 deletions(+)
+f072830da;Sasank Chilamkurthy;2017-10-20;Merge pull request #162 from vfdev-5/patch-1;0; 0; 0 deletions(+)
+f072830da;Sasank Chilamkurthy;2017-10-20;Merge pull request #162 from vfdev-5/patch-1; 1; 1; 1
+2195e8052;vfdev;2017-10-18;Update sequence_models_tutorial.py; 1; 1; 1
+aea322977;vfdev;2017-10-18;Update pytorch_tutorial.py; 1; 1; 1
+d235bc296;Sasank Chilamkurthy;2017-10-18;Fix custom directive 'galleryitem' (#161); 1; 2; 1
+055a90eff;Lu Fang;2017-10-12;Update the Super Resolution example; so it is compatible with latest ONNX (#158); 1; 11; 10
+62795e515;Sébastien Arnold;2017-10-11;Improved passage on immediates and their undefined behaviour. (#152); 1; 9; 3
+8ce810776;Sasank Chilamkurthy;2017-10-12;Add note about input size (#157); 1; 2; 0
+2c805a88d;Sébastien Arnold;2017-10-06;Added distributed tutorial. (#150); 13; 688; 0
+64ed72b37;Sasank Chilamkurthy;2017-09-30;Merge pull request #148 from adham/patch-1;0; 0; 0 deletions(+)
+64ed72b37;Sasank Chilamkurthy;2017-09-30;Merge pull request #148 from adham/patch-1; 1; 1; 1
+137f35a45;Martin Drawitsch;2017-09-26;Fix small typo in pytorch_with_examples (#146); 1; 1; 1
+9381919f2;Rüdiger Busche;2017-09-21;Remove superfluous * from italics (#144); 1; 1; 1
+29bbe0974;Tetsuo Seto;2017-09-19;Fix main.py in C-Extension doc (#142); 1; 3; 3
+456e26059;Soumith Chintala;2017-09-19;fix c_extension code; 1; 1; 1
+a0955ef19;Sasank Chilamkurthy;2017-09-17;Use more descriptive variable names & lr schedulers (#141); 1; 37; 46
+dda0b2f01;houseroad;2017-09-16;Load the weights to CPU if CUDA is not available (#137); 1; 4; 1
+008568208;Priya Goyal;2017-09-16;tiny change to super-resolution tutorial (#138); 1; 2; 2
+3c62a58ed;Sasank Chilamkurthy;2017-09-16;Fix first block in caffe2 tutorial; 1; 13; 16
+2880f24e7;brett koonce;2017-09-15;fix minor spelling errors in docs (#140); 2; 2; 2
+b203e4ebd;Priya Goyal;2017-09-07;update to note - put at top (#136); 1; 3; 3
+0a0621c2c;Edward Z. Yang;2017-09-07;Add a link to PyTorch onnx documentation. (#134); 1; 3; 0
+dff76ac2f;Priya Goyal;2017-09-07;note for pytorch master (#135); 1; 3; 0
+414a9dfd0;Edward Z. Yang;2017-09-07;Elaborate the install instructions more. (#133); 1; 9; 5
+27daa283e;Priya Goyal;2017-09-07;Tutorial for Super-resolution using caffe2 (#132); 7; 413; 10
+0a86b8a41;Vineet John;2017-08-19;Removed unused references to encoder_output in the attention decoder; 1; 4; 4
+280662e14;Charles Durham;2017-08-16;Fixed math typo and grammar errors (#124); 1; 3; 3
+adcb718ec;Sasank Chilamkurthy;2017-08-07;Fixes for V0.2 (#122); 7; 13; 6
+2b15cbb92;Felix Sonntag;2017-08-04;Fixing #120 (#121); 1; 5; 0
+b0cb64a58;cxxgtxy;2017-07-24;Fix prediction error in transfer learning. (#119); 2; 4; 4
+0bb55c5b5;Sasank Chilamkurthy;2017-07-13;Merge pull request #118 from pytorch/chsasank-patch-1;0; 0; 0 deletions(+)
+0bb55c5b5;Sasank Chilamkurthy;2017-07-13;Merge pull request #118 from pytorch/chsasank-patch-1; 1; 1; 1
+35767015a;Sasank Chilamkurthy;2017-07-10;Merge pull request #115 from chsasank/master;0; 0; 0 deletions(+)
+35767015a;Sasank Chilamkurthy;2017-07-10;Merge pull request #115 from chsasank/master; 1; 4; 3
+b703484ae;Sasank Chilamkurthy;2017-07-10;Add google analytics; 1; 15; 0
+b5b7fff6c;Quan Vuong;2017-07-08;Fix dim of action in q_learning tutorial (#114); 1; 1; 1
+8589c2491;Sasank Chilamkurthy;2017-07-07;Display pytorch version; 2; 7; 3
+8dc5f6bfb;Francesco Lotito;2017-07-07;Fix some typos (#111); 1; 3; 3
+94e3fb372;Oyesh Mann Singh;2017-07-07;Updated comment section of "Training the Model" (#110); 1; 1; 1
+9bd9cd41b;Francesco Lotito;2017-07-06;Fix a sentence in exercises (#109); 1; 1; 1
+948a3b384;Jie Zhou;2017-07-05;landmarks_frame -> self.landmarks (#107); 1; 1; 1
+1b920116f;Francesco Lotito;2017-07-03;Fix small typo (#106); 1; 1; 1
+5cf1edff4;Sebastin Santy;2017-07-02;Small error in docs: Change 18 to 27 (#105); 1; 1; 1
+8170d302c;andreh7;2017-06-30;fixed typo in beginner_source/data_loading_tutorial.py: pacakges -> packages (#103); 1; 1; 1
+baaebe2bb;andreh7;2017-06-30;fixed link for "Train neural nets to play video games"; now pointing directly to /intermediate/reinforcement_q_learning (#104); 2; 2; 4
+9530c0772;andreh7;2017-06-30;fixed link to slack in former_torchies/parallelism_tutorial.py (#102); 1; 1; 1
+01b89c938;Soumith Chintala;2017-06-22;Update neural_networks_tutorial.py; 1; 1; 1
+6a9b63b02;Sasank Chilamkurthy;2017-06-11;Add author to data loading tutorial; 1; 1; 0
+bc247c9f5;Sasank Chilamkurthy;2017-06-10;Data loading tutorial (#96); 4; 463; 4
+13936ab2a;Sasank Chilamkurthy;2017-06-05;Merge pull request #95 from cmusjtuliuyuan/master;0; 0; 0 deletions(+)
+13936ab2a;Sasank Chilamkurthy;2017-06-05;Merge pull request #95 from cmusjtuliuyuan/master; 1; 2; 2
+17b14ca8f;YuanLiu;2017-06-03;fix self.init_hidden never used; 1; 3; 3
+0c284e92b;Sasank Chilamkurthy;2017-06-01;remove email from index.rst; 1; 2; 3
+05ffab1d5;Sasank Chilamkurthy;2017-05-30;Merge pull request #88 from chsasank/rl_cuda;0; 0; 0 deletions(+)
+05ffab1d5;Sasank Chilamkurthy;2017-05-30;Merge pull request #88 from chsasank/rl_cuda; 1; 1; 1
+7ae5a2cb5;Sasank Chilamkurthy;2017-05-29;fix more cuda bugs in RL tutorial; 1; 6; 3
+e679f9f2e;Sasank Chilamkurthy;2017-05-28;Merge pull request #91 from pytorch/fix-creator;0; 0; 0 deletions(+)
+e679f9f2e;Sasank Chilamkurthy;2017-05-28;Merge pull request #91 from pytorch/fix-creator; 2; 11; 11
+0f52422a3;Sasank Chilamkurthy;2017-05-28;Merge pull request #82 from greaber/master;0; 0; 0 deletions(+)
+0f52422a3;Sasank Chilamkurthy;2017-05-28;Merge pull request #82 from greaber/master;0; 0; 0 deletions(+)
+0f52422a3;Sasank Chilamkurthy;2017-05-28;Merge pull request #82 from greaber/master;0; 0; 0 deletions(+)
+0f52422a3;Sasank Chilamkurthy;2017-05-28;Merge pull request #82 from greaber/master; 1; 0; 2
+b01cae720;WeiFoo;2017-05-21;rnn was initialized twice; 1; 1; 1
+6aa8b5eab;Sasank Chilamkurthy;2017-05-18;Merge branch 'master' of github.com:pytorch/tutorials into rl_cuda;0; 0; 0 deletions(+)
+6aa8b5eab;Sasank Chilamkurthy;2017-05-18;Merge branch 'master' of github.com:pytorch/tutorials into rl_cuda; 1; 28; 23
+17b8b4dba;Liang Shuailong;2017-05-18;minor math equation error (#85); 1; 1; 1
+73466e003;Soumith Chintala;2017-05-18;Merge pull request #84 from Shuailong/patch-1;0; 0; 0 deletions(+)
+73466e003;Soumith Chintala;2017-05-18;Merge pull request #84 from Shuailong/patch-1; 1; 1; 1
+c3ea8f382;Grant Reaber;2017-05-14;make some variable names more accurate; 3; 33; 34
+42cc20d00;Sasank Chilamkurthy;2017-05-17;Merge pull request #79 from desktable/master;0; 0; 0 deletions(+)
+42cc20d00;Sasank Chilamkurthy;2017-05-17;Merge pull request #79 from desktable/master; 1; 6; 1
+333cab984;Henry Chen;2017-05-06;Fix attribute names after refactoring; 2; 8; 8
+15882369b;Henry Chen;2017-05-06;Use torch.arange instead of torch.range (to be deprecated); 1; 1; 1
+7b148a672;Sasank Chilamkurthy;2017-04-23;Update README.txt; 1; 18; 0
+e29a3eca5;Sasank Chilamkurthy;2017-04-23;Merge pull request #76 from chsasank/unicode;0; 0; 0 deletions(+)
+e29a3eca5;Sasank Chilamkurthy;2017-04-23;Merge pull request #76 from chsasank/unicode; 3; 10; 5
+deaae21eb;Sasank Chilamkurthy;2017-04-22;Merge pull request #74 from chsasank/readme;0; 0; 0 deletions(+)
+deaae21eb;Sasank Chilamkurthy;2017-04-22;Merge pull request #74 from chsasank/readme; 3; 62; 0
+e86fdfa3d;Sasank Chilamkurthy;2017-04-22;Add readme for advanced and intermediate; 2; 32; 0
+45393e57f;Sasank Chilamkurthy;2017-04-22;Fix all warnings; 5; 75; 75
+dee55035e;Sasank Chilamkurthy;2017-04-22;Add examles_* to toc; 1; 26; 0
+1ca4001f2;Sasank Chilamkurthy;2017-04-22;fix galleryitem paths; 5; 23; 23
+e925369cc;Sasank Chilamkurthy;2017-04-22;Document directives; fix brittle paths in gallery item directive; 3; 63; 8
+6756514f0;Soumith Chintala;2017-04-21;Merge pull request #73 from gchanan/cpugpudesc;0; 0; 0 deletions(+)
+6756514f0;Soumith Chintala;2017-04-21;Merge pull request #73 from gchanan/cpugpudesc; 1; 2; 3
+9584ab93f;Sasank Chilamkurthy;2017-04-21;Merge pull request #71 from qiuwch/master;0; 0; 0 deletions(+)
+9584ab93f;Sasank Chilamkurthy;2017-04-21;Merge pull request #71 from qiuwch/master; 1; 1; 0
+92a4e7b49;Weichao Qiu;2017-04-21;Add missing dependencies: sphinx; sphinx_rtd_theme; matplotlib.; 1; 3; 0
+e13beed18;Sasank Chilamkurthy;2017-04-20;Merge pull request #69 from euler16/master;0; 0; 0 deletions(+)
+e13beed18;Sasank Chilamkurthy;2017-04-20;Merge pull request #69 from euler16/master; 1; 1; 2
+3365f0c2b;Nilay Shrivastava;2017-04-20;changed count value to 1; 1; 1; 1
+c91466088;euler16;2017-04-19;Fixing topdocstring issue; 1; 1; 1
+b8488d994;euler16;2017-04-19;made beginner_source pep8 compliant; 19; 323; 288
+f71137c28;Sasank Chilamkurthy;2017-04-14;Merge pull request #67 from chsasank/patch-rl;0; 0; 0 deletions(+)
+f71137c28;Sasank Chilamkurthy;2017-04-14;Merge pull request #67 from chsasank/patch-rl; 1; 1; 1
+81046f4ca;Sasank Chilamkurthy;2017-04-14;plt interactive in RL tutorial; 1; 9; 4
+e5d1b46ae;Soumith Chintala;2017-04-12;Merge pull request #63 from Varal7/master;0; 0; 0 deletions(+)
+e5d1b46ae;Soumith Chintala;2017-04-12;Merge pull request #63 from Varal7/master; 1; 1; 1
+e28cf87d3;Sasank Chilamkurthy;2017-04-12;cosmetic fixes in nlp/advnaced; 1; 13; 12
+97da3c331;Sasank Chilamkurthy;2017-04-12;Fix bug preventing build in nlp tutorial; 1; 7; 1
+cffd3799d;Sasank Chilamkurthy;2017-04-12;Merge pull request #60 from chsasank/break-nlp;0; 0; 0 deletions(+)
+cffd3799d;Sasank Chilamkurthy;2017-04-12;Merge pull request #60 from chsasank/break-nlp;0; 0; 0 deletions(+)
+cffd3799d;Sasank Chilamkurthy;2017-04-12;Merge pull request #60 from chsasank/break-nlp; 1; 12; 7
+243ddd030;Sasank Chilamkurthy;2017-04-11;Better LR scheduler for TL tutorial; 1; 45; 47
+9719a2214;Sasank Chilamkurthy;2017-04-10;Break codeblock in sequence_models_tutorial.py into a few cells; 1; 9; 1
+db490c02f;Sasank Chilamkurthy;2017-04-10;Update gallery thumbnail; 2; 6; 3
+8f60a6e1f;Soumith Chintala;2017-04-10;Merge pull request #59 from chsasank/patch_tl;0; 0; 0 deletions(+)
+8f60a6e1f;Soumith Chintala;2017-04-10;Merge pull request #59 from chsasank/patch_tl; 1; 13; 9
+11259a865;Sasank Chilamkurthy;2017-04-10;fix training mode bug in TL tutorial; 1; 3; 0
+250c671bf;Soumith Chintala;2017-04-10;Merge pull request #58 from darkstar112358/neural-style-patch;0; 0; 0 deletions(+)
+250c671bf;Soumith Chintala;2017-04-10;Merge pull request #58 from darkstar112358/neural-style-patch; 1; 10; 10
+1c780e851;Sasank Chilamkurthy;2017-04-09;Merge pull request #57 from kli-nlpr/patch-1;0; 0; 0 deletions(+)
+1c780e851;Sasank Chilamkurthy;2017-04-09;Merge pull request #57 from kli-nlpr/patch-1; 1; 2; 1
+616b0f903;Kai Li;2017-04-09;Update transfer_learning_tutorial.py; 1; 1; 1
+4adb740e1;Sasank Chilamkurthy;2017-04-08;Break NLP tutorial into parts; 9; 1687; 1643
+905eaf0ee;Sasank Chilamkurthy;2017-04-07;Merge pull request #56 from chsasank/utf8;0; 0; 0 deletions(+)
+905eaf0ee;Sasank Chilamkurthy;2017-04-07;Merge pull request #56 from chsasank/utf8; 1; 1; 0
+8d71242aa;Sasank Chilamkurthy;2017-04-06;Merge pull request #54 from alexis-jacq/neural-style;0; 0; 0 deletions(+)
+8d71242aa;Sasank Chilamkurthy;2017-04-06;Merge pull request #54 from alexis-jacq/neural-style; 2; 12; 8
+9c4b2c12e;Sasank Chilamkurthy;2017-04-06;matplotlib ion in nerual style; 1; 16; 11
+653f90201;Sasank Chilamkurthy;2017-04-06;pep8 fixes for neural style tutorial; 1; 62; 56
+7400a3bc4;Sasank Chilamkurthy;2017-04-06;Edit and neural style tutorial by @alexis-jacq; 6; 593; 0
+5ace3a1b1;Sasank Chilamkurthy;2017-04-06;utf8 headers for python files; 23; 23; 0
+8a33c55c7;Sasank Chilamkurthy;2017-03-28;Merge pull request #52 from fehiepsi/fix-docs;0; 0; 0 deletions(+)
+8a33c55c7;Sasank Chilamkurthy;2017-03-28;Merge pull request #52 from fehiepsi/fix-docs; 2; 13; 11
+1e82b12f9;Sasank Chilamkurthy;2017-03-24;Make codeblocks have a background; 2; 5; 0
+9ce84cdc1;Sasank Chilamkurthy;2017-03-24;Add build instructions; 1; 6; 0
+08db4b4d6;Sasank Chilamkurthy;2017-03-24;Update README.md; 1; 1; 1
+0cd7e78bb;Sasank Chilamkurthy;2017-03-24;Update README.md; 1; 3; 1
+e1cad0fc5;Sasank Chilamkurthy;2017-03-24;nlp tutorial added to TOC; 1; 3; 1
+2092ec2cd;Sasank Chilamkurthy;2017-03-24;nlp tutorial executed; 1; 1; 1
+adc60c46e;Sasank Chilamkurthy;2017-03-24;small css change; 1; 4; 0
+870254c79;Sasank Chilamkurthy;2017-03-24;Add pytorch css; 2; 119; 1
+5ed3f82ea;Sasank Chilamkurthy;2017-03-24;Add build.sh; 1; 3; 0
+5a265fc16;Soumith Chintala;2017-03-24;Update README.md; 1; 4; 2
+89c7d0c4a;Soumith Chintala;2017-03-24;Merge pull request #49 from chsasank/master;0; 0; 0 deletions(+)
+89c7d0c4a;Soumith Chintala;2017-03-24;Merge pull request #49 from chsasank/master; 76; 7750; 3100
+2194ccf7a;Uridah Sami Ahmed;2017-03-22;Correct links (#48); 1; 4; 4
+48b9fd66a;Hanbo Chen;2017-03-13;Corrected typos in FFI tutorial (#46); 1; 4; 4
+47b259b5b;Soumith Chintala;2017-03-02;remove comment; 1; 5; 7
+8938260aa;Yuanzhen Li;2017-03-02;Issue 36: fixing q-learning cuda problems (#39); 1; 11; 4
+2de3add47;Pranav Shyam;2017-02-27;very minor typo; 1; 1; 1
+18fb7b8bb;Xiao Yang;2017-02-20;Update Introduction to PyTorch for former Torchies.ipynb; 1; 1; 13
+408c92734;yzli;2017-02-20;Unwrap CartPole env to access attributes such as x_threshold (#35); 1; 2; 1
+219603dfa;Adam Paszke;2017-02-20;Fix CUDA error; 1; 10; 16
+a2fbac794;Keiji Kanazawa;2017-02-15;Describe how to put inputs on GPU in Deep Learning tutorial (#32); 1; 4; 0
+0e67f0431;Xinwei He;2017-02-15;Update Introduction to PyTorch for former Torchies.ipynb (#33); 1; 2; 2
+02dda923e;Farzad Abdolhosseini;2017-02-07;Fixed clamp not being applied to parameters; 1; 1; 1
+c44bb884e;Scott Hawley;2017-02-05;Clarified instructions for Exercise at end (#24); 1; 1; 1
+ec12782a8;kyryl;2017-02-05;add missing env.reset(); 1; 1; 1
+37f8e4ce4;Adam Paszke;2017-02-04;Revert "More clear and intuitive math explanation"; 1; 1; 2
+b99189128;Soumith Chintala;2017-02-04;Merge pull request #23 from ritchieng/master;0; 0; 0 deletions(+)
+b99189128;Soumith Chintala;2017-02-04;Merge pull request #23 from ritchieng/master; 1; 2; 1
+726952661;Alfredo Canziani;2017-01-30;Output computed from hidden state; 1; 2; 2
+70d2f23fa;Alfredo Canziani;2017-01-20;Add math explanation; 1; 9; 0
+6a6e0a324;Soumith Chintala;2017-01-24;Merge pull request #19 from ikostrikov/patch-1;0; 0; 0 deletions(+)
+6a6e0a324;Soumith Chintala;2017-01-24;Merge pull request #19 from ikostrikov/patch-1; 1; 1; 1
+2378576f5;Soumith Chintala;2017-01-23;Merge pull request #18 from alykhantejani/fix_link_in_deep_learning_tutorial;0; 0; 0 deletions(+)
+2378576f5;Soumith Chintala;2017-01-23;Merge pull request #18 from alykhantejani/fix_link_in_deep_learning_tutorial; 1; 1; 1
+505cdafdb;Soumith Chintala;2017-01-23;Merge pull request #17 from korymath/patch-1;0; 0; 0 deletions(+)
+505cdafdb;Soumith Chintala;2017-01-23;Merge pull request #17 from korymath/patch-1; 1; 1; 0
+08a2f8844;Soumith Chintala;2017-01-21;Merge pull request #13 from SeanNaren/master;0; 0; 0 deletions(+)
+08a2f8844;Soumith Chintala;2017-01-21;Merge pull request #13 from SeanNaren/master; 1; 2; 1
+e3d7529ad;Soumith Chintala;2017-01-21;Merge pull request #12 from SeanNaren/master;0; 0; 0 deletions(+)
+e3d7529ad;Soumith Chintala;2017-01-21;Merge pull request #12 from SeanNaren/master; 1; 3; 3
+9685a51c3;Ronny;2017-01-19;Make autograd link clickable; 1; 1; 1
+ceef522a5;Kai Arulkumaran;2017-01-17;Expanded DQN tutorial (#4); 1; 33; 23
+a2071de35;Soumith Chintala;2017-01-16;Container -> Module; 4; 212; 120
+b4592e9f2;Soumith Chintala;2017-01-16;Merge pull request #3 from pytorch/grad;0; 0; 0 deletions(+)
+b4592e9f2;Soumith Chintala;2017-01-16;Merge pull request #3 from pytorch/grad; 5; 115; 117
+7bfe48e13;Adam Paszke;2017-01-15;Improve DQN tutorial; 1; 62; 95
+4a6d51f9c;Soumith Chintala;2017-01-13;fix for hooks; 1; 68; 433
+72bf65496;Soumith Chintala;2017-01-11;Merge pull request #2 from jayanthkoushik/patch-1;0; 0; 0 deletions(+)
+72bf65496;Soumith Chintala;2017-01-11;Merge pull request #2 from jayanthkoushik/patch-1; 1; 5; 5
+4ccc9089b;Soumith Chintala;2017-01-10;add to readme; 1; 4; 2
+8eafef3ff;Soumith Chintala;2017-01-10;fix output; 1; 4; 4
+64a2ee7ea;Soumith Chintala;2017-01-10;adding PyTorch tutorials (not for former Torch users); 4; 1242; 0
+d46e1f1d6;Soumith Chintala;2017-01-04;adding paszke's tutorial to README; 3; 452; 0
+b8af9b122;Soumith Chintala;2017-01-04;tutorials updated for changes in master; 2; 127; 119
+481a91dba;Soumith Chintala;2016-11-07;fixing tutorial for master; 1; 247; 77
+ba60845d8;Soumith Chintala;2016-10-14;updated tutorial with more info; 2; 103; 62
+ac2bd4bb6;Adam Paszke;2016-10-13;Add numpy and scipy extension example; 1; 219; 0
+12d5986f5;Soumith Chintala;2016-10-13;Merge pull request #1 from bshillingford/patch-1;0; 0; 0 deletions(+)
+12d5986f5;Soumith Chintala;2016-10-13;Merge pull request #1 from bshillingford/patch-1; 1; 28; 31
+9de157579;Soumith Chintala;2016-10-03;update readme; 2; 3; 1
+92016cdde;Soumith Chintala;2016-10-03;adding FFI tutorial; 1; 117; 0
+0cd9f0b2f;Soumith Chintala;2016-10-03;updated tutorials; 2; 228; 81
+a3a2c6a84;Soumith Chintala;2016-10-02;adding readme and image; 3; 10; 1
+c0ee6a593;Soumith Chintala;2016-09-30;first commit; 1; 992; 0

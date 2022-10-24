@@ -10,31 +10,39 @@ def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
 
 
 def get_history(cwd: Optional[str] = None) -> List[str]:
-    rc = run_command('git log --date=short --pretty=format:''%h;"%an";%ad;"%s";'' --shortstat', cwd=cwd).split("\n")
-    # Manual exception: Add 0 0 0 to commits 393d3de67 and 1df63bf1d
-    def insert_stats_for_empty_commit(sha: str) -> None:
-        for i in range(len(rc)):
-            if rc[i].startswith(f"{sha};"):
-                rc.insert(i+1, "")
-                rc.insert(i+1, "0 file changed, 0 insertion(+), 0 deletion(-)")
-                break
-    insert_stats_for_empty_commit("393d3de67")
-    insert_stats_for_empty_commit("1df63bf1d")
-    insert_stats_for_empty_commit("669717ebb")
-    def do_replace(x: str) -> str:
-       for pattern in ['files changed', 'file changed', 'insertions(+)', 'insertion(+)', 'deletion(-)', 'deletions(-)']:
-          x=x.replace(f' {pattern}','')
-       return x
-    for i in range(0, len(rc)-1, 3):
+    lines = run_command('git log --date=short --pretty=format:''%h;"%an";%ad;"%s";'' --shortstat', cwd=cwd).split("\n")
+    def parse_string(line: str) -> str:
         # Add missing deletions info
-        if "deletion" not in rc[i+1]:
-            rc[i+1] += ", 0 deletions(-)"
-        elif "insertion" not in rc[i+1]:
-            # TODO: Fix a bug here
-            rc[i+1] += ", 0 insertion(+)"
-        rc[i+1] = do_replace(rc[i+1]).replace(",",";")
-    return ["".join(rc[3*i:3*i+2]) for i in range(len(rc)//3)]
-
+        if "deletion" not in line:
+            line += ", 0 deletions(-)"
+        elif "insertion" not in line:
+            line = ",".join([line.split(",")[0], " 0 insertions(+)", line.split(",")[-1]])
+        return line
+    def do_replace(x: str) -> str:
+        for pattern in ['files changed', 'file changed', 'insertions(+)', 'insertion(+)', 'deletion(-)', 'deletions(-)']:
+           x=x.replace(f' {pattern}','')
+        return x
+    title = None
+    rc = []
+    for line in lines:
+        # Check for weird entries where subject has double quotes or similar issues
+        if title is None:
+            title = line
+        # In the lines with stat, add 0 insertions or 0 deletions to make sure we don't break the table 
+        elif "files changed" in line.replace("file changed", "files changed"):
+            stats = parse_string(line)
+        elif len(line)==0:
+            rc.append(title + stats)
+            title = None
+        else:
+            rc.append(title + "0 files changed; 0 insertions(+); 0 deletions(+)")
+    # remove "deletions", "insertions", "files changed", and replace commas with semicolons.
+    new_list = []
+    for i in rc:
+        new_line = do_replace(i).replace(",", ";")
+        new_list.append(new_line)
+    rc: list[str] = new_list
+    return rc
 
 def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
     lines = run_command('git log --pretty="format:%h" --name-only', cwd=cwd).split("\n")
@@ -89,22 +97,22 @@ def create_db_schema(handle: sqlite3.Connection) -> None:
     execute_statement(handle, delete_table)
     execute_statement(handle, create_table_statement)
 
-
-
 def main() -> None:
-    tutorials_dir = Path.home() / "git" / "pytorch" / "tutorials"
+    tutorials_dir = Path.home() / "repositories" / "tutorials"
+    get_history_log = get_history(tutorials_dir)
     commits_to_files = get_file_names(tutorials_dir)
     with open("commit2files.csv", "w") as f:
         f.write("CommitHash, Files\n")
         for entry in commits_to_files:
             f.write(f'{entry[0]}, "{";".join(entry[1])}"\n')
+    with open("get_history.csv", "w") as file:
+        file.write("CommitHash, AuthoName, Date, Subject, FilesChanged, LinesAdded, LinesDeleted\n")
+        for i in get_history_log:
+            file.write(f'{i}\n')
     db = "test.db"
     connect = connect_db(db)
     create_db_schema(connect)
     for entry in get_history(tutorials_dir):
-        if len(entry.split(";")) != 7:
-            print(f"Weird entry {entry}")
-            continue
         cursor = connect.cursor()
         cursor.execute("INSERT INTO commits VALUES (?, ?, ?, ?, ?, ?, ?)", entry.split(";"))
         connect.commit()
