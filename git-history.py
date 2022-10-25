@@ -36,11 +36,9 @@ def get_history(cwd: Optional[str] = None) -> List[str]:
             title = None
         else:
             rc.append(title + "0 files changed; 0 insertions(+); 0 deletions(+)")
+            title = line
     # remove "deletions", "insertions", "files changed", and replace commas with semicolons.
-    new_list = []
-    for i in rc:
-        new_line = do_replace(i).replace(",", ";")
-        new_list.append(new_line)
+    new_list = [ do_replace(i).replace(",", ";") for i in rc]
     rc: list[str] = new_list
     return rc
 
