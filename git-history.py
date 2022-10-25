@@ -9,8 +9,8 @@ def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
    return check_output(shlex.split(cmd), cwd=cwd).decode("utf-8")
 
 
-def get_history(cwd: Optional[str] = None) -> List[str]:
-    lines = run_command('git log --date=short --pretty=format:''%h;"%an";%ad;"%s";'' --shortstat', cwd=cwd).split("\n")
+def get_history(cwd: Optional[str] = None) -> List[List[str]]:
+    lines = run_command('git log --date=short --pretty=format:''%h;"%an";%ad;"%s"'' --shortstat', cwd=cwd).split("\n")
     def parse_string(line: str) -> str:
         # Add missing deletions info
         if "deletion" not in line:
@@ -27,19 +27,16 @@ def get_history(cwd: Optional[str] = None) -> List[str]:
     for line in lines:
         # Check for weird entries where subject has double quotes or similar issues
         if title is None:
-            title = line
+            title = line.split(";", 3)
         # In the lines with stat, add 0 insertions or 0 deletions to make sure we don't break the table 
         elif "files changed" in line.replace("file changed", "files changed"):
-            stats = parse_string(line)
+            stats = do_replace(parse_string(line)).split(",")
         elif len(line)==0:
             rc.append(title + stats)
             title = None
         else:
-            rc.append(title + "0 files changed; 0 insertions(+); 0 deletions(+)")
-            title = line
-    # remove "deletions", "insertions", "files changed", and replace commas with semicolons.
-    new_list = [ do_replace(i).replace(",", ";") for i in rc]
-    rc: list[str] = new_list
+            rc.append(title + ["0", "0", "0"])
+            title = line.split(";", 3)
     return rc
 
 def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
@@ -97,6 +94,8 @@ def create_db_schema(handle: sqlite3.Connection) -> None:
 
 def main() -> None:
     tutorials_dir = Path.home() / "repositories" / "tutorials"
+    if not tutorials_dir.exists():
+        tutorials_dir = Path.home() / "git" / "pytorch" / "tutorials"
     get_history_log = get_history(tutorials_dir)
     commits_to_files = get_file_names(tutorials_dir)
     with open("commit2files.csv", "w") as f:
@@ -106,13 +105,13 @@ def main() -> None:
     with open("get_history.csv", "w") as file:
         file.write("CommitHash, AuthoName, Date, Subject, FilesChanged, LinesAdded, LinesDeleted\n")
         for i in get_history_log:
-            file.write(f'{i}\n')
+            file.write(f'{";".join(i)}\n')
     db = "test.db"
     connect = connect_db(db)
     create_db_schema(connect)
     for entry in get_history(tutorials_dir):
         cursor = connect.cursor()
-        cursor.execute("INSERT INTO commits VALUES (?, ?, ?, ?, ?, ?, ?)", entry.split(";"))
+        cursor.execute("INSERT INTO commits VALUES (?, ?, ?, ?, ?, ?, ?)", entry)
         connect.commit()
 
 if __name__ == "__main__":
