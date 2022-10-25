@@ -91,6 +91,13 @@ def create_db_schema(handle: sqlite3.Connection) -> None:
                 '''
     execute_statement(handle, delete_table)
     execute_statement(handle, create_table_statement)
+    delete_table = "DROP TABLE IF EXISTS files;"
+    create_table_statement = '''CREATE TABLE IF NOT EXISTS files(
+                commit_id TEXT,
+                file_name TEXT);
+                '''
+    execute_statement(handle, delete_table)
+    execute_statement(handle, create_table_statement)
 
 def main() -> None:
     tutorials_dir = Path.home() / "repositories" / "tutorials"
@@ -109,9 +116,15 @@ def main() -> None:
     db = "test.db"
     connect = connect_db(db)
     create_db_schema(connect)
-    for entry in get_history(tutorials_dir):
+    for entry in get_history_log:
         cursor = connect.cursor()
         cursor.execute("INSERT INTO commits VALUES (?, ?, ?, ?, ?, ?, ?)", entry)
+        connect.commit()
+    for entry in commits_to_files:
+        cursor = connect.cursor()
+        commit_id, files = entry
+        for fname in files:
+            cursor.execute("INSERT INTO files VALUES (?, ?)", (commit_id, fname))
         connect.commit()
 
 if __name__ == "__main__":
