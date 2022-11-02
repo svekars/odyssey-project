@@ -2,6 +2,7 @@
 from typing import List, Optional, Tuple
 from pathlib import Path
 import sqlite3
+from db_to_dataframe import create_dataframe
 
 def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
    from subprocess import check_output
@@ -126,6 +127,7 @@ def main() -> None:
         for fname in files:
             cursor.execute("INSERT INTO files VALUES (?, ?)", (commit_id, fname))
         connect.commit()
+    create_dataframe()
 
 if __name__ == "__main__":
     main()
