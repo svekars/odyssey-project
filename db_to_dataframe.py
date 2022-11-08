@@ -13,6 +13,4 @@ def print_dataframe() -> None:
     print(create_dataframe(conn, "commits"))
 
 if __name__ == "__main__":
-    conn = dbutils.connect_db(dbfile)
-    create_dataframe(conn, dbfile)
     print_dataframe()
