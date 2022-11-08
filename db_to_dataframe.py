@@ -1,5 +1,5 @@
 import pandas as pd
-import dbutils
+from dbutils import connect_db
 import sqlite3
 
 dbfile = 'test.db'
