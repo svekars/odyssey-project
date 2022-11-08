@@ -2,16 +2,19 @@
 from typing import List, Optional, Tuple
 from pathlib import Path
 import sqlite3
-from db_to_dataframe import create_dataframe
+import dbutils
+from db_to_dataframe import create_dataframe, print_dataframe
 
-def run_command(cmd: str, cwd: Optional[str] = None ) -> str:
-   from subprocess import check_output
-   import shlex
-   return check_output(shlex.split(cmd), cwd=cwd).decode("utf-8")
+
+def run_command(cmd: str, cwd: Optional[str] = None) -> str:
+    from subprocess import check_output
+    import shlex
+    return check_output(shlex.split(cmd), cwd=cwd).decode("utf-8")
 
 
 def get_history(cwd: Optional[str] = None) -> List[List[str]]:
     lines = run_command('git log --date=short --pretty=format:''%h;"%an";%ad;"%s"'' --shortstat', cwd=cwd).split("\n")
+
     def parse_string(line: str) -> str:
         # Add missing deletions info
         if "deletion" not in line:
@@ -19,10 +22,13 @@ def get_history(cwd: Optional[str] = None) -> List[List[str]]:
         elif "insertion" not in line:
             line = ",".join([line.split(",")[0], " 0 insertions(+)", line.split(",")[-1]])
         return line
+
     def do_replace(x: str) -> str:
-        for pattern in ['files changed', 'file changed', 'insertions(+)', 'insertion(+)', 'deletion(-)', 'deletions(-)']:
-           x=x.replace(f' {pattern}','')
+        for pattern in ['files changed', 'file changed', 'insertions(+)', 'insertion(+)', 'deletion(-)',
+                        'deletions(-)']:
+            x = x.replace(f' {pattern}', '')
         return x
+
     title = None
     rc = []
     for line in lines:
@@ -32,13 +38,14 @@ def get_history(cwd: Optional[str] = None) -> List[List[str]]:
         # In the lines with stat, add 0 insertions or 0 deletions to make sure we don't break the table 
         elif "files changed" in line.replace("file changed", "files changed"):
             stats = do_replace(parse_string(line)).split(",")
-        elif len(line)==0:
+        elif len(line) == 0:
             rc.append(title + stats)
             title = None
         else:
             rc.append(title + ["0", "0", "0"])
             title = line.split(";", 3)
     return rc
+
 
 def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
     lines = run_command('git log --pretty="format:%h" --name-only', cwd=cwd).split("\n")
@@ -58,26 +65,6 @@ def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
             files.append(line)
     return rc
 
-def connect_db(dfile: str) -> sqlite3.Connection:
-    """
-    Connect to the database
-    """
-    db_connect = None
-    try:
-        db_connect = sqlite3.connect(dfile)
-    except sqlite3.Error as error:
-        print(error)
-
-    return db_connect
-
-def execute_statement(db_connect: sqlite3.Connection, table_statement: str) -> None:
-    try:
-        cursor = db_connect.cursor()
-        cursor.execute(table_statement)
-        db_connect.commit()
-    except sqlite3.Error as error:
-        print(error)
-
 
 def create_db_schema(handle: sqlite3.Connection) -> None:
     delete_table = "DROP TABLE IF EXISTS commits;"
@@ -90,15 +77,16 @@ def create_db_schema(handle: sqlite3.Connection) -> None:
                 lines_added INT,
                 lines_deleted INT);
                 '''
-    execute_statement(handle, delete_table)
-    execute_statement(handle, create_table_statement)
+    dbutils.execute_statement(handle, delete_table)
+    dbutils.execute_statement(handle, create_table_statement)
     delete_table = "DROP TABLE IF EXISTS files;"
     create_table_statement = '''CREATE TABLE IF NOT EXISTS files(
                 commit_id TEXT,
                 file_name TEXT);
                 '''
-    execute_statement(handle, delete_table)
-    execute_statement(handle, create_table_statement)
+    dbutils.execute_statement(handle, delete_table)
+    dbutils.execute_statement(handle, create_table_statement)
+
 
 def main() -> None:
     tutorials_dir = Path.home() / "repositories" / "tutorials"
@@ -115,7 +103,7 @@ def main() -> None:
         for i in get_history_log:
             file.write(f'{";".join(i)}\n')
     db = "test.db"
-    connect = connect_db(db)
+    connect = dbutils.connect_db(db)
     create_db_schema(connect)
     for entry in get_history_log:
         cursor = connect.cursor()
@@ -127,7 +115,9 @@ def main() -> None:
         for fname in files:
             cursor.execute("INSERT INTO files VALUES (?, ?)", (commit_id, fname))
         connect.commit()
-    create_dataframe()
+    create_dataframe(connect, "files")
+    create_dataframe(connect, "commits")
+    print_dataframe()
 
 if __name__ == "__main__":
     main()

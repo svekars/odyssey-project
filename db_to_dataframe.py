@@ -1,25 +1,18 @@
 import pandas as pd
+import dbutils
 import sqlite3
-from sqlite3 import connect
 
-def connect_db(dfile: str) -> sqlite3.Connection:
-    """
-    Connect to the database
-    """
-    db_connect = None
-    try:
-        db_connect = sqlite3.connect(dfile)
-    except sqlite3.Error as error:
-        print(error)
+dbfile = 'test.db'
 
-    return db_connect
+def create_dataframe(conn: sqlite3.Connection, table_name: str) -> pd.DataFrame:
+    return pd.read_sql(f"SELECT * from {table_name}", conn)
 
-def create_dataframe() -> None:
-    conn = connect_db('test.db')
-    df = pd.read_sql('SELECT * FROM files', conn)
-    df2 = pd.read_sql('SELECT * FROM commits', conn)
-    print(df)
-    print(df2)
+def print_dataframe() -> None:
+    conn = dbutils.connect_db(dbfile)
+    print(create_dataframe(conn, "files"))
+    print(create_dataframe(conn, "commits"))
 
 if __name__ == "__main__":
-    create_dataframe()
+    conn = dbutils.connect_db(dbfile)
+    create_dataframe(conn, dbfile)
+    print_dataframe()
