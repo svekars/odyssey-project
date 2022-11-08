@@ -8,7 +8,7 @@ def create_dataframe(conn: sqlite3.Connection, table_name: str) -> pd.DataFrame:
     return pd.read_sql(f"SELECT * from {table_name}", conn)
 
 def print_dataframe() -> None:
-    conn = dbutils.connect_db(dbfile)
+    conn = connect_db(dbfile)
     print(create_dataframe(conn, "files"))
     print(create_dataframe(conn, "commits"))
 
