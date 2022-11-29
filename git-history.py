@@ -48,7 +48,7 @@ def get_history(cwd: Optional[str] = None) -> List[List[str]]:
 
 
 def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[Tuple[str, int, int]]]]:
-    lines = run_command('git log --pretty="format:%h" --numstat --first-parent', cwd=cwd).split("\n")
+    lines = run_command('git log --pretty="format:%h" --numstat', cwd=cwd).split("\n")
     rc = []
     commit_hash = ""
     files: List[Tuple[str, int, int]] = []
