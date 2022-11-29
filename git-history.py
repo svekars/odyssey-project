@@ -47,11 +47,11 @@ def get_history(cwd: Optional[str] = None) -> List[List[str]]:
     return rc
 
 
-def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
-    lines = run_command('git log --pretty="format:%h" --name-only', cwd=cwd).split("\n")
+def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[Tuple[str, int, int]]]]:
+    lines = run_command('git log --pretty="format:%h" --numstat --first-parent', cwd=cwd).split("\n")
     rc = []
     commit_hash = ""
-    files: List[str] = []
+    files: List[Tuple[str, int, int]] = []
     for line in lines:
         if not line:
             # Git log uses empty line as separator between commits (except for oneline case)
@@ -60,9 +60,19 @@ def get_file_names(cwd: Optional[str] = None) -> List[Tuple[str, List[str]]]:
         elif not commit_hash:
             # First line is commit short hash
             commit_hash = line
+        elif len(line.split("\t")) != 3:
+            # Encountered an empty commit
+            assert(len(files) == 0)
+            rc.append((commit_hash, files))
+            commit_hash = line
         else:
-            # Other non-empty lines are filesnames
-            files.append(line)
+            added, deleted, name = line.split("\t")
+            # Special casing for binary files
+            if added == "-":
+                assert deleted == "-"
+                files.append((name, -1, -1))
+            else:
+                files.append((name, int(added), int(deleted)))
     return rc
 
 
@@ -82,7 +92,9 @@ def create_db_schema(handle: sqlite3.Connection) -> None:
     delete_table = "DROP TABLE IF EXISTS files;"
     create_table_statement = '''CREATE TABLE IF NOT EXISTS files(
                 commit_id TEXT,
-                file_name TEXT);
+                file_name TEXT,
+                lines_added INT,
+                lines_deleted INT);
                 '''
     dbutils.execute_statement(handle, delete_table)
     dbutils.execute_statement(handle, create_table_statement)
@@ -97,7 +109,9 @@ def main() -> None:
     with open("commit2files.csv", "w") as f:
         f.write("CommitHash, Files\n")
         for entry in commits_to_files:
-            f.write(f'{entry[0]}, "{";".join(entry[1])}"\n')
+            commit_id, files = entry
+            files = [x[0] for x in files]
+            f.write(f'{commit_id}, "{";".join(files)}"\n')
     with open("get_history.csv", "w") as file:
         file.write("CommitHash, AuthoName, Date, Subject, FilesChanged, LinesAdded, LinesDeleted\n")
         for i in get_history_log:
@@ -112,8 +126,8 @@ def main() -> None:
     for entry in commits_to_files:
         cursor = connect.cursor()
         commit_id, files = entry
-        for fname in files:
-            cursor.execute("INSERT INTO files VALUES (?, ?)", (commit_id, fname))
+        for (fname, lines_added, lines_deleted) in files:
+            cursor.execute("INSERT INTO files VALUES (?, ?, ?, ?)", (commit_id, fname, lines_added, lines_deleted))
         connect.commit()
     create_dataframe(connect, "files")
     create_dataframe(connect, "commits")
