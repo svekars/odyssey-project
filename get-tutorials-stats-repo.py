@@ -259,7 +259,8 @@ def main() -> None:
     print("Finished uploading to {table_name_history}")
     for entry in commits_to_files:
         item = convert_to_dict(entry)
-        table_filenames.put_item(Item=item)
+        for item in items:
+            table_filenames.put_item(Item=item)
     #    commit_id, files = entry
     #    for (fname, lines_added, lines_deleted) in files:
     #        table_filenames.put_item(Item={
